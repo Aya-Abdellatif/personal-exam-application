@@ -1,0 +1,22 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Basic Peripherals,I2C,What does I2C stand for?,inter-IC,intra-IC,individual integrated chip,intel IC,a
+Basic Peripherals,I2C,Which company developed I2C?,Intel,Motorola,Phillips,IBM,c
+Basic Peripherals,I2C,Which of the following is the most known simple interface?,I2C,Serial port,Parallel port,SPI,a
+Basic Peripherals,I2C,Which are the two lines used in the I2C?,SDA and SPDR,SPDR and SCL,SDA and SCL,SCL and status line,c
+Basic Peripherals,I2C,Which of the following developed P82B715?,Philips,Intel,IBM,Motorola,a
+Basic Peripherals,I2C,Which pin provides the reference clock for the transfer of data?,SDA,SCL,SPDR,Interrupt pin,b
+Basic Peripherals,I2C,Which of the following are the three hardware signals?,"START, STOP, ACKNOWLEDGE","STOP, TERMINATE, END","START, SCL, SDA","STOP, SCL, SDA",a
+Basic Peripherals,I2C,Which of the following performs the START signal?,master,slave,CPU,memory,a
+Basic Peripherals,I2C,Which of the following are handshake signals?,START,STOP,ACKNOWLEDGE,START and STOP,c
+Basic Peripherals,I2C, A packet is also referred to as,postcard,telegram,letter,data,b
+Basic Peripherals,I2C, Which of the following byte performs the slave selection?,first byte,second byte,terminal byte,eighth byte,a
+Basic Peripherals,I2C,Which of the following indicates the type of operation that the master requests?,address value,initial value,terminal count,first byte,a
+Basic Peripherals,I2C,How can both single byte and the double byte address slave use the same bus?,extended memory,extended address,peripheral count,slave bus,b
+Basic Peripherals,I2C,Which counter selects the next register in the I2C?,auto-incrementing counter,decrementing counter,auto-decrementing counter,terminal counter,a
+Basic Peripherals,I2C,Which is an efficient method for the EEPROM?,combined format,auto-incrementing counter,register set,single format,a
+Basic Peripherals,I2C,Which of the following uses two data transfers?,auto-incrementing counter,auto-decrementing counter,combined format,single format,c
+Basic Peripherals,I2C,Which of the following is efficient for the small number of registers?,auto-incrementing counter,auto-decrementing counter,combined format,single format,a
+Basic Peripherals,I2C,Which can determine the timeout value?,polling,timer,combined format,watchdog timer,a
+Basic Peripherals,I2C,How is bus lockup avoided?,timer and polling,combined format,terminal counter,counter,a
+Basic Peripherals,I2C,Which of the following can determine if two masters start to use the bus at the same time?,counter detect,collision detect,combined format,auto-incremental counter,b
+Basic Peripherals,I2C, Which ports are used in the multi-master system to avoid errors?,unidirectional port,bidirectional port,multi directional port,tridirectional port,b

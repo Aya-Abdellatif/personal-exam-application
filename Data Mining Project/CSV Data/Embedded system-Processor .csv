@@ -1,0 +1,11 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Processor ,Which one of the following offers CPUs as integrated memory or peripheral interfaces?,Microcontroller,Microprocessor,Embedded system,Memory system,a
+Embedded system,Processor ,Which of the following offers external chips for memory and peripheral interface circuits?,Microcontroller,Microprocessor,Peripheral system,Embedded system,b
+Embedded system,Processor ,How many bits does an MC6800 family have?,16,32,4,8,d
+Embedded system,Processor ,Which of the following is a 4-bit architecture?,MC6800,8086,80386,National COP series,d
+Embedded system,Processor ,What is CISC?,Computing instruction set complex,Complex instruction set computing,Complimentary instruction set computing,Complex instruction set complementary,b
+Embedded system,Processor ,How is the protection and security for an embedded system made?,OTP,IPR,Memory disk security,Security chips,b
+Embedded system,Processor ,Which of the following possesses a CISC architecture?,MC68020,ARC,Atmel AVR,Blackfin,a
+Embedded system,Processor ,Which of the following is a RISC architecture?,80286,MIPS,Zilog Z80,80386,b
+Embedded system,Processor ,Which one of the following is board based system?,Data bus,Address bus,VMEbus,DMA bus,c
+Embedded system,Processor , VME bus stands for,Versa module Europa bus,Versa module embedded bus,Vertical module embedded bus,Vertical module Europa bus,a

@@ -1,0 +1,11 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,SRAM,Why is SRAM more preferably in non-volatile memory?,low-cost,high-cost,low power consumption,transistor as a storage element,c
+Memory Systems,SRAM,Which of the following ahs refreshes control mechanism?,DRAM,SRAM,Battery backed-up SRAM,Pseudo-static RAM,d
+Memory Systems,SRAM,Which storage element is used by MAC and IBM PC?,CMOS,Transistor,Capacitor,Inductor,a
+Memory Systems,SRAM,Which type of storage element of SRAM is very fast in accessing data but consumes lots of power?,TTL,CMOS,NAND,NOR,a
+Memory Systems,SRAM,What is approximate data access time of SRAM?,4ns,10ns,2ns,60ns,a
+Memory Systems,SRAM,Who proposed the miniature card format?,Intel,IBM,MIPS,Apple,a
+Memory Systems,SRAM,How many MOSFETs are required for SRAM?,2,4,6,8,c
+Memory Systems,SRAM,Which of the following is an SRAM?,1T-RAM,PROM,EEPROM,EPROM,a
+Memory Systems,SRAM,Which of the following can access data even when the power supply is lost?,Non-volatile SRAM,DRAM,SRAM,RAM,a
+Memory Systems,SRAM, Which of the following can easily convert to a non-volatile memory?,SRAM,DRAM,DDR SRAM,Asynchronous DRAM,a

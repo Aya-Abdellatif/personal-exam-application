@@ -1,0 +1,12 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit register set does RISC 1 model used?,138*24,138*32,69*16,69*32,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor commercializes the Berkeley RISC model?,SPARC,Stanford,RISC-1,RISC,a
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many transistors does RISC 1 possess?,44000,45000,44500,45500,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many registers does RISC 1 model have?,68,58,78,88,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the architectures are made to speed up the processor?,CISC,RISC,program stored,von Neumann,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How did 8086 pass its control to 8087?,BUSY instruction,ESCAPE instruction,CONTROL instruction,fetch 8087,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor supports MMX instructions?,8080,80486,Intel Pentium,80386,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processors has a speculative execution?,80486,P1,Intel Pentium,Pentium pro,d
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit accumulator does DSP56000 have?,28,56,112,14,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing, How many additional registers does DSP56000 have?,2,4,6,8,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing, What does MAC instruction of DSP56000 stand for?,multiply accumulator,multiple access,multiple accounting,multiply accumulator counter,a

@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,Memory Management,Which of the following have a 16 Mbytes addressed range?,PowerPC,M68000,DSP56000,TMS 320,b
+Memory Systems,Memory Management,Which of the following can destroy the accuracy in the algorithms?,delays,error signal,interrupt,mmu,a
+Memory Systems,Memory Management,How many numbers of ways are possible for allocating the memory to the modular blocks?,1,2,3,4,c
+Memory Systems,Memory Management,Which of the following is replaced with the absolute addressing mode?,relative addressing mode,protective addressing mode,virtual addressing mode,temporary addressing mode,a
+Memory Systems,Memory Management,What is the main purpose of the memory management unit?,address translation,large storage,reduce the size,provides address space,a
+Memory Systems,Memory Management,Which of the following provides stability to the multitasking system?,memory,DRAM,SRAM,Memory partitioning,d
+Memory Systems,Memory Management,Which of the following is used by the M68000 family?,M68000,80386,8086,80286,a
+Memory Systems,Memory Management,What can be done for the fine grain protection of the processor?,add extra description bit,add error signal,add wait stage,remains unchanged,a
+Memory Systems,Memory Management,Which of the following technique is used by the UNIX operating system?,logical address memory,physical address memory,virtual memory technique,translational address,c
+Memory Systems,Memory Management, Which of the following consist two lines of legs on both sides of a plastic or ceramic body?,SIMM,DIMM,Zig-zag,Dual in-line,d
+Memory Systems,Memory Management, Which package has high memory speed and change in the supply?,DIP,SIMM,DIMM,zig-zag,c
+Memory Systems,Memory Management, Which is a subassembly package?,dual-in-line,zig-zag,simm,ceramic shell,c
+Memory Systems,Memory Management, What is the required voltage of DIMM?,2V,2.2V,5V,3.3V,d
+Memory Systems,Memory Management, Which memory package has a single row of pins?,SIMM,DIP,SIP,zig-zag,c
+Memory Systems,Memory Management, What is the access time of MCM51000AP10?,100ns,80ns,60ns,40ns,a

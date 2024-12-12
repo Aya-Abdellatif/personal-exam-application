@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,RISC Processor,Which are the processors based on RISC?,SPARC,80386,MC68030,MC68020,a
+Embedded system,RISC Processor,What is 80/20 rule?,80% instruction is generated and 20% instruction is executed,80% instruction is executed and 20% instruction is generated,80%instruction is executed and 20% instruction is not executed,80% instruction is generated and 20% instructions are not generated,a
+Embedded system,RISC Processor,Which of the architecture is more complex?,SPARC,MC68030,MC68030,8086,a
+Embedded system,RISC Processor,Which is the first company who defined RISC architecture?,Intel,IBM,Motorola,MIPS,b
+Embedded system,RISC Processor,Which of the following processors execute its instruction in a single cycle?,8086,8088,8087,MIPS R2000,d
+Embedded system,RISC Processor,How is memory accessed in RISC architecture?,load and store instruction,opcode instruction,memory instruction,bus instruction,a
+Embedded system,RISC Processor,Which of the following has a Harvard architecture?,EDSAC,SSEM,PIC,CSIRAC,c
+Embedded system,RISC Processor,Which of the following statements are true for von Neumann architecture?,shared bus between the program memory and data memory,separate bus between the program memory and data memory,external bus for program memory and data memory,external bus for data memory only,a
+Embedded system,RISC Processor,What is CAM stands for?,content-addressable memory,complex addressable memory,computing addressable memory,concurrently addressable memory,a
+Embedded system,RISC Processor, Which of the following processors uses Harvard architecture?,TEXAS TMS320,80386,80286,8086,a
+Embedded system,RISC Processor, Which company further developed the study of RISC architecture?,Intel,Motorola,university of Berkeley,MIPS,c
+Embedded system,RISC Processor, Princeton architecture is also known as,von Neumann architecture,Harvard,RISC,CISC,a
+Embedded system,RISC Processor, Who coined the term RISC?,David Patterson,von Neumann,Michael J Flynn,Harvard,a
+Embedded system,RISC Processor, Which of the following is an 8-bit RISC Harvard architecture?,AVR,Zilog80,8051,Motorola 6800,a
+Embedded system,RISC Processor, Which of the following processors has CISC architecture?,AVR,Atmel,Blackfin,Zilog Z80,d

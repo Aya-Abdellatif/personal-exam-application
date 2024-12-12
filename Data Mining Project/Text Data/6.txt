@@ -1,0 +1,90 @@
+Topic : Memory Systems
+Subtopic : DRAM
+
+1. Which memory storage is widely used in PCs and Embedded Systems?
+a) SRAM
+b) DRAM
+c) Flash memory
+d) EEPROM
+
+Answer: b
+
+2. Which of the following memory technology is highly denser?
+a) DRAM
+b) SRAM
+c) EPROM
+d) Flash memory
+
+Answer: a
+
+3. Which is the storage element in DRAM?
+a) inductor
+b) capacitor
+c) resistor
+d) mosfet
+
+Answer: b
+
+4. Which one of the following is a storage element in SRAM?
+a) capacitor
+b) inductor
+c) transistor
+d) resistor
+
+Answer: c
+
+5. Which of the following is more volatile?
+a) SRAM
+b) DRAM
+c) ROM
+d) RAM
+
+Answer: b
+
+6. What is the size of a trench capacitor in DRAM?
+a) 1 Mb
+b) 4-256 Mb
+c) 8-128 Mb
+d) 64-128 Mb
+
+Answer: b
+
+7. Which of the following capacitor can store more data in DRAM?
+a) planar capacitor
+b) trench capacitor
+c) stacked-cell
+d) non-polar capacitor
+
+Answer: c
+
+8. In which of the memories, does the data disappear?
+a) SRAM
+b) DRAM
+c) Flash memory
+d) EPROM
+
+Answer: b
+
+9. Which of the following is the main factor which determines the memory capacity?
+a) number of transistors
+b) number of capacitors
+c) size of the transistor
+d) size of the capacitor
+
+Answer: a
+
+10. What does VRAM stand for?
+a) video RAM
+b) verilog RAM
+c) virtual RAM
+d) volatile RAM
+
+Answer: a
+
+11. What does TCR stand for?
+a) temperature-compensated refresh
+b) temperature-compensated recovery
+c) texas CAS-RAS
+d) temperature CAS-RAS
+
+Answer: a

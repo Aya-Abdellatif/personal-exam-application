@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Coprocessor of Intel,Which of the following is a coprocessor of 80386?,80387,8087,8089,8088,a
+Embedded system,Coprocessor of Intel,Name the processor which helps in floating point calculations.,microprocessor,microcontroller,coprocessor,controller,c
+Embedded system,Coprocessor of Intel,Which is the coprocessor of 8086?,8087,8088,8086,8080,a
+Embedded system,Coprocessor of Intel,Which of the following is a coprocessor of Motorola 68000 family?,68001,68011,68881,68010,c
+Embedded system,Coprocessor of Intel,"Which of the following processors can perform exponential, logarithmic and trigonometric functions?",8086,8087,8080,8088,b
+Embedded system,Coprocessor of Intel,How many stack register does an 8087 have?,4,8,16,32,b
+Embedded system,Coprocessor of Intel,Which of the following processor can handle infinity values?,8080,8086,8087,8088,c
+Embedded system,Coprocessor of Intel,Which coprocessor supports affine closure?,80187,80287,80387,8088,b
+Embedded system,Coprocessor of Intel,Which one is the floating point coprocessor of 80286?,8087,80187,80287,80387,c
+Embedded system,Coprocessor of Intel, How many pins does 8087 have?,40 pin DIP,20 pin DIP,40 pins,20 pins,a
+Embedded system,Coprocessor of Intel, What is the clock frequency of 8087?,10 MHz,5 MHz,6 MHz,4 MHz,b
+Embedded system,Coprocessor of Intel, How are negative numbers stored in a coprocessor?,1â€™s complement,2â€™s complement,decimal,gray,b
+Embedded system,Coprocessor of Intel, How many bits are used for storing signed integers?,2,4,8,16,d
+Embedded system,Coprocessor of Intel, Which of the processor has an internal coprocessor?,8087,80287,80387,80486DX,d
+Embedded system,Coprocessor of Intel, What are the two major sections in a coprocessor?,control unit and numeric control unit,integer unit and control unit,floating point unit and coprocessor unit,coprocessor unit and numeric control unit,a

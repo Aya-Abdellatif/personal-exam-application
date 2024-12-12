@@ -1,0 +1,154 @@
+Topic : Basic Peripherals
+Subtopic : Timer
+
+1. Which of the following helps in the generation of waveforms?
+a) timer
+b) inputs
+c) outputs
+d) memory
+
+Answer: a
+
+2. Which bit size determines the slowest frequency?
+a) counter size
+b) pre-scalar value
+c) counter
+d) timer
+
+Answer: b
+
+3. Which bit size determines the maximum value of the counter-derived period?
+a) counter size
+b) pre-scalar value
+c) bit size
+d) byte size
+
+Answer: a
+
+4. Which of the following timer is suitable for IBM PC?
+a) IA-32
+b) Intel 8253
+c) Intel 64
+d) 8051 timer
+
+Answer: b
+
+5. Which of the following is mode 0 in 8253?
+a) interrupt on start count
+b) interrupt for wait statement
+c) interrupt on terminal count
+d) no interrupt
+
+Answer: c
+
+6. Which determines the mode 1 in the Intel 8253?
+a) interrupt on terminal count
+b) programmable one-shot
+c) rate generator
+d) square wave rate generator
+
+Answer: b
+
+7. Which mode of 8253 can provide pulse width modulation?
+a) programmable one-shot
+b) square wave rate generator
+c) software triggered strobe
+d) hardware triggered strobe
+
+Answer: a
+
+8. Which of the following is the mode 3 in the Intel timer 8253?
+a) rate generator
+b) hardware triggered strobe
+c) square wave rate generator
+d) software triggered strobe
+
+Answer: a
+
+9. Which of the following determines the rate generation?
+a) divide by N
+b) multiply by N
+c) addition by N
+d) subtraction by N
+
+Answer: a
+
+10. Which mode of the Intel 8253 timer can generate a square wave?
+a) mode 1
+b) mode 2
+c) mode 3
+d) mode 4
+
+Answer: d
+
+1. Which mode of the Intel timer 8253 provides a software watchdog timer?
+a) rate generator
+b) hardware triggered strobe
+c) square wave rate generator
+d) software triggered strobe
+
+Answer: d
+
+2. Which of the following mode is similar to the mode 4 of the 8253 timer?
+a) mode 5
+b) mode 6
+c) mode 0
+d) mode 1
+
+Answer: a
+
+3. Which pin of 8253 is used for the generation of an external interrupt signal?
+a) OUT pin
+b) IN pin
+c) Interrupt pin
+d) Ready pin
+
+Answer: a
+
+4. Which timer architecture can provide a higher resolution than Intel 8253?
+a) Intel 8253
+b) Intel 8254
+c) 8051 timer
+d) MC68230
+
+Answer: d
+
+5. How many bit architecture does MC68230 have?
+a) 16
+b) 24
+c) 32
+d) 40
+
+Answer: b
+
+6. How many bit bus does MC68230 have?
+a) 2
+b) 4
+c) 8
+d) 16
+
+Answer: c
+
+7. Which of the following is a timer processor?
+a) Intel 8253
+b) MC146818
+c) MC68332
+d) Intel 8259
+
+Answer: c
+
+8. What is the running frequency of MC68332?
+a) 12 MHz
+b) 14 MHz
+c) 16 MHz
+d) 18 MHz
+
+Answer: c
+
+9. Which of the following is a real time clock?
+a) MC146818
+b) 8253
+c) 8259
+d) 8254
+
+Answer: a

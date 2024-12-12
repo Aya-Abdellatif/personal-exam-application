@@ -1,0 +1,122 @@
+topic : Embedded system 
+subtopic : Types of Processors
+
+1. What shows the brightness of the pixel in a digital signal processor?
+a) luminance
+b) transparent
+c) chrominance
+d) opaque
+
+Answer: a
+
+2. What is the color format of chrominance in a digital signal processor?
+a) VGBA
+b) VIBGYOR
+c) White
+d) RGBA
+
+Answer: d
+
+3. Which of the following processor are designed to perform calculations in graphics rendering?
+a) GPU
+b) digital signal processor
+c) microprocessor
+d) microcontroller
+
+Answer: a
+
+4. Which of the processor is a good match for applications such as video games?
+a) GPU
+b) VLIW
+c) Coprocessor
+d) Microcontroller
+
+Answer: a
+
+5. Which of the following statement is true for concurrency?
+a) different parts of the program executes physically
+b) different parts of the program executes sequentially
+c) different parts of the program executes conceptually
+d) different parts of the program executes sequentially and physically
+
+Answer: c
+
+6. Which is an imperative language?
+a) C program
+b) SQL
+c) XQuery
+d) Concurrent model of HDL
+
+Answer: a
+
+7. Which of the following instructions supports parallel execution?
+a) VLIW
+b) TTA
+c) ALU operation
+d) Test-and-set instructions
+
+Answer: a
+
+8. Who invented VLIW architecture?
+a) Josh Fisher
+b) John Ellis
+c) John Ruttenberg
+d) John O’Donnell
+
+Answer: a
+
+9. What is ILP?
+a) instruction-level parallelism
+b) instruction-level panel
+c) instruction-language panel
+d) inter-language parallelism
+
+Answer: a
+
+10. Which ILP supports the ALU division?
+a) Subword parallelism
+b) CISC
+c) Superscalar
+d) VLIW
+
+Answer: a
+
+11. Which is a vector processor?
+a) Subword parallelism
+b) CISC
+c) Superscalar
+d) VLIW
+
+Answer: a
+
+12. Which of the following architecture supports out-of-order execution?
+a) RISC
+b) CISC
+c) Superscalar
+d) Subword parallelism
+
+Answer: c
+
+13. Which is an example of superscalar architecture?
+a) Pentium 4
+b) 8086
+c) 80386
+d) Pentium pro
+
+Answer: a
+
+14. Which of the following is a combination of several processors on a single chip?
+a) Multicore architecture
+b) RISC architecture
+c) CISC architecture
+d) Subword parallelism
+
+Answer: a
+
+15. Which is an example of the multi-core processor which possesses 10 cores?
+a) Intel Xeon E7-2850
+b) AMD Phenom IIX2
+c) Intel core duo
+d) AMD Phenom IIX3
+
+Answer: a

@@ -1,0 +1,106 @@
+topic : Embedded system
+sub topic : Accumulator Processor
+
+1. Which is the first device by Intel, that started the microprocessor revolution?
+a) 8080
+b) 8086
+c) 8087
+d) 8088
+
+Answer: a
+
+2. Which is the first microprocessor by Motorola?
+a) MC6800
+b) MC68001
+c) MIPS
+d) PowerPC
+
+Answer: a
+
+3. Motorola MC6800 is a how many-bit processor?
+a) 4
+b) 8
+c) 16
+d) 32
+
+Answer: b
+
+4. How many accumulators does an MC6800 have?
+a) 1
+b) 2
+c) 3
+d) 4
+
+Answer: b
+
+5. How many bits does an accumulator register of MC6800 have?
+a) 8
+b) 16
+c) 32
+d) 4
+
+Answer: a
+
+6. What is the purpose of an accumulator?
+a) Storing data and performing logical operations
+b) Storing data and performing arithmetic and logical operations
+c) Storing addresses
+d) Pointer
+
+Answer: b
+
+7. Which of the following is the area of memory that is used for temporary storage?
+a) Register
+b) Stack
+c) Accumulator
+d) Hard Disk
+
+Answer: b
+
+8. How a stack is accessed?
+a) By using code segment pointer
+b) By using data segment register
+c) By using stack segment register
+d) By using heap segment register
+
+Answer: c
+
+9. PUSH-POP mechanism is seen in _______
+a) Stack pointer
+b) Register
+c) Memory
+d) Index register
+
+Answer: a
+
+10. What is the range of values an 8-bit register can store?
+a) 128
+b) 64
+c) 256
+d) 32
+
+Answer: c
+
+11. What is the address range in 80286?
+a) 1 Mbytes
+b) 2 Mbytes
+c) 16 Mbytes
+d) 32 mbytes
+
+Answer: c
+
+12. Which is the first 32-bit member of Intel?
+a) 8086
+b) 8088
+c) 80286
+d) 80386
+
+Answer: d
+
+13. What supports multitasking in 80386?
+a) Read mode
+b) External paging memory management unit
+c) Paging and segmentation
+d) On-chip paging memory management unit
+
+Answer: d

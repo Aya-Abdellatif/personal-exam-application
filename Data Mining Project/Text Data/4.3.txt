@@ -1,0 +1,82 @@
+Topic : Basic Peripherals
+Subtopic : Serial Port and Serial Peripheral Interface
+
+1. Which of the following is the pin efficient method of communicating between other devices?
+a) serial port
+b) parallel port
+c) peripheral port
+d) memory port
+
+Answer: a
+
+2. Which of the following depends the number of bits that are transferred?
+a) wait statement
+b) ready statement
+c) time
+d) counter
+
+Answer: c
+
+3. Which of the following is the most commonly used buffer in the serial porting?
+a) LIFO
+b) FIFO
+c) FILO
+d) LILO
+
+Answer: b
+
+4. What does SPI stand for?
+a) serial parallel interface
+b) serial peripheral interface
+c) sequential peripheral interface
+d) sequential port interface
+
+Answer: b
+
+5. Which allows the full duplex synchronous communication between the master and the slave?
+a) SPI
+b) serial port
+c) I2C
+d) parallel port
+
+Answer: a
+
+6. Which of the following processor uses SPI for interfacing?
+a) 8086
+b) 8253
+c) 8254
+d) MC68HC11
+
+Answer: d
+
+7. In which register does the data is written in the master device?
+a) index register
+b) accumulator
+c) SPDR
+d) status register
+
+Answer: c
+
+8. What happens when 8 bits are transferred in the SPI?
+a) wait statement
+b) ready statement
+c) interrupt
+d) remains unchanged
+
+Answer: c
+
+9. Which signal is used to select the slave in the serial peripheral interfacing?
+a) slave select
+b) master select
+c) interrupt
+d) clock signal
+
+Answer: a
+
+10. How much time period is necessary for the slave to receive the interrupt and transfer the data?
+a) 4 clock time period
+b) 8 clock time period
+c) 16 clock time period
+d) 24 clock time period
+
+Answer: b

@@ -1,0 +1,122 @@
+topic : Embedded system
+subtopic : Features of Intel
+
+1. What are the three stages included in pipelining of 80386?
+a) Fetch, decode, execute
+b) Fetch, execute, decode
+c) Execute, fetch, decode
+d) Decode, execute, fetch
+
+Answer: a
+
+2. How instructions and data are accessed to pipeline stages of 80486 processor?
+a) Through internal unified cache
+b) Through external unified cache
+c) Through external cache
+d) Through multiple caches
+
+Answer: a
+
+3. Which of the following processor possesses a similar instruction of 80486?
+a) 8086
+b) 80286
+c) 80386
+d) 8080
+
+Answer: c
+
+4. What are the two external interrupt signals in 80386?
+a) IV and NMI
+b) NMI and INTR
+c) INTR and IV
+d) PC and NMI
+
+Answer: b
+
+5. How many bit vector number is used in an interrupt cycle of 80386?
+a) 4
+b) 8
+c) 16
+d) 32
+
+Answer: b
+
+6. In how many modes does 80386 can run?
+a) 2
+b) 4
+c) 3
+d) 5
+
+Answer: c
+
+7. How many bit flag register does 80386 have?
+a) 8
+b) 16
+c) 32
+d) 64
+
+Answer: c
+
+8. Which processor is the derivative of 80386DX?
+a) 80387
+b) 80386SX
+c) 80386 DDX
+d) 8087
+
+Answer: b
+
+9. Which of the following is a portable device of Intel?
+a) 80386DX
+b) 8087
+c) 80386SL
+d) 80386SX
+
+Answer: c
+
+10. Which of the processor has a 5 stage pipeline?
+a) 80386
+b) 80486
+c) 80286
+d) 80386DX
+
+Answer: b
+
+11. Which of the following processor can execute two instructions per cycle?
+a) 80486
+b) 80386DX
+c) Intel Pentium
+d) 80386
+
+Answer: c
+
+12. Which of the following processors have two five-stage pipelines?
+a) 80486
+b) 80386
+c) Intel Pentium
+d) 80386DX
+
+Answer: c
+
+13. In which processor does the control register and system management mode register first appeared?
+a) 80386
+b) 80386SL
+c) 80386DX
+d) 80486
+
+Answer: b
+
+14. Which is the next successor of Intel Pentium?
+a) Pentium pro
+b) P1
+c) P2
+d) P5
+
+Answer: a
+
+15. Which of the following processor allows a multiple branch prediction?
+a) 80386
+b) P1
+c) Intel Pentium
+d) Intel Pentium pro
+
+Answer: d

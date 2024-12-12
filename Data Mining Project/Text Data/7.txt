@@ -1,0 +1,122 @@
+Topic : Memory Systems
+Subtopic : Memory Organization
+
+1. How many data lines does 256*4 have?
+a) 256
+b) 8
+c) 4
+d) 32
+
+Answer: c
+
+2. How is the number of chips required is determined?
+a) number of data lines
+b) the minimum number of data
+c) width of the data path from the processor
+d) number of data lines and the width of the data path from the processor
+
+Answer: d
+
+3. Where is memory address stored in a C program?
+a) stack
+b) pointer
+c) register
+d) accumulator
+
+Answer: b
+
+4. Which is the term that is used to refer the order of bytes?
+a) endianness
+b) memory organisation
+c) bit
+d) register
+
+Answer: a
+
+5. Which of the following processors uses big endian representation?
+a) 8086
+b) ARM
+c) PowerPC
+d) Zilog Z80
+
+Answer: c
+
+6. Which statement is true for a cache memory?
+a) memory unit which communicates directly with the CPU
+b) provides backup storage
+c) a very high-speed memory to increase the speed of the processor
+d) secondary storage
+
+Answer: c
+
+7. Which of the following memory organisation have the entire memory available to the processor at all times?
+a) segmented addressing
+b) paging
+c) virtual address
+d) linear address
+
+Answer: d
+
+8. How many memory locations can be accessed by 8086?
+a) 1 M
+b) 2 M
+c) 3 M
+d) 4 M
+
+Answer: a
+
+9. Which of them is a memory that is allocated to the program in LIFO pattern?
+a) stack
+b) index
+c) accumulator
+d) base
+
+Answer: a
+
+10. What does SIMM stand for?
+a) single in-line memory module
+b) single interrupt memory module
+c) single information memory module
+d) same-in-line memory module
+
+Answer: a
+
+11. Which of the memory organisation is widely used in parity bit?
+a) by 1 organisation
+b) by 4 organisation
+c) by 8 organisation
+d) by 9 organisation
+
+Answer: a
+
+12. Which configuration of memory organisation replaces By 1 organisation?
+a) by 4 organisation
+b) by 8 organisation
+c) by 9 organisation
+d) by 16 organisation
+
+Answer: a
+
+13. Which shifting helps in finding the physical address in 8086?
+a) shifting the segment by 8
+b) shifting the segment by 6
+c) shifting the segment by 4
+d) shifting the segment by 2
+
+Answer: c
+
+14. Which memory organisation is supported in wider memories?
+a) by 8 organisation
+b) by 16 organisation
+c) by 9 organisation
+d) by 4 organisation
+
+Answer: b
+
+15. Which of the following is a plastic package used primarily for DRAM?
+a) SIMM
+b) DIMM
+c) Zig-zag
+d) Dual-in-line
+
+Answer: c

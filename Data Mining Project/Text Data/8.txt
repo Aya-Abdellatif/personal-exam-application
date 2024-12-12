@@ -1,0 +1,122 @@
+Topic : Memory Systems
+Subtopic : Memory Management
+
+1. Which of the following have a 16 Mbytes addressed range?
+a) PowerPC
+b) M68000
+c) DSP56000
+d) TMS 320
+
+Answer: b
+
+2. Which of the following can destroy the accuracy in the algorithms?
+a) delays
+b) error signal
+c) interrupt
+d) mmu
+
+Answer: a
+
+3. How many numbers of ways are possible for allocating the memory to the modular blocks?
+a) 1
+b) 2
+c) 3
+d) 4
+
+Answer: c
+
+4. Which of the following is replaced with the absolute addressing mode?
+a) relative addressing mode
+b) protective addressing mode
+c) virtual addressing mode
+d) temporary addressing mode
+
+Answer: a
+
+5. What is the main purpose of the memory management unit?
+a) address translation
+b) large storage
+c) reduce the size
+d) provides address space
+
+Answer: a
+
+6. Which of the following provides stability to the multitasking system?
+a) memory
+b) DRAM
+c) SRAM
+d) Memory partitioning
+
+Answer: d
+
+7. Which of the following is used by the M68000 family?
+a) M68000
+b) 80386
+c) 8086
+d) 80286
+
+Answer: a
+
+8. What can be done for the fine grain protection of the processor?
+a) add extra description bit
+b) add error signal
+c) add wait stage
+d) remains unchanged
+
+Answer: a
+
+9. Which of the following technique is used by the UNIX operating system?
+a) logical address memory
+b) physical address memory
+c) virtual memory technique
+d) translational address
+
+Answer: c
+
+10. Which of the following consist two lines of legs on both sides of a plastic or ceramic body?
+a) SIMM
+b) DIMM
+c) Zig-zag
+d) Dual in-line
+
+Answer: d
+
+11. Which package has high memory speed and change in the supply?
+a) DIP
+b) SIMM
+c) DIMM
+d) zig-zag
+
+Answer: c
+
+12. Which is a subassembly package?
+a) dual-in-line
+b) zig-zag
+c) simm
+d) ceramic shell
+
+Answer: c
+
+13. What is the required voltage of DIMM?
+a) 2V
+b) 2.2V
+c) 5V
+d) 3.3V
+
+Answer: d
+
+14. Which memory package has a single row of pins?
+a) SIMM
+b) DIP
+c) SIP
+d) zig-zag
+
+Answer: c
+
+15. What is the access time of MCM51000AP10?
+a) 100ns
+b) 80ns
+c) 60ns
+d) 40ns
+
+Answer: a

@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,DRAM Interfaces,In which pin does the data appear in the basic DRAM interfacing?,dout pin,din pin,clock,interrupt pin,a
+Memory Systems,DRAM Interfaces,What is the duration for memory refresh to remain compatible?,20 microseconds,12 microseconds,15 microseconds,10 microseconds,c
+Memory Systems,DRAM Interfaces,Which interfacing method lowers the speed of the processor?,basic DRAM interface,page mode interface,page interleaving,burst mode interface,a
+Memory Systems,DRAM Interfaces,What is EDO RAM?,extreme data operation,extended direct operation,extended data out,extended DRAM out,c
+Memory Systems,DRAM Interfaces,What is RDRAM?,refresh DRAM,recycle DRAM,Rambus DRAM,refreshing DRAM,c
+Memory Systems,DRAM Interfaces,Which of the following can transfer up to 1.6 billion bytes per second?,DRAM,RDRAM,EDO RAM,SDRAM,b
+Memory Systems,DRAM Interfaces,Which of the following cycle is larger than the access time?,write cycle,set up time,read cycle,hold time,c
+Memory Systems,DRAM Interfaces,Which mode of operation selects an internal page of memory in the DRAM interfacing?,page interleaving,page mode,burst mode,EDO RAM,b
+Memory Systems,DRAM Interfaces,What is the maximum time that the RAS signal can be asserted in the page mode operation?,5 microseconds,10 microseconds,15 microseconds,20 microseconds,b
+Memory Systems,DRAM Interfaces, Which of the following mode of operation in the DRAM interfacing has a page boundary?,burst mode,EDO RAM,page mode,page interleaving,c
+Memory Systems,DRAM Interfaces, Which mode offers the banking of memory in the DRAM interfacing technique?,page mode,basic DRAM interfacing,page interleaving,burst mode,c
+Memory Systems,DRAM Interfaces, Which of the following has a fast page mode RAM?,burst mode,page interleaving,EDO memory,page mode,c
+Memory Systems,DRAM Interfaces, Which mode reduces the need for fast static RAMs?,page mode,page interleaving,burst mode,EDO memory,c
+Memory Systems,DRAM Interfaces, Which of the following is also known as hyper page mode enabled DRAM?,page mode,EDO DRAM,burst EDO DRAM,page interleaving,b
+Memory Systems,DRAM Interfaces, What does BEDO DRAM stand for?,burst EDO DRAM,buffer EDO DRAM,BIBO EDO DRAM,bilateral EDO DRAM,a

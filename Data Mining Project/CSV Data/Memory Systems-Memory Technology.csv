@@ -1,0 +1,12 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,Memory Technology,Which is the most basic non-volatile memory?,Flash memory,PROM,EPROM,ROM,d
+Memory Systems,Memory Technology,Who has invented flash memory?,Dr.Fujio Masuoka,John Ellis,Josh Fisher,John Ruttenberg,a
+Memory Systems,Memory Technology,Which of the following is serial access memory?,RAM,Flash memory,Shifters,ROM,c
+Memory Systems,Memory Technology,Which is the early form of non-volatile memory?,magnetic core memory,ferrimagnetic memory,anti-magnetic memory,anti-ferromagnetic,a
+Memory Systems,Memory Technology,Which of the following memories has more speed in accessing data?,SRAM,DRAM,EPROM,EEPROM,a
+Memory Systems,Memory Technology,"In which memory, the signals are multiplexed?",DRAM,SRAM,EPROM,EEPROM,a
+Memory Systems,Memory Technology,How many main signals are used with memory chips?,2,4,6,8,b
+Memory Systems,Memory Technology,What is the purpose of the address bus?,to provide data to and from the chip,to select a specified chip,to select a location within the memory chip,to select a read/write cycle,c
+Memory Systems,Memory Technology,Which are the two main types of processor connection to the motherboard?,sockets and slots,sockets and pins,slots and pins,pins and ports,a
+Memory Systems,Memory Technology, Which of the following has programmable hardware?,microcontroller,microprocessor,coprocessor,FPGA,d
+Memory Systems,Memory Technology, Who invented TriMedia processor?,Intel,IBM,Apple,NXP Semiconductor,d

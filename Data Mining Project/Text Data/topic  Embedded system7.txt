@@ -1,0 +1,90 @@
+topic : Embedded system 
+subtopic : The Berkeley RISC Model and Digital Signal Processing
+
+1. How many bit register set does RISC 1 model used?
+a) 138*24
+b) 138*32
+c) 69*16
+d) 69*32
+
+Answer: b
+
+2. Which of the following processor commercializes the Berkeley RISC model?
+a) SPARC
+b) Stanford
+c) RISC-1
+d) RISC
+
+Answer: a
+
+3. How many transistors does RISC 1 possess?
+a) 44000
+b) 45000
+c) 44500
+d) 45500
+
+Answer: c
+
+4. How many registers does RISC 1 model have?
+a) 68
+b) 58
+c) 78
+d) 88
+
+Answer: c
+
+5. Which of the architectures are made to speed up the processor?
+a) CISC
+b) RISC
+c) program stored
+d) von Neumann
+
+Answer: b
+
+6. How did 8086 pass its control to 8087?
+a) BUSY instruction
+b) ESCAPE instruction
+c) CONTROL instruction
+d) fetch 8087
+
+Answer: b
+
+7. Which of the following processor supports MMX instructions?
+a) 8080
+b) 80486
+c) Intel Pentium
+d) 80386
+
+Answer: c
+
+8. Which of the following processors has a speculative execution?
+a) 80486
+b) P1
+c) Intel Pentium
+d) Pentium pro
+
+Answer: d
+
+9. How many bit accumulator does DSP56000 have?
+a) 28
+b) 56
+c) 112
+d) 14
+
+Answer: b
+
+10. How many additional registers does DSP56000 have?
+a) 2
+b) 4
+c) 6
+d) 8
+
+Answer: b
+
+11. What does MAC instruction of DSP56000 stand for?
+a) multiply accumulator
+b) multiple access
+c) multiple accounting
+d) multiply accumulator counter
+
+Answer: a

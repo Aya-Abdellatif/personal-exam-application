@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system ,Digital Signal Processing,What are the factors of filters which are determined by the speed of the operation in a digital signal processor?,attenuation constant,frequency,bandwidth,phase,c
+Embedded system ,Digital Signal Processing,How many tables does an FIR function of a digital signal processor possess?,1,2,3,4,b
+Embedded system ,Digital Signal Processing,Why is said that branch prediction is not applicable in a digital signal processor?,low bandwidth,high bandwidth,low frequency,high frequency,a
+Embedded system ,Digital Signal Processing,Which architecture can one overcome the low bandwidth issue in MC6800 family?,RISC,CISC,von Neumann,program stored,a
+Embedded system ,Digital Signal Processing,Which architecture in digital signal processor reduces the execution time?,Harvard,CISC,program storage,von Neumann,a
+Embedded system ,Digital Signal Processing,Which of the following processors also can work as a digital signal processor?,8086,8088,8080,ARM9E,d
+Embedded system ,Digital Signal Processing,What types of modules are used in the digital signal processor to form the loop structure?,modulo-timer,modulo-counter,timer,external timer,b
+Embedded system ,Digital Signal Processing,Name a processor which is used in digital audio appliances.,8086,Motorola DSP56000,80486,8087,b
+Embedded system ,Digital Signal Processing,How many bits does DSP56000 processor have?,8,16,24,32,c
+Embedded system ,Digital Signal Processing, How many buses did DSP56000 possess?,2,3,4,5,b
+Embedded system ,Digital Signal Processing, Which of the following architecture does DSP56000 possess?,Harvard,von Neumann,CISC,program-stored,a
+Embedded system ,Digital Signal Processing, What does AAU stand for?,arithmetic address unit,address arithmetic unit,address access unit,arithmetic access unit,b
+Embedded system ,Digital Signal Processing, How many address register does the AAU of a DSP56000 have?,8,16,24,32,c
+Embedded system ,Digital Signal Processing, How many registers does a DSP56000 have?,4,5,7,6,c
+Embedded system ,Digital Signal Processing, Which of the following bits are used for sign extension in DSP56000?,upper 8 bits of the stack pointer,lower 8 bits of the stack pointer,lower 8 bits of the program counter,upper 8 bits of the program counter,d

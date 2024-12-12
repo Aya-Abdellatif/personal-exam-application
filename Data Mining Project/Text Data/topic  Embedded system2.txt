@@ -1,0 +1,122 @@
+topic : Embedded system
+subtopic : Architecture
+
+1. Which one of the following is the successor of 8086 and 8088 processor?
+a) 80286
+b) 80387
+c) 8051
+d) 8087
+
+Answer: a
+
+2. Which is the processor behind the IBM PC AT?
+a) 80387
+b) 8088
+c) 80286
+d) 8086
+
+Answer: c
+
+3. Which are the two modes of 80286?
+a) Real mode and protected mode
+b) Mode1 and mode2
+c) Alternate and main
+d) Mode A and mode B
+
+Answer: a
+
+4. Which register set of 80286 form the same register set of 8086 processor?
+a) AH,AL
+b) BX
+c) BX,AX
+d) EL
+
+Answer: a
+
+5. Which are the 4 general purposes 16 bit register in Intel 80286?
+a) CS,DS,SS,ES
+b) AX,BX,CX,DX
+c) IP,FL,DI,SI
+d) DI,SI,BP,SP
+
+Answer: b
+
+6. Which are the 4 segmented registers in intel 80286?
+a) AX,BX,CX,DX
+b) AS,BS,CS,DS
+c) SP,DI,SI,BP
+d) IP,FL,SI,DI
+
+Answer: b
+
+7. How is expanded memory accessed in 80286?
+a) Paging
+b) Interleaving
+c) RAM
+d) External storage
+
+Answer: a
+
+8. When is the register set gets expanded in 80286?
+a) In real mode
+b) In expanded mode
+c) In protected mode
+d) Interrupt mode
+
+Answer: c
+
+9. Which are the two register available in the protected mode of 80286?
+a) General and segmented
+b) General and pointer
+c) Index and base pointer
+d) Index and segmented
+
+Answer: c
+
+10. What kind of support does 80286 access in protected mode?
+a) Real mode
+b) Address access
+c) Data access
+d) Virtual memory
+
+Answer: d
+
+11. Which of the following processor possess memory management?
+a) 8086
+b) 8088
+c) 80286
+d) 8051
+
+Answer: c
+
+12. What is the size of the address bus in 80286?
+a) 20
+b) 24
+c) 16
+d) 32
+
+Answer: b
+
+13. Which is the interrupt vector in 80286 which functions for stack fault?
+a) 11
+b) 12
+c) 14
+d) 16
+
+Answer: b
+
+14. Which is the interrupt vector that functions as invalid opcode?
+a) 9
+b) 8
+c) 7
+d) 6
+
+Answer: d
+
+15. Which of the following possess the same set of instructions?
+a) 8088 and 80286
+b) 8086 and 80286
+c) 8051 and 8088
+d) 8051 and 8086
+
+Answer: b

@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Features of Intel,What are the three stages included in pipelining of 80386?,"Fetch, decode, execute","Fetch, execute, decode","Execute, fetch, decode","Decode, execute, fetch",a
+Embedded system,Features of Intel,How instructions and data are accessed to pipeline stages of 80486 processor?,Through internal unified cache,Through external unified cache,Through external cache,Through multiple caches,a
+Embedded system,Features of Intel,Which of the following processor possesses a similar instruction of 80486?,8086,80286,80386,8080,c
+Embedded system,Features of Intel,What are the two external interrupt signals in 80386?,IV and NMI,NMI and INTR,INTR and IV,PC and NMI,b
+Embedded system,Features of Intel,How many bit vector number is used in an interrupt cycle of 80386?,4,8,16,32,b
+Embedded system,Features of Intel,In how many modes does 80386 can run?,2,4,3,5,c
+Embedded system,Features of Intel,How many bit flag register does 80386 have?,8,16,32,64,c
+Embedded system,Features of Intel,Which processor is the derivative of 80386DX?,80387,80386SX,80386 DDX,8087,b
+Embedded system,Features of Intel,Which of the following is a portable device of Intel?,80386DX,8087,80386SL,80386SX,c
+Embedded system,Features of Intel, Which of the processor has a 5 stage pipeline?,80386,80486,80286,80386DX,b
+Embedded system,Features of Intel, Which of the following processor can execute two instructions per cycle?,80486,80386DX,Intel Pentium,80386,c
+Embedded system,Features of Intel, Which of the following processors have two five-stage pipelines?,80486,80386,Intel Pentium,80386DX,c
+Embedded system,Features of Intel, In which processor does the control register and system management mode register first appeared?,80386,80386SL,80386DX,80486,b
+Embedded system,Features of Intel, Which is the next successor of Intel Pentium?,Pentium pro,P1,P2,P5,a
+Embedded system,Features of Intel, Which of the following processor allows a multiple branch prediction?,80386,P1,Intel Pentium,Intel Pentium pro,d

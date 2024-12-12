@@ -1,0 +1,11 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Basic Peripherals,Parallel Ports,Which of the following can transfer multiple bits of data simultaneously?,serial port,sequential port,concurrent unit,parallel port,d
+Basic Peripherals,Parallel Ports,Which of the following are interfaced as inputs to the parallel ports?,LEDs,switch,alphanumeric display,seven segmented display,b
+Basic Peripherals,Parallel Ports,Which of the following are interfaced as the outputs to the parallel ports?,keyboards,switches,LEDs,knobs,c
+Basic Peripherals,Parallel Ports,How many registers are there to control the parallel port in the basic form?,1,3,2,5,c
+Basic Peripherals,Parallel Ports,Which of the following is also known as tri-state?,output port,input port,parallel port,output-input port,a
+Basic Peripherals,Parallel Ports,How buffers are enabled in the parallel ports?,by the data register,by data direction register,by individual control register,by data and individual control register,b
+Basic Peripherals,Parallel Ports,Which of the following registers offers high impedance?,data register,data direction register,individual control bit,data register and data direction register,c
+Basic Peripherals,Parallel Ports,Which of the following can be used as a chip select?,multifunction I/O port,parallel port,DMA port,memory port,a
+Basic Peripherals,Parallel Ports,Which of the following is necessary for the parallel input-output port?,inductor,pull-up resistor,push-up resistor,capacitor,b
+Basic Peripherals,Parallel Ports, Which of the following can be described as general-purpose?,multifunction I/O port,input port,dma port,output port,a

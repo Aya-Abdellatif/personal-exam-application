@@ -1,0 +1,122 @@
+topic : Embedded system 
+subtopic : Digital Signal Processing
+
+1. What are the factors of filters which are determined by the speed of the operation in a digital signal processor?
+a) attenuation constant
+b) frequency
+c) bandwidth
+d) phase
+
+Answer: c
+
+2. How many tables does an FIR function of a digital signal processor possess?
+a) 1
+b) 2
+c) 3
+d) 4
+
+Answer: b
+
+3. Why is said that branch prediction is not applicable in a digital signal processor?
+a) low bandwidth
+b) high bandwidth
+c) low frequency
+d) high frequency
+
+Answer: a
+
+4. Which architecture can one overcome the low bandwidth issue in MC6800 family?
+a) RISC
+b) CISC
+c) von Neumann
+d) program stored
+
+Answer: a
+
+5. Which architecture in digital signal processor reduces the execution time?
+a) Harvard
+b) CISC
+c) program storage
+d) von Neumann
+
+Answer: a
+
+6. Which of the following processors also can work as a digital signal processor?
+a) 8086
+b) 8088
+c) 8080
+d) ARM9E
+
+Answer: d
+
+7. What types of modules are used in the digital signal processor to form the loop structure?
+a) modulo-timer
+b) modulo-counter
+c) timer
+d) external timer
+
+Answer: b
+
+8. Name a processor which is used in digital audio appliances.
+a) 8086
+b) Motorola DSP56000
+c) 80486
+d) 8087
+
+Answer: b
+
+9. How many bits does DSP56000 processor have?
+a) 8
+b) 16
+c) 24
+d) 32
+
+Answer: c
+
+10. How many buses did DSP56000 possess?
+a) 2
+b) 3
+c) 4
+d) 5
+
+Answer: b
+
+11. Which of the following architecture does DSP56000 possess?
+a) Harvard
+b) von Neumann
+c) CISC
+d) program-stored
+
+Answer: a
+
+12. What does AAU stand for?
+a) arithmetic address unit
+b) address arithmetic unit
+c) address access unit
+d) arithmetic access unit
+
+Answer: b
+
+13. How many address register does the AAU of a DSP56000 have?
+a) 8
+b) 16
+c) 24
+d) 32
+
+Answer: c
+
+14. How many registers does a DSP56000 have?
+a) 4
+b) 5
+c) 7
+d) 6
+
+Answer: c
+
+15. Which of the following bits are used for sign extension in DSP56000?
+a) upper 8 bits of the stack pointer
+b) lower 8 bits of the stack pointer
+c) lower 8 bits of the program counter
+d) upper 8 bits of the program counter
+
+Answer: d

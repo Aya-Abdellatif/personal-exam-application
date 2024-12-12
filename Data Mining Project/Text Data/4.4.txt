@@ -1,0 +1,170 @@
+Topic : Basic Peripherals
+Subtopic : I2C
+
+1. What does I2C stand for?
+a) inter-IC
+b) intra-IC
+c) individual integrated chip
+d) intel IC
+
+Answer: a
+
+2. Which company developed I2C?
+a) Intel
+b) Motorola
+c) Phillips
+d) IBM
+
+Answer: c
+
+3. Which of the following is the most known simple interface?
+a) I2C
+b) Serial port
+c) Parallel port
+d) SPI
+
+Answer: a
+
+4. Which are the two lines used in the I2C?
+a) SDA and SPDR
+b) SPDR and SCL
+c) SDA and SCL
+d) SCL and status line
+
+Answer: c
+
+5. Which of the following developed P82B715?
+a) Philips
+b) Intel
+c) IBM
+d) Motorola
+
+Answer: a
+
+6. Which pin provides the reference clock for the transfer of data?
+a) SDA
+b) SCL
+c) SPDR
+d) Interrupt pin
+
+Answer: b
+
+7. Which of the following are the three hardware signals?
+a) START, STOP, ACKNOWLEDGE
+b) STOP, TERMINATE, END
+c) START, SCL, SDA
+d) STOP, SCL, SDA
+
+Answer: a
+
+8. Which of the following performs the START signal?
+a) master
+b) slave
+c) CPU
+d) memory
+
+Answer: a
+
+9. Which of the following are handshake signals?
+a) START
+b) STOP
+c) ACKNOWLEDGE
+d) START and STOP
+
+Answer: c
+
+10. A packet is also referred to as
+a) postcard
+b) telegram
+c) letter
+d) data
+
+Answer: b
+
+11. Which of the following byte performs the slave selection?
+a) first byte
+b) second byte
+c) terminal byte
+d) eighth byte
+
+Answer: a
+
+1. Which of the following indicates the type of operation that the master requests?
+a) address value
+b) initial value
+c) terminal count
+d) first byte
+
+Answer: a
+
+2. How can both single byte and the double byte address slave use the same bus?
+a) extended memory
+b) extended address
+c) peripheral count
+d) slave bus
+
+Answer: b
+
+3. Which counter selects the next register in the I2C?
+a) auto-incrementing counter
+b) decrementing counter
+c) auto-decrementing counter
+d) terminal counter
+
+Answer: a
+
+4. Which is an efficient method for the EEPROM?
+a) combined format
+b) auto-incrementing counter
+c) register set
+d) single format
+
+Answer: a
+
+5. Which of the following uses two data transfers?
+a) auto-incrementing counter
+b) auto-decrementing counter
+c) combined format
+d) single format
+
+Answer: c
+
+6. Which of the following is efficient for the small number of registers?
+a) auto-incrementing counter
+b) auto-decrementing counter
+c) combined format
+d) single format
+
+Answer: a
+
+7. Which can determine the timeout value?
+a) polling
+b) timer
+c) combined format
+d) watchdog timer
+
+Answer: a
+
+8. How is bus lockup avoided?
+a) timer and polling
+b) combined format
+c) terminal counter
+d) counter
+
+Answer: a
+
+9. Which of the following can determine if two masters start to use the bus at the same time?
+a) counter detect
+b) collision detect
+c) combined format
+d) auto-incremental counter
+
+Answer: b
+
+10. Which ports are used in the multi-master system to avoid errors?
+a) unidirectional port
+b) bidirectional port
+c) multi directional port
+d) tridirectional port
+
+Answer: b

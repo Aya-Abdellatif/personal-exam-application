@@ -1,0 +1,122 @@
+topic : Embedded system
+subtopic : RISC Processor
+
+1. Which are the processors based on RISC?
+a) SPARC
+b) 80386
+c) MC68030
+d) MC68020
+
+Answer: a
+
+2. What is 80/20 rule?
+a) 80% instruction is generated and 20% instruction is executed
+b) 80% instruction is executed and 20% instruction is generated
+c) 80%instruction is executed and 20% instruction is not executed
+d) 80% instruction is generated and 20% instructions are not generated
+
+Answer: a
+
+3. Which of the architecture is more complex?
+a) SPARC
+b) MC68030
+c) MC68030
+d) 8086
+
+Answer: a
+
+4. Which is the first company who defined RISC architecture?
+a) Intel
+b) IBM
+c) Motorola
+d) MIPS
+
+Answer: b
+
+5. Which of the following processors execute its instruction in a single cycle?
+a) 8086
+b) 8088
+c) 8087
+d) MIPS R2000
+
+Answer: d
+
+6. How is memory accessed in RISC architecture?
+a) load and store instruction
+b) opcode instruction
+c) memory instruction
+d) bus instruction
+
+Answer: a
+
+7. Which of the following has a Harvard architecture?
+a) EDSAC
+b) SSEM
+c) PIC
+d) CSIRAC
+
+Answer: c
+
+8. Which of the following statements are true for von Neumann architecture?
+a) shared bus between the program memory and data memory
+b) separate bus between the program memory and data memory
+c) external bus for program memory and data memory
+d) external bus for data memory only
+
+Answer: a
+
+9. What is CAM stands for?
+a) content-addressable memory
+b) complex addressable memory
+c) computing addressable memory
+d) concurrently addressable memory
+
+Answer: a
+
+10. Which of the following processors uses Harvard architecture?
+a) TEXAS TMS320
+b) 80386
+c) 80286
+d) 8086
+
+Answer: a
+
+11. Which company further developed the study of RISC architecture?
+a) Intel
+b) Motorola
+c) university of Berkeley
+d) MIPS
+
+Answer: c
+
+12. Princeton architecture is also known as
+a) von Neumann architecture
+b) Harvard
+c) RISC
+d) CISC
+
+Answer: a
+
+13. Who coined the term RISC?
+a) David Patterson
+b) von Neumann
+c) Michael J Flynn
+d) Harvard
+
+Answer: a
+
+14. Which of the following is an 8-bit RISC Harvard architecture?
+a) AVR
+b) Zilog80
+c) 8051
+d) Motorola 6800
+
+Answer: a
+
+15. Which of the following processors has CISC architecture?
+a) AVR
+b) Atmel
+c) Blackfin
+d) Zilog Z80
+
+Answer: d

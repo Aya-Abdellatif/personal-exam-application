@@ -1,0 +1,11 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following is the pin efficient method of communicating between other devices?,serial port,parallel port,peripheral port,memory port,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following depends the number of bits that are transferred?,wait statement,ready statement,time,counter,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following is the most commonly used buffer in the serial porting?,LIFO,FIFO,FILO,LILO,b
+Basic Peripherals,Serial Port and Serial Peripheral Interface,What does SPI stand for?,serial parallel interface,serial peripheral interface,sequential peripheral interface,sequential port interface,b
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which allows the full duplex synchronous communication between the master and the slave?,SPI,serial port,I2C,parallel port,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following processor uses SPI for interfacing?,8086,8253,8254,MC68HC11,d
+Basic Peripherals,Serial Port and Serial Peripheral Interface,In which register does the data is written in the master device?,index register,accumulator,SPDR,status register,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,What happens when 8 bits are transferred in the SPI?,wait statement,ready statement,interrupt,remains unchanged,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which signal is used to select the slave in the serial peripheral interfacing?,slave select,master select,interrupt,clock signal,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface, How much time period is necessary for the slave to receive the interrupt and transfer the data?,4 clock time period,8 clock time period,16 clock time period,24 clock time period,b

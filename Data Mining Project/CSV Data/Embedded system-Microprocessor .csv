@@ -1,0 +1,14 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Microprocessor ,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
+Embedded system,Microprocessor ,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
+Embedded system,Microprocessor ,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
+Embedded system,Microprocessor ,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
+Embedded system,Microprocessor ,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
+Embedded system,Microprocessor ,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
+Embedded system,Microprocessor ,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
+Embedded system,Microprocessor ,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
+Embedded system,Microprocessor ,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
+Embedded system,Microprocessor , Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
+Embedded system,Microprocessor , Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
+Embedded system,Microprocessor , What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
+Embedded system,Microprocessor , What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input, 

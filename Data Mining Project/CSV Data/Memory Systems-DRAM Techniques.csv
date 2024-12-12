@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,DRAM Techniques,Which is the very basic technique of refreshing DRAM?,refresh cycle,burst refresh,distributive refresh,software refresh,a
+Memory Systems,DRAM Techniques,How is the refresh rate calculated?,by refresh time,by the refresh cycle,by refresh cycle and refresh time,refresh frequency and refresh cycle,c
+Memory Systems,DRAM Techniques,Which is the commonly used refresh rate?,125 microseconds,120 microseconds,130 microseconds,135 microseconds,a
+Memory Systems,DRAM Techniques,How can we calculate the length of the refresh cycle?,twice of normal access,thrice of normal access,five times of normal access,six times of normal access,a
+Memory Systems,DRAM Techniques,What type of error occurs in the refresh cycle of the DRAM?,errors in data,power loss,timing issues,not accessing data,c
+Memory Systems,DRAM Techniques,What is the worst case delay of the burst refresh in 4M by 1 DRAM?,0.4ms,0.2ms,170ns,180ns,b
+Memory Systems,DRAM Techniques,Which refresh techniques depends on the size of time critical code for calculating the refresh cycle?,burst refresh,distributed refresh,refresh cycle,software refresh,b
+Memory Systems,DRAM Techniques,Which of the following uses a timer for refresh technique?,RAS,CBR,software refresh,CAS,c
+Memory Systems,DRAM Techniques,What is the main disadvantage in the software refresh of the DRAM?,timer,delay,programming delay,debugging,d
+Memory Systems,DRAM Techniques, Which refresh technique is useful for low power consumption?,Software refresh,CBR,RAS,Burst refresh,b
+Memory Systems,DRAM Techniques, Which refreshing techniques generate a recycled address?,RAS,CBR,Distributed refresh,Software refresh,a
+Memory Systems,DRAM Techniques, Which of the following uses a software refresh in the DRAM?,8086,80386,Pentium,Apple II personal computer,d
+Memory Systems,DRAM Techniques, How do CBR works?,by asserting CAS before RAS,by asserting CAS after RAS,by asserting RAS before CAS,by asserting CAS only,a
+Memory Systems,DRAM Techniques, Which of the refresh circuit is similar to CBR?,software refresh,hidden refresh,burst refresh,distribute refresh,b
+Memory Systems,DRAM Techniques, Which technology is standardized in DRAM for determining the maximum time interval between the refresh cycle?,IEEE,RAPID,JEDEC,UNESCO,c

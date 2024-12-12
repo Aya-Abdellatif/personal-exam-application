@@ -1,0 +1,342 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Basic Peripherals,I2C,What does I2C stand for?,inter-IC,intra-IC,individual integrated chip,intel IC,a
+Basic Peripherals,I2C,Which company developed I2C?,Intel,Motorola,Phillips,IBM,c
+Basic Peripherals,I2C,Which of the following is the most known simple interface?,I2C,Serial port,Parallel port,SPI,a
+Basic Peripherals,I2C,Which are the two lines used in the I2C?,SDA and SPDR,SPDR and SCL,SDA and SCL,SCL and status line,c
+Basic Peripherals,I2C,Which of the following developed P82B715?,Philips,Intel,IBM,Motorola,a
+Basic Peripherals,I2C,Which pin provides the reference clock for the transfer of data?,SDA,SCL,SPDR,Interrupt pin,b
+Basic Peripherals,I2C,Which of the following are the three hardware signals?,"START, STOP, ACKNOWLEDGE","STOP, TERMINATE, END","START, SCL, SDA","STOP, SCL, SDA",a
+Basic Peripherals,I2C,Which of the following performs the START signal?,master,slave,CPU,memory,a
+Basic Peripherals,I2C,Which of the following are handshake signals?,START,STOP,ACKNOWLEDGE,START and STOP,c
+Basic Peripherals,I2C, A packet is also referred to as,postcard,telegram,letter,data,b
+Basic Peripherals,I2C, Which of the following byte performs the slave selection?,first byte,second byte,terminal byte,eighth byte,a
+Basic Peripherals,I2C,Which of the following indicates the type of operation that the master requests?,address value,initial value,terminal count,first byte,a
+Basic Peripherals,I2C,How can both single byte and the double byte address slave use the same bus?,extended memory,extended address,peripheral count,slave bus,b
+Basic Peripherals,I2C,Which counter selects the next register in the I2C?,auto-incrementing counter,decrementing counter,auto-decrementing counter,terminal counter,a
+Basic Peripherals,I2C,Which is an efficient method for the EEPROM?,combined format,auto-incrementing counter,register set,single format,a
+Basic Peripherals,I2C,Which of the following uses two data transfers?,auto-incrementing counter,auto-decrementing counter,combined format,single format,c
+Basic Peripherals,I2C,Which of the following is efficient for the small number of registers?,auto-incrementing counter,auto-decrementing counter,combined format,single format,a
+Basic Peripherals,I2C,Which can determine the timeout value?,polling,timer,combined format,watchdog timer,a
+Basic Peripherals,I2C,How is bus lockup avoided?,timer and polling,combined format,terminal counter,counter,a
+Basic Peripherals,I2C,Which of the following can determine if two masters start to use the bus at the same time?,counter detect,collision detect,combined format,auto-incremental counter,b
+Basic Peripherals,I2C, Which ports are used in the multi-master system to avoid errors?,unidirectional port,bidirectional port,multi directional port,tridirectional port,b
+Basic Peripherals,Parallel Ports,Which of the following can transfer multiple bits of data simultaneously?,serial port,sequential port,concurrent unit,parallel port,d
+Basic Peripherals,Parallel Ports,Which of the following are interfaced as inputs to the parallel ports?,LEDs,switch,alphanumeric display,seven segmented display,b
+Basic Peripherals,Parallel Ports,Which of the following are interfaced as the outputs to the parallel ports?,keyboards,switches,LEDs,knobs,c
+Basic Peripherals,Parallel Ports,How many registers are there to control the parallel port in the basic form?,1,3,2,5,c
+Basic Peripherals,Parallel Ports,Which of the following is also known as tri-state?,output port,input port,parallel port,output-input port,a
+Basic Peripherals,Parallel Ports,How buffers are enabled in the parallel ports?,by the data register,by data direction register,by individual control register,by data and individual control register,b
+Basic Peripherals,Parallel Ports,Which of the following registers offers high impedance?,data register,data direction register,individual control bit,data register and data direction register,c
+Basic Peripherals,Parallel Ports,Which of the following can be used as a chip select?,multifunction I/O port,parallel port,DMA port,memory port,a
+Basic Peripherals,Parallel Ports,Which of the following is necessary for the parallel input-output port?,inductor,pull-up resistor,push-up resistor,capacitor,b
+Basic Peripherals,Parallel Ports, Which of the following can be described as general-purpose?,multifunction I/O port,input port,dma port,output port,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following is the pin efficient method of communicating between other devices?,serial port,parallel port,peripheral port,memory port,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following depends the number of bits that are transferred?,wait statement,ready statement,time,counter,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following is the most commonly used buffer in the serial porting?,LIFO,FIFO,FILO,LILO,b
+Basic Peripherals,Serial Port and Serial Peripheral Interface,What does SPI stand for?,serial parallel interface,serial peripheral interface,sequential peripheral interface,sequential port interface,b
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which allows the full duplex synchronous communication between the master and the slave?,SPI,serial port,I2C,parallel port,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which of the following processor uses SPI for interfacing?,8086,8253,8254,MC68HC11,d
+Basic Peripherals,Serial Port and Serial Peripheral Interface,In which register does the data is written in the master device?,index register,accumulator,SPDR,status register,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,What happens when 8 bits are transferred in the SPI?,wait statement,ready statement,interrupt,remains unchanged,c
+Basic Peripherals,Serial Port and Serial Peripheral Interface,Which signal is used to select the slave in the serial peripheral interfacing?,slave select,master select,interrupt,clock signal,a
+Basic Peripherals,Serial Port and Serial Peripheral Interface, How much time period is necessary for the slave to receive the interrupt and transfer the data?,4 clock time period,8 clock time period,16 clock time period,24 clock time period,b
+Basic Peripherals,Timer,Which of the following helps in the generation of waveforms?,timer,inputs,outputs,memory,a
+Basic Peripherals,Timer,Which bit size determines the slowest frequency?,counter size,pre-scalar value,counter,timer,b
+Basic Peripherals,Timer,Which bit size determines the maximum value of the counter-derived period?,counter size,pre-scalar value,bit size,byte size,a
+Basic Peripherals,Timer,Which of the following timer is suitable for IBM PC?,IA-32,Intel 8253,Intel 64,8051 timer,b
+Basic Peripherals,Timer,Which of the following is mode 0 in 8253?,interrupt on start count,interrupt for wait statement,interrupt on terminal count,no interrupt,c
+Basic Peripherals,Timer,Which determines the mode 1 in the Intel 8253?,interrupt on terminal count,programmable one-shot,rate generator,square wave rate generator,b
+Basic Peripherals,Timer,Which mode of 8253 can provide pulse width modulation?,programmable one-shot,square wave rate generator,software triggered strobe,hardware triggered strobe,a
+Basic Peripherals,Timer,Which of the following is the mode 3 in the Intel timer 8253?,rate generator,hardware triggered strobe,square wave rate generator,software triggered strobe,a
+Basic Peripherals,Timer,Which of the following determines the rate generation?,divide by N,multiply by N,addition by N,subtraction by N,a
+Basic Peripherals,Timer, Which mode of the Intel 8253 timer can generate a square wave?,mode 1,mode 2,mode 3,mode 4,d
+Basic Peripherals,Timer,Which mode of the Intel timer 8253 provides a software watchdog timer?,rate generator,hardware triggered strobe,square wave rate generator,software triggered strobe,d
+Basic Peripherals,Timer,Which of the following mode is similar to the mode 4 of the 8253 timer?,mode 5,mode 6,mode 0,mode 1,a
+Basic Peripherals,Timer,Which pin of 8253 is used for the generation of an external interrupt signal?,OUT pin,IN pin,Interrupt pin,Ready pin,a
+Basic Peripherals,Timer,Which timer architecture can provide a higher resolution than Intel 8253?,Intel 8253,Intel 8254,8051 timer,MC68230,d
+Basic Peripherals,Timer,How many bit architecture does MC68230 have?,16,24,32,40,b
+Basic Peripherals,Timer,How many bit bus does MC68230 have?,2,4,8,16,c
+Basic Peripherals,Timer,Which of the following is a timer processor?,Intel 8253,MC146818,MC68332,Intel 8259,c
+Basic Peripherals,Timer,What is the running frequency of MC68332?,12 MHz,14 MHz,16 MHz,18 MHz,c
+Basic Peripherals,Timer,Which of the following is a real time clock?,MC146818,8253,8259,8254,a
+Embedded system ,Digital Signal Processing,What are the factors of filters which are determined by the speed of the operation in a digital signal processor?,attenuation constant,frequency,bandwidth,phase,c
+Embedded system ,Digital Signal Processing,How many tables does an FIR function of a digital signal processor possess?,1,2,3,4,b
+Embedded system ,Digital Signal Processing,Why is said that branch prediction is not applicable in a digital signal processor?,low bandwidth,high bandwidth,low frequency,high frequency,a
+Embedded system ,Digital Signal Processing,Which architecture can one overcome the low bandwidth issue in MC6800 family?,RISC,CISC,von Neumann,program stored,a
+Embedded system ,Digital Signal Processing,Which architecture in digital signal processor reduces the execution time?,Harvard,CISC,program storage,von Neumann,a
+Embedded system ,Digital Signal Processing,Which of the following processors also can work as a digital signal processor?,8086,8088,8080,ARM9E,d
+Embedded system ,Digital Signal Processing,What types of modules are used in the digital signal processor to form the loop structure?,modulo-timer,modulo-counter,timer,external timer,b
+Embedded system ,Digital Signal Processing,Name a processor which is used in digital audio appliances.,8086,Motorola DSP56000,80486,8087,b
+Embedded system ,Digital Signal Processing,How many bits does DSP56000 processor have?,8,16,24,32,c
+Embedded system ,Digital Signal Processing, How many buses did DSP56000 possess?,2,3,4,5,b
+Embedded system ,Digital Signal Processing, Which of the following architecture does DSP56000 possess?,Harvard,von Neumann,CISC,program-stored,a
+Embedded system ,Digital Signal Processing, What does AAU stand for?,arithmetic address unit,address arithmetic unit,address access unit,arithmetic access unit,b
+Embedded system ,Digital Signal Processing, How many address register does the AAU of a DSP56000 have?,8,16,24,32,c
+Embedded system ,Digital Signal Processing, How many registers does a DSP56000 have?,4,5,7,6,c
+Embedded system ,Digital Signal Processing, Which of the following bits are used for sign extension in DSP56000?,upper 8 bits of the stack pointer,lower 8 bits of the stack pointer,lower 8 bits of the program counter,upper 8 bits of the program counter,d
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit register set does RISC 1 model used?,138*24,138*32,69*16,69*32,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor commercializes the Berkeley RISC model?,SPARC,Stanford,RISC-1,RISC,a
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many transistors does RISC 1 possess?,44000,45000,44500,45500,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many registers does RISC 1 model have?,68,58,78,88,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the architectures are made to speed up the processor?,CISC,RISC,program stored,von Neumann,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How did 8086 pass its control to 8087?,BUSY instruction,ESCAPE instruction,CONTROL instruction,fetch 8087,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor supports MMX instructions?,8080,80486,Intel Pentium,80386,c
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processors has a speculative execution?,80486,P1,Intel Pentium,Pentium pro,d
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit accumulator does DSP56000 have?,28,56,112,14,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing, How many additional registers does DSP56000 have?,2,4,6,8,b
+Embedded system ,The Berkeley RISC Model and Digital Signal Processing, What does MAC instruction of DSP56000 stand for?,multiply accumulator,multiple access,multiple accounting,multiply accumulator counter,a
+Embedded system ,The Sun SPARC RISC Model,What does SPARC stand for?,scalable processor architecture,speculating architecture,speculating processor,scaling Pentium architecture,a
+Embedded system ,The Sun SPARC RISC Model,How many bits does SPARC have?,8,16,32,64,c
+Embedded system ,The Sun SPARC RISC Model,Which company developed SPARC?,intel,IBM,Motorola,sun microsystem,d
+Embedded system ,The Sun SPARC RISC Model,What improves the context switching and parameter passing?,register windowing,large register,stack register,program counter,a
+Embedded system ,The Sun SPARC RISC Model,How many external interrupts does SPARC processor support?,5,10,15,20,c
+Embedded system ,The Sun SPARC RISC Model,Which level is an in-built nonmaskable interrupt in SPARC processor?,15,14,13,12,a
+Embedded system ,The Sun SPARC RISC Model,How many instructions does SPARC processor have?,16,32,64,128,c
+Embedded system ,The Sun SPARC RISC Model,What is generated by an external interrupt in SPARC?,internal trap,external trap,memory trap,interfaced trap,a
+Embedded system ,The Sun SPARC RISC Model,"When an external interrupt is generated, what type of mode does the processor supports?",real mode,virtual mode,protected mode,supervisor mode,d
+Embedded system ,The Sun SPARC RISC Model, Where is trap vector table located in SPARC processor?,program counter,Y register,status register,trap base register,d
+Embedded system ,The Sun SPARC RISC Model, How many bits does SPARC-V9 processor have?,16,32,64,128,c
+Embedded system ,The Sun SPARC RISC Model, What are the three modules in the SPARC processor?,"IU, FPU, CU","SP, DI, SI","AX, BX, CX","CU, CH, CL",a
+Embedded system ,The Sun SPARC RISC Model, How many floating point register does the FPU of the SPARC have?,16 128-bit,32 128-bit,64 128-bit,10 128-bit,a
+Embedded system ,The Sun SPARC RISC Model, Which module of SPARC contains the general purpose registers?,IU,FPU,CU,control unit,a
+Embedded system ,Types of Processors,What shows the brightness of the pixel in a digital signal processor?,luminance,transparent,chrominance,opaque,a
+Embedded system ,Types of Processors,What is the color format of chrominance in a digital signal processor?,VGBA,VIBGYOR,White,RGBA,d
+Embedded system ,Types of Processors,Which of the following processor are designed to perform calculations in graphics rendering?,GPU,digital signal processor,microprocessor,microcontroller,a
+Embedded system ,Types of Processors,Which of the processor is a good match for applications such as video games?,GPU,VLIW,Coprocessor,Microcontroller,a
+Embedded system ,Types of Processors,Which of the following statement is true for concurrency?,different parts of the program executes physically,different parts of the program executes sequentially,different parts of the program executes conceptually,different parts of the program executes sequentially and physically,c
+Embedded system ,Types of Processors,Which is an imperative language?,C program,SQL,XQuery,Concurrent model of HDL,a
+Embedded system ,Types of Processors,Which of the following instructions supports parallel execution?,VLIW,TTA,ALU operation,Test-and-set instructions,a
+Embedded system ,Types of Processors,Who invented VLIW architecture?,Josh Fisher,John Ellis,John Ruttenberg,John Oâ€™Donnell,a
+Embedded system ,Types of Processors,What is ILP?,instruction-level parallelism,instruction-level panel,instruction-language panel,inter-language parallelism,a
+Embedded system ,Types of Processors, Which ILP supports the ALU division?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system ,Types of Processors, Which is a vector processor?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system ,Types of Processors, Which of the following architecture supports out-of-order execution?,RISC,CISC,Superscalar,Subword parallelism,c
+Embedded system ,Types of Processors, Which is an example of superscalar architecture?,Pentium 4,8086,80386,Pentium pro,a
+Embedded system ,Types of Processors, Which of the following is a combination of several processors on a single chip?,Multicore architecture,RISC architecture,CISC architecture,Subword parallelism,a
+Embedded system ,Types of Processors, Which is an example of the multi-core processor which possesses 10 cores?,Intel Xeon E7-2850,AMD Phenom IIX2,Intel core duo,AMD Phenom IIX3,a
+Embedded system,Architecture,Which one of the following is the successor of 8086 and 8088 processor?,80286,80387,8051,8087,a
+Embedded system,Architecture,Which is the processor behind the IBM PC AT?,80387,8088,80286,8086,c
+Embedded system,Architecture,Which are the two modes of 80286?,Real mode and protected mode,Mode1 and mode2,Alternate and main,Mode A and mode B,a
+Embedded system,Architecture,Which register set of 80286 form the same register set of 8086 processor?,"AH,AL",BX,"BX,AX",EL,a
+Embedded system,Architecture,Which are the 4 general purposes 16 bit register in Intel 80286?,"CS,DS,SS,ES","AX,BX,CX,DX","IP,FL,DI,SI","DI,SI,BP,SP",b
+Embedded system,Architecture,Which are the 4 segmented registers in intel 80286?,"AX,BX,CX,DX","AS,BS,CS,DS","SP,DI,SI,BP","IP,FL,SI,DI",b
+Embedded system,Architecture,How is expanded memory accessed in 80286?,Paging,Interleaving,RAM,External storage,a
+Embedded system,Architecture,When is the register set gets expanded in 80286?,In real mode,In expanded mode,In protected mode,Interrupt mode,c
+Embedded system,Architecture,Which are the two register available in the protected mode of 80286?,General and segmented,General and pointer,Index and base pointer,Index and segmented,c
+Embedded system,Architecture, What kind of support does 80286 access in protected mode?,Real mode,Address access,Data access,Virtual memory,d
+Embedded system,Architecture, Which of the following processor possess memory management?,8086,8088,80286,8051,c
+Embedded system,Architecture, What is the size of the address bus in 80286?,20,24,16,32,b
+Embedded system,Architecture, Which is the interrupt vector in 80286 which functions for stack fault?,11,12,14,16,b
+Embedded system,Architecture, Which is the interrupt vector that functions as invalid opcode?,9,8,7,6,d
+Embedded system,Architecture, Which of the following possess the same set of instructions?,8088 and 80286,8086 and 80286,8051 and 8088,8051 and 8086,b
+Embedded system,Coprocessor of Intel,Which of the following is a coprocessor of 80386?,80387,8087,8089,8088,a
+Embedded system,Coprocessor of Intel,Name the processor which helps in floating point calculations.,microprocessor,microcontroller,coprocessor,controller,c
+Embedded system,Coprocessor of Intel,Which is the coprocessor of 8086?,8087,8088,8086,8080,a
+Embedded system,Coprocessor of Intel,Which of the following is a coprocessor of Motorola 68000 family?,68001,68011,68881,68010,c
+Embedded system,Coprocessor of Intel,"Which of the following processors can perform exponential, logarithmic and trigonometric functions?",8086,8087,8080,8088,b
+Embedded system,Coprocessor of Intel,How many stack register does an 8087 have?,4,8,16,32,b
+Embedded system,Coprocessor of Intel,Which of the following processor can handle infinity values?,8080,8086,8087,8088,c
+Embedded system,Coprocessor of Intel,Which coprocessor supports affine closure?,80187,80287,80387,8088,b
+Embedded system,Coprocessor of Intel,Which one is the floating point coprocessor of 80286?,8087,80187,80287,80387,c
+Embedded system,Coprocessor of Intel, How many pins does 8087 have?,40 pin DIP,20 pin DIP,40 pins,20 pins,a
+Embedded system,Coprocessor of Intel, What is the clock frequency of 8087?,10 MHz,5 MHz,6 MHz,4 MHz,b
+Embedded system,Coprocessor of Intel, How are negative numbers stored in a coprocessor?,1â€™s complement,2â€™s complement,decimal,gray,b
+Embedded system,Coprocessor of Intel, How many bits are used for storing signed integers?,2,4,8,16,d
+Embedded system,Coprocessor of Intel, Which of the processor has an internal coprocessor?,8087,80287,80387,80486DX,d
+Embedded system,Coprocessor of Intel, What are the two major sections in a coprocessor?,control unit and numeric control unit,integer unit and control unit,floating point unit and coprocessor unit,coprocessor unit and numeric control unit,a
+Embedded system,Features of Intel,What are the three stages included in pipelining of 80386?,"Fetch, decode, execute","Fetch, execute, decode","Execute, fetch, decode","Decode, execute, fetch",a
+Embedded system,Features of Intel,How instructions and data are accessed to pipeline stages of 80486 processor?,Through internal unified cache,Through external unified cache,Through external cache,Through multiple caches,a
+Embedded system,Features of Intel,Which of the following processor possesses a similar instruction of 80486?,8086,80286,80386,8080,c
+Embedded system,Features of Intel,What are the two external interrupt signals in 80386?,IV and NMI,NMI and INTR,INTR and IV,PC and NMI,b
+Embedded system,Features of Intel,How many bit vector number is used in an interrupt cycle of 80386?,4,8,16,32,b
+Embedded system,Features of Intel,In how many modes does 80386 can run?,2,4,3,5,c
+Embedded system,Features of Intel,How many bit flag register does 80386 have?,8,16,32,64,c
+Embedded system,Features of Intel,Which processor is the derivative of 80386DX?,80387,80386SX,80386 DDX,8087,b
+Embedded system,Features of Intel,Which of the following is a portable device of Intel?,80386DX,8087,80386SL,80386SX,c
+Embedded system,Features of Intel, Which of the processor has a 5 stage pipeline?,80386,80486,80286,80386DX,b
+Embedded system,Features of Intel, Which of the following processor can execute two instructions per cycle?,80486,80386DX,Intel Pentium,80386,c
+Embedded system,Features of Intel, Which of the following processors have two five-stage pipelines?,80486,80386,Intel Pentium,80386DX,c
+Embedded system,Features of Intel, In which processor does the control register and system management mode register first appeared?,80386,80386SL,80386DX,80486,b
+Embedded system,Features of Intel, Which is the next successor of Intel Pentium?,Pentium pro,P1,P2,P5,a
+Embedded system,Features of Intel, Which of the following processor allows a multiple branch prediction?,80386,P1,Intel Pentium,Intel Pentium pro,d
+Embedded system,Memory,It retains its content when power is removed. What type of memory is this?,Volatile memory,Nonvolatile memory,RAM,MSRA,b
+Embedded system,Memory,Name a volatile memory.,RAM,EPROM,ROM,EEPROM,a
+Embedded system,Memory,Name a nonvolatile memory.,ROM,RAM,SRAM,DRAM,a
+Embedded system,Memory,The initial routine is often referred to as,Initial program,Bootstrap program,Final program,Initial embedded program,b
+Embedded system,Memory,What kind of socket does an external EPROM to plugged in for prototyping?,Piggyback,Single socket,Multi-socket,Piggyback reset socket,a
+Embedded system,Memory,Which one of the following is UV erasable?,Flash memory,SRAM,EPROM,DRAM,c
+Embedded system,Memory,What kind of memory does an OTP have?,SRAM,RAM,EPROM,DRAM,c
+Embedded system,Memory,Which type of memory is suitable for low volume production of embedded systems?,ROM,Volatile,Non-volatile,RAM,c
+Embedded system,Memory,Which is the single device capable of providing prototyping support for a range of microcontroller?,ROM,Umbrella device,OTP,RAM,b
+Embedded system,Memory, What type of memory is suitable for high volume production?,RAM,ROM,EPROM,EEPROM,b
+Embedded system,Memory, What type of memory is suitable for medium volume production?,Umbrella devices,OTP,ROM,RAM,b
+Embedded system,Memory, How an embedded system communicate with the outside world?,Peripherals,Memory,Input,Output,a
+Embedded system,Memory, How the input terminals are associated with external environments?,Actuators,Sensors,Inputs,Outputs,b
+Embedded system,Memory, Which of the following are external pins whose logic state can be controlled by the processor to either be a logic zero or logic one is known as,Analogue value,Display values,Binary values,Time derived digital outputs,c
+Embedded system,Memory, What kind of visual panel is used for seven segmented display?,LED,LCD,Binary output,Analogue output,b
+Embedded system,Microcontroller,Which one of the following is a microcontroller from Motorola?,MC68HC05,4004,MIPS,8080,a
+Embedded system,Microcontroller,Which is the first microcontroller?,8051,Arm,TMS1000,Intel 4004,c
+Embedded system,Microcontroller,How many bits does MC68HC05 possess?,4,8,16,32,b
+Embedded system,Microcontroller,What is the bit size of the program counter in MC68HC05?,7,9,13,17,c
+Embedded system,Microcontroller,Which of the following microcontroller is used in engine management system?,MC68HC05,MC68HC11,Intel 80286,Intel 8086,b
+Embedded system,Microcontroller,Which is the concatenated register of MC68HC11?,D,X,IP,DI,a
+Embedded system,Microcontroller,What does CCR stand for?,Condition code register,Computing code register,Complex code register,Code control register,a
+Embedded system,Microcontroller,How many bytes of EPROM does MC68HC7054A possess?,176 bytes,240 bytes,4144 bytes,1024 bytes,c
+Embedded system,Microcontroller,Which of the following is an 8-bit command in MC68HC11?,Add,Shift,Multiply,Subtract,c
+Embedded system,Microcontroller, Which one of the following is an asynchronous communication channel?,SPI,MUDs,MOO,VOIP,a
+Embedded system,Microprocessor ,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
+Embedded system,Microprocessor ,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
+Embedded system,Microprocessor ,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
+Embedded system,Microprocessor ,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
+Embedded system,Microprocessor ,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
+Embedded system,Microprocessor ,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
+Embedded system,Microprocessor ,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
+Embedded system,Microprocessor ,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
+Embedded system,Microprocessor ,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
+Embedded system,Microprocessor , Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
+Embedded system,Microprocessor , Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
+Embedded system,Microprocessor , What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
+Embedded system,Microprocessor , What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input, 
+Embedded System,Microprocessor,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
+Embedded System,Microprocessor,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
+Embedded System,Microprocessor,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
+Embedded System,Microprocessor,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
+Embedded System,Microprocessor,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
+Embedded System,Microprocessor,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
+Embedded System,Microprocessor,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
+Embedded System,Microprocessor,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
+Embedded System,Microprocessor,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
+Embedded System,Microprocessor, Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
+Embedded System,Microprocessor, Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
+Embedded System,Microprocessor, What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
+Embedded System,Microprocessor, What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input,c
+Embedded system,Processor ,Which one of the following offers CPUs as integrated memory or peripheral interfaces?,Microcontroller,Microprocessor,Embedded system,Memory system,a
+Embedded system,Processor ,Which of the following offers external chips for memory and peripheral interface circuits?,Microcontroller,Microprocessor,Peripheral system,Embedded system,b
+Embedded system,Processor ,How many bits does an MC6800 family have?,16,32,4,8,d
+Embedded system,Processor ,Which of the following is a 4-bit architecture?,MC6800,8086,80386,National COP series,d
+Embedded system,Processor ,What is CISC?,Computing instruction set complex,Complex instruction set computing,Complimentary instruction set computing,Complex instruction set complementary,b
+Embedded system,Processor ,How is the protection and security for an embedded system made?,OTP,IPR,Memory disk security,Security chips,b
+Embedded system,Processor ,Which of the following possesses a CISC architecture?,MC68020,ARC,Atmel AVR,Blackfin,a
+Embedded system,Processor ,Which of the following is a RISC architecture?,80286,MIPS,Zilog Z80,80386,b
+Embedded system,Processor ,Which one of the following is board based system?,Data bus,Address bus,VMEbus,DMA bus,c
+Embedded system,Processor , VME bus stands for,Versa module Europa bus,Versa module embedded bus,Vertical module embedded bus,Vertical module Europa bus,a
+Embedded system,RISC Processor,Which are the processors based on RISC?,SPARC,80386,MC68030,MC68020,a
+Embedded system,RISC Processor,What is 80/20 rule?,80% instruction is generated and 20% instruction is executed,80% instruction is executed and 20% instruction is generated,80%instruction is executed and 20% instruction is not executed,80% instruction is generated and 20% instructions are not generated,a
+Embedded system,RISC Processor,Which of the architecture is more complex?,SPARC,MC68030,MC68030,8086,a
+Embedded system,RISC Processor,Which is the first company who defined RISC architecture?,Intel,IBM,Motorola,MIPS,b
+Embedded system,RISC Processor,Which of the following processors execute its instruction in a single cycle?,8086,8088,8087,MIPS R2000,d
+Embedded system,RISC Processor,How is memory accessed in RISC architecture?,load and store instruction,opcode instruction,memory instruction,bus instruction,a
+Embedded system,RISC Processor,Which of the following has a Harvard architecture?,EDSAC,SSEM,PIC,CSIRAC,c
+Embedded system,RISC Processor,Which of the following statements are true for von Neumann architecture?,shared bus between the program memory and data memory,separate bus between the program memory and data memory,external bus for program memory and data memory,external bus for data memory only,a
+Embedded system,RISC Processor,What is CAM stands for?,content-addressable memory,complex addressable memory,computing addressable memory,concurrently addressable memory,a
+Embedded system,RISC Processor, Which of the following processors uses Harvard architecture?,TEXAS TMS320,80386,80286,8086,a
+Embedded system,RISC Processor, Which company further developed the study of RISC architecture?,Intel,Motorola,university of Berkeley,MIPS,c
+Embedded system,RISC Processor, Princeton architecture is also known as,von Neumann architecture,Harvard,RISC,CISC,a
+Embedded system,RISC Processor, Who coined the term RISC?,David Patterson,von Neumann,Michael J Flynn,Harvard,a
+Embedded system,RISC Processor, Which of the following is an 8-bit RISC Harvard architecture?,AVR,Zilog80,8051,Motorola 6800,a
+Embedded system,RISC Processor, Which of the following processors has CISC architecture?,AVR,Atmel,Blackfin,Zilog Z80,d
+mbedded system,Accumulator Processor,"Which is the first device by Intel, that started the microprocessor revolution?",8080,8086,8087,8088,a
+mbedded system,Accumulator Processor,Which is the first microprocessor by Motorola?,MC6800,MC68001,MIPS,PowerPC,a
+mbedded system,Accumulator Processor,Motorola MC6800 is a how many-bit processor?,4,8,16,32,b
+mbedded system,Accumulator Processor,How many accumulators does an MC6800 have?,1,2,3,4,b
+mbedded system,Accumulator Processor,How many bits does an accumulator register of MC6800 have?,8,16,32,4,a
+mbedded system,Accumulator Processor,What is the purpose of an accumulator?,Storing data and performing logical operations,Storing data and performing arithmetic and logical operations,Storing addresses,Pointer,b
+mbedded system,Accumulator Processor,Which of the following is the area of memory that is used for temporary storage?,Register,Stack,Accumulator,Hard Disk,b
+mbedded system,Accumulator Processor,How a stack is accessed?,By using code segment pointer,By using data segment register,By using stack segment register,By using heap segment register,c
+mbedded system,Accumulator Processor,PUSH-POP mechanism is seen in _______,Stack pointer,Register,Memory,Index register,a
+mbedded system,Accumulator Processor, What is the range of values an 8-bit register can store?,128,64,256,32,c
+mbedded system,Accumulator Processor, What is the address range in 80286?,1 Mbytes,2 Mbytes,16 Mbytes,32 mbytes,c
+mbedded system,Accumulator Processor, Which is the first 32-bit member of Intel?,8086,8088,80286,80386,d
+mbedded system,Accumulator Processor, What supports multitasking in 80386?,Read mode,External paging memory management unit,Paging and segmentation,On-chip paging memory management unit,d
+Memory Systems,DRAM Interfaces,In which pin does the data appear in the basic DRAM interfacing?,dout pin,din pin,clock,interrupt pin,a
+Memory Systems,DRAM Interfaces,What is the duration for memory refresh to remain compatible?,20 microseconds,12 microseconds,15 microseconds,10 microseconds,c
+Memory Systems,DRAM Interfaces,Which interfacing method lowers the speed of the processor?,basic DRAM interface,page mode interface,page interleaving,burst mode interface,a
+Memory Systems,DRAM Interfaces,What is EDO RAM?,extreme data operation,extended direct operation,extended data out,extended DRAM out,c
+Memory Systems,DRAM Interfaces,What is RDRAM?,refresh DRAM,recycle DRAM,Rambus DRAM,refreshing DRAM,c
+Memory Systems,DRAM Interfaces,Which of the following can transfer up to 1.6 billion bytes per second?,DRAM,RDRAM,EDO RAM,SDRAM,b
+Memory Systems,DRAM Interfaces,Which of the following cycle is larger than the access time?,write cycle,set up time,read cycle,hold time,c
+Memory Systems,DRAM Interfaces,Which mode of operation selects an internal page of memory in the DRAM interfacing?,page interleaving,page mode,burst mode,EDO RAM,b
+Memory Systems,DRAM Interfaces,What is the maximum time that the RAS signal can be asserted in the page mode operation?,5 microseconds,10 microseconds,15 microseconds,20 microseconds,b
+Memory Systems,DRAM Interfaces, Which of the following mode of operation in the DRAM interfacing has a page boundary?,burst mode,EDO RAM,page mode,page interleaving,c
+Memory Systems,DRAM Interfaces, Which mode offers the banking of memory in the DRAM interfacing technique?,page mode,basic DRAM interfacing,page interleaving,burst mode,c
+Memory Systems,DRAM Interfaces, Which of the following has a fast page mode RAM?,burst mode,page interleaving,EDO memory,page mode,c
+Memory Systems,DRAM Interfaces, Which mode reduces the need for fast static RAMs?,page mode,page interleaving,burst mode,EDO memory,c
+Memory Systems,DRAM Interfaces, Which of the following is also known as hyper page mode enabled DRAM?,page mode,EDO DRAM,burst EDO DRAM,page interleaving,b
+Memory Systems,DRAM Interfaces, What does BEDO DRAM stand for?,burst EDO DRAM,buffer EDO DRAM,BIBO EDO DRAM,bilateral EDO DRAM,a
+Memory Systems,DRAM Techniques,Which is the very basic technique of refreshing DRAM?,refresh cycle,burst refresh,distributive refresh,software refresh,a
+Memory Systems,DRAM Techniques,How is the refresh rate calculated?,by refresh time,by the refresh cycle,by refresh cycle and refresh time,refresh frequency and refresh cycle,c
+Memory Systems,DRAM Techniques,Which is the commonly used refresh rate?,125 microseconds,120 microseconds,130 microseconds,135 microseconds,a
+Memory Systems,DRAM Techniques,How can we calculate the length of the refresh cycle?,twice of normal access,thrice of normal access,five times of normal access,six times of normal access,a
+Memory Systems,DRAM Techniques,What type of error occurs in the refresh cycle of the DRAM?,errors in data,power loss,timing issues,not accessing data,c
+Memory Systems,DRAM Techniques,What is the worst case delay of the burst refresh in 4M by 1 DRAM?,0.4ms,0.2ms,170ns,180ns,b
+Memory Systems,DRAM Techniques,Which refresh techniques depends on the size of time critical code for calculating the refresh cycle?,burst refresh,distributed refresh,refresh cycle,software refresh,b
+Memory Systems,DRAM Techniques,Which of the following uses a timer for refresh technique?,RAS,CBR,software refresh,CAS,c
+Memory Systems,DRAM Techniques,What is the main disadvantage in the software refresh of the DRAM?,timer,delay,programming delay,debugging,d
+Memory Systems,DRAM Techniques, Which refresh technique is useful for low power consumption?,Software refresh,CBR,RAS,Burst refresh,b
+Memory Systems,DRAM Techniques, Which refreshing techniques generate a recycled address?,RAS,CBR,Distributed refresh,Software refresh,a
+Memory Systems,DRAM Techniques, Which of the following uses a software refresh in the DRAM?,8086,80386,Pentium,Apple II personal computer,d
+Memory Systems,DRAM Techniques, How do CBR works?,by asserting CAS before RAS,by asserting CAS after RAS,by asserting RAS before CAS,by asserting CAS only,a
+Memory Systems,DRAM Techniques, Which of the refresh circuit is similar to CBR?,software refresh,hidden refresh,burst refresh,distribute refresh,b
+Memory Systems,DRAM Techniques, Which technology is standardized in DRAM for determining the maximum time interval between the refresh cycle?,IEEE,RAPID,JEDEC,UNESCO,c
+Memory Systems,DRAM,Which memory storage is widely used in PCs and Embedded Systems?,SRAM,DRAM,Flash memory,EEPROM,b
+Memory Systems,DRAM,Which of the following memory technology is highly denser?,DRAM,SRAM,EPROM,Flash memory,a
+Memory Systems,DRAM,Which is the storage element in DRAM?,inductor,capacitor,resistor,mosfet,b
+Memory Systems,DRAM,Which one of the following is a storage element in SRAM?,capacitor,inductor,transistor,resistor,c
+Memory Systems,DRAM,Which of the following is more volatile?,SRAM,DRAM,ROM,RAM,b
+Memory Systems,DRAM,What is the size of a trench capacitor in DRAM?,1 Mb,4-256 Mb,8-128 Mb,64-128 Mb,b
+Memory Systems,DRAM,Which of the following capacitor can store more data in DRAM?,planar capacitor,trench capacitor,stacked-cell,non-polar capacitor,c
+Memory Systems,DRAM,"In which of the memories, does the data disappear?",SRAM,DRAM,Flash memory,EPROM,b
+Memory Systems,DRAM,Which of the following is the main factor which determines the memory capacity?,number of transistors,number of capacitors,size of the transistor,size of the capacitor,a
+Memory Systems,DRAM, What does VRAM stand for?,video RAM,verilog RAM,virtual RAM,volatile RAM,a
+Memory Systems,DRAM, What does TCR stand for?,temperature-compensated refresh,temperature-compensated recovery,texas CAS-RAS,temperature CAS-RAS,a
+Memory Systems,Memory Management,Which of the following have a 16 Mbytes addressed range?,PowerPC,M68000,DSP56000,TMS 320,b
+Memory Systems,Memory Management,Which of the following can destroy the accuracy in the algorithms?,delays,error signal,interrupt,mmu,a
+Memory Systems,Memory Management,How many numbers of ways are possible for allocating the memory to the modular blocks?,1,2,3,4,c
+Memory Systems,Memory Management,Which of the following is replaced with the absolute addressing mode?,relative addressing mode,protective addressing mode,virtual addressing mode,temporary addressing mode,a
+Memory Systems,Memory Management,What is the main purpose of the memory management unit?,address translation,large storage,reduce the size,provides address space,a
+Memory Systems,Memory Management,Which of the following provides stability to the multitasking system?,memory,DRAM,SRAM,Memory partitioning,d
+Memory Systems,Memory Management,Which of the following is used by the M68000 family?,M68000,80386,8086,80286,a
+Memory Systems,Memory Management,What can be done for the fine grain protection of the processor?,add extra description bit,add error signal,add wait stage,remains unchanged,a
+Memory Systems,Memory Management,Which of the following technique is used by the UNIX operating system?,logical address memory,physical address memory,virtual memory technique,translational address,c
+Memory Systems,Memory Management, Which of the following consist two lines of legs on both sides of a plastic or ceramic body?,SIMM,DIMM,Zig-zag,Dual in-line,d
+Memory Systems,Memory Management, Which package has high memory speed and change in the supply?,DIP,SIMM,DIMM,zig-zag,c
+Memory Systems,Memory Management, Which is a subassembly package?,dual-in-line,zig-zag,simm,ceramic shell,c
+Memory Systems,Memory Management, What is the required voltage of DIMM?,2V,2.2V,5V,3.3V,d
+Memory Systems,Memory Management, Which memory package has a single row of pins?,SIMM,DIP,SIP,zig-zag,c
+Memory Systems,Memory Management, What is the access time of MCM51000AP10?,100ns,80ns,60ns,40ns,a
+Memory Systems,Memory Organization,How many data lines does 256*4 have?,256,8,4,32,c
+Memory Systems,Memory Organization,How is the number of chips required is determined?,number of data lines,the minimum number of data,width of the data path from the processor,number of data lines and the width of the data path from the processor,d
+Memory Systems,Memory Organization,Where is memory address stored in a C program?,stack,pointer,register,accumulator,b
+Memory Systems,Memory Organization,Which is the term that is used to refer the order of bytes?,endianness,memory organisation,bit,register,a
+Memory Systems,Memory Organization,Which of the following processors uses big endian representation?,8086,ARM,PowerPC,Zilog Z80,c
+Memory Systems,Memory Organization,Which statement is true for a cache memory?,memory unit which communicates directly with the CPU,provides backup storage,a very high-speed memory to increase the speed of the processor,secondary storage,c
+Memory Systems,Memory Organization,Which of the following memory organisation have the entire memory available to the processor at all times?,segmented addressing,paging,virtual address,linear address,d
+Memory Systems,Memory Organization,How many memory locations can be accessed by 8086?,1 M,2 M,3 M,4 M,a
+Memory Systems,Memory Organization,Which of them is a memory that is allocated to the program in LIFO pattern?,stack,index,accumulator,base,a
+Memory Systems,Memory Organization, What does SIMM stand for?,single in-line memory module,single interrupt memory module,single information memory module,same-in-line memory module,a
+Memory Systems,Memory Organization, Which of the memory organisation is widely used in parity bit?,by 1 organisation,by 4 organisation,by 8 organisation,by 9 organisation,a
+Memory Systems,Memory Organization, Which configuration of memory organisation replaces By 1 organisation?,by 4 organisation,by 8 organisation,by 9 organisation,by 16 organisation,a
+Memory Systems,Memory Organization, Which shifting helps in finding the physical address in 8086?,shifting the segment by 8,shifting the segment by 6,shifting the segment by 4,shifting the segment by 2,c
+Memory Systems,Memory Organization, Which memory organisation is supported in wider memories?,by 8 organisation,by 16 organisation,by 9 organisation,by 4 organisation,b
+Memory Systems,Memory Organization, Which of the following is a plastic package used primarily for DRAM?,SIMM,DIMM,Zig-zag,Dual-in-line,c
+Memory Systems,Memory Technology,Which is the most basic non-volatile memory?,Flash memory,PROM,EPROM,ROM,d
+Memory Systems,Memory Technology,Who has invented flash memory?,Dr.Fujio Masuoka,John Ellis,Josh Fisher,John Ruttenberg,a
+Memory Systems,Memory Technology,Which of the following is serial access memory?,RAM,Flash memory,Shifters,ROM,c
+Memory Systems,Memory Technology,Which is the early form of non-volatile memory?,magnetic core memory,ferrimagnetic memory,anti-magnetic memory,anti-ferromagnetic,a
+Memory Systems,Memory Technology,Which of the following memories has more speed in accessing data?,SRAM,DRAM,EPROM,EEPROM,a
+Memory Systems,Memory Technology,"In which memory, the signals are multiplexed?",DRAM,SRAM,EPROM,EEPROM,a
+Memory Systems,Memory Technology,How many main signals are used with memory chips?,2,4,6,8,b
+Memory Systems,Memory Technology,What is the purpose of the address bus?,to provide data to and from the chip,to select a specified chip,to select a location within the memory chip,to select a read/write cycle,c
+Memory Systems,Memory Technology,Which are the two main types of processor connection to the motherboard?,sockets and slots,sockets and pins,slots and pins,pins and ports,a
+Memory Systems,Memory Technology, Which of the following has programmable hardware?,microcontroller,microprocessor,coprocessor,FPGA,d
+Memory Systems,Memory Technology, Who invented TriMedia processor?,Intel,IBM,Apple,NXP Semiconductor,d
+Memory Systems,SRAM,Why is SRAM more preferably in non-volatile memory?,low-cost,high-cost,low power consumption,transistor as a storage element,c
+Memory Systems,SRAM,Which of the following ahs refreshes control mechanism?,DRAM,SRAM,Battery backed-up SRAM,Pseudo-static RAM,d
+Memory Systems,SRAM,Which storage element is used by MAC and IBM PC?,CMOS,Transistor,Capacitor,Inductor,a
+Memory Systems,SRAM,Which type of storage element of SRAM is very fast in accessing data but consumes lots of power?,TTL,CMOS,NAND,NOR,a
+Memory Systems,SRAM,What is approximate data access time of SRAM?,4ns,10ns,2ns,60ns,a
+Memory Systems,SRAM,Who proposed the miniature card format?,Intel,IBM,MIPS,Apple,a
+Memory Systems,SRAM,How many MOSFETs are required for SRAM?,2,4,6,8,c
+Memory Systems,SRAM,Which of the following is an SRAM?,1T-RAM,PROM,EEPROM,EPROM,a
+Memory Systems,SRAM,Which of the following can access data even when the power supply is lost?,Non-volatile SRAM,DRAM,SRAM,RAM,a
+Memory Systems,SRAM, Which of the following can easily convert to a non-volatile memory?,SRAM,DRAM,DDR SRAM,Asynchronous DRAM,a

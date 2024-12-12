@@ -1,0 +1,122 @@
+topic : Embedded system
+subtopic : Coprocessor of Intel
+
+1. Which of the following is a coprocessor of 80386?
+a) 80387
+b) 8087
+c) 8089
+d) 8088
+
+Answer: a
+
+2. Name the processor which helps in floating point calculations.
+a) microprocessor
+b) microcontroller
+c) coprocessor
+d) controller
+
+Answer: c
+
+3. Which is the coprocessor of 8086?
+a) 8087
+b) 8088
+c) 8086
+d) 8080
+
+Answer: a
+
+4. Which of the following is a coprocessor of Motorola 68000 family?
+a) 68001
+b) 68011
+c) 68881
+d) 68010
+
+Answer: c
+
+5. Which of the following processors can perform exponential, logarithmic and trigonometric functions?
+a) 8086
+b) 8087
+c) 8080
+d) 8088
+
+Answer: b
+
+6. How many stack register does an 8087 have?
+a) 4
+b) 8
+c) 16
+d) 32
+
+Answer: b
+
+7. Which of the following processor can handle infinity values?
+a) 8080
+b) 8086
+c) 8087
+d) 8088
+
+Answer: c
+
+8. Which coprocessor supports affine closure?
+a) 80187
+b) 80287
+c) 80387
+d) 8088
+
+Answer: b
+
+9. Which one is the floating point coprocessor of 80286?
+a) 8087
+b) 80187
+c) 80287
+d) 80387
+
+Answer: c
+
+10. How many pins does 8087 have?
+a) 40 pin DIP
+b) 20 pin DIP
+c) 40 pins
+d) 20 pins
+
+Answer: a
+
+11. What is the clock frequency of 8087?
+a) 10 MHz
+b) 5 MHz
+c) 6 MHz
+d) 4 MHz
+
+Answer: b
+
+12. How are negative numbers stored in a coprocessor?
+a) 1’s complement
+b) 2’s complement
+c) decimal
+d) gray
+
+Answer: b
+
+13. How many bits are used for storing signed integers?
+a) 2
+b) 4
+c) 8
+d) 16
+
+Answer: d
+
+14. Which of the processor has an internal coprocessor?
+a) 8087
+b) 80287
+c) 80387
+d) 80486DX
+
+Answer: d
+
+15. What are the two major sections in a coprocessor?
+a) control unit and numeric control unit
+b) integer unit and control unit
+c) floating point unit and coprocessor unit
+d) coprocessor unit and numeric control unit
+
+Answer: a

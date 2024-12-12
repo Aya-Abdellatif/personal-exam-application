@@ -1,0 +1,122 @@
+Topic : Memory Systems
+Subtopic : DRAM Interfaces
+
+1. In which pin does the data appear in the basic DRAM interfacing?
+a) dout pin
+b) din pin
+c) clock
+d) interrupt pin
+
+Answer: a
+
+2. What is the duration for memory refresh to remain compatible?
+a) 20 microseconds
+b) 12 microseconds
+c) 15 microseconds
+d) 10 microseconds
+
+Answer: c
+
+3. Which interfacing method lowers the speed of the processor?
+a) basic DRAM interface
+b) page mode interface
+c) page interleaving
+d) burst mode interface
+
+Answer: a
+
+4. What is EDO RAM?
+a) extreme data operation
+b) extended direct operation
+c) extended data out
+d) extended DRAM out
+
+Answer: c
+
+5. What is RDRAM?
+a) refresh DRAM
+b) recycle DRAM
+c) Rambus DRAM
+d) refreshing DRAM
+
+Answer: c
+
+6. Which of the following can transfer up to 1.6 billion bytes per second?
+a) DRAM
+b) RDRAM
+c) EDO RAM
+d) SDRAM
+
+Answer: b
+
+7. Which of the following cycle is larger than the access time?
+a) write cycle
+b) set up time
+c) read cycle
+d) hold time
+
+Answer: c
+
+8. Which mode of operation selects an internal page of memory in the DRAM interfacing?
+a) page interleaving
+b) page mode
+c) burst mode
+d) EDO RAM
+
+Answer: b
+
+9. What is the maximum time that the RAS signal can be asserted in the page mode operation?
+a) 5 microseconds
+b) 10 microseconds
+c) 15 microseconds
+d) 20 microseconds
+
+Answer: b
+
+10. Which of the following mode of operation in the DRAM interfacing has a page boundary?
+a) burst mode
+b) EDO RAM
+c) page mode
+d) page interleaving
+
+Answer: c
+
+11. Which mode offers the banking of memory in the DRAM interfacing technique?
+a) page mode
+b) basic DRAM interfacing
+c) page interleaving
+d) burst mode
+
+Answer: c
+
+12. Which of the following has a fast page mode RAM?
+a) burst mode
+b) page interleaving
+c) EDO memory
+d) page mode
+
+Answer: c
+
+13. Which mode reduces the need for fast static RAMs?
+a) page mode
+b) page interleaving
+c) burst mode
+d) EDO memory
+
+Answer: c
+
+14. Which of the following is also known as hyper page mode enabled DRAM?
+a) page mode
+b) EDO DRAM
+c) burst EDO DRAM
+d) page interleaving
+
+Answer: b
+
+15. What does BEDO DRAM stand for?
+a) burst EDO DRAM
+b) buffer EDO DRAM
+c) BIBO EDO DRAM
+d) bilateral EDO DRAM
+
+Answer: a

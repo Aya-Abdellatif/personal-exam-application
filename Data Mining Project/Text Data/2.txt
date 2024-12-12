@@ -1,0 +1,122 @@
+Topic : Embedded system
+Suptopic : Memory
+
+1. It retains its content when power is removed. What type of memory is this?
+a) Volatile memory
+b) Nonvolatile memory
+c) RAM
+d) MSRA
+
+Answer: b
+
+2. Name a volatile memory.
+a) RAM
+b) EPROM
+c) ROM
+d) EEPROM
+
+Answer: a
+
+3. Name a nonvolatile memory.
+a) ROM
+b) RAM
+c) SRAM
+d) DRAM
+
+Answer: a
+
+4. The initial routine is often referred to as
+a) Initial program
+b) Bootstrap program
+c) Final program
+d) Initial embedded program
+
+Answer: b
+
+5. What kind of socket does an external EPROM to plugged in for prototyping?
+a) Piggyback
+b) Single socket
+c) Multi-socket
+d) Piggyback reset socket
+
+Answer: a
+
+6. Which one of the following is UV erasable?
+a) Flash memory
+b) SRAM
+c) EPROM
+d) DRAM
+
+Answer: c
+
+7. What kind of memory does an OTP have?
+a) SRAM
+b) RAM
+c) EPROM
+d) DRAM
+
+Answer: c
+
+8. Which type of memory is suitable for low volume production of embedded systems?
+a) ROM
+b) Volatile
+c) Non-volatile
+d) RAM
+
+Answer: c
+
+9. Which is the single device capable of providing prototyping support for a range of microcontroller?
+a) ROM
+b) Umbrella device
+c) OTP
+d) RAM
+
+Answer: b
+
+10. What type of memory is suitable for high volume production?
+a) RAM
+b) ROM
+c) EPROM
+d) EEPROM
+
+Answer: b
+
+11. What type of memory is suitable for medium volume production?
+a) Umbrella devices
+b) OTP
+c) ROM
+d) RAM
+
+Answer: b
+
+12. How an embedded system communicate with the outside world?
+a) Peripherals
+b) Memory
+c) Input
+d) Output
+
+Answer: a
+
+13. How the input terminals are associated with external environments?
+a) Actuators
+b) Sensors
+c) Inputs
+d) Outputs
+
+Answer: b
+
+14. Which of the following are external pins whose logic state can be controlled by the processor to either be a logic zero or logic one is known as
+a) Analogue value
+b) Display values
+c) Binary values
+d) Time derived digital outputs
+
+Answer: c
+
+15. What kind of visual panel is used for seven segmented display?
+a) LED
+b) LCD
+c) Binary output
+d) Analogue output
+
+Answer: b

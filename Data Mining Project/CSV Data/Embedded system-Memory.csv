@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Memory,It retains its content when power is removed. What type of memory is this?,Volatile memory,Nonvolatile memory,RAM,MSRA,b
+Embedded system,Memory,Name a volatile memory.,RAM,EPROM,ROM,EEPROM,a
+Embedded system,Memory,Name a nonvolatile memory.,ROM,RAM,SRAM,DRAM,a
+Embedded system,Memory,The initial routine is often referred to as,Initial program,Bootstrap program,Final program,Initial embedded program,b
+Embedded system,Memory,What kind of socket does an external EPROM to plugged in for prototyping?,Piggyback,Single socket,Multi-socket,Piggyback reset socket,a
+Embedded system,Memory,Which one of the following is UV erasable?,Flash memory,SRAM,EPROM,DRAM,c
+Embedded system,Memory,What kind of memory does an OTP have?,SRAM,RAM,EPROM,DRAM,c
+Embedded system,Memory,Which type of memory is suitable for low volume production of embedded systems?,ROM,Volatile,Non-volatile,RAM,c
+Embedded system,Memory,Which is the single device capable of providing prototyping support for a range of microcontroller?,ROM,Umbrella device,OTP,RAM,b
+Embedded system,Memory, What type of memory is suitable for high volume production?,RAM,ROM,EPROM,EEPROM,b
+Embedded system,Memory, What type of memory is suitable for medium volume production?,Umbrella devices,OTP,ROM,RAM,b
+Embedded system,Memory, How an embedded system communicate with the outside world?,Peripherals,Memory,Input,Output,a
+Embedded system,Memory, How the input terminals are associated with external environments?,Actuators,Sensors,Inputs,Outputs,b
+Embedded system,Memory, Which of the following are external pins whose logic state can be controlled by the processor to either be a logic zero or logic one is known as,Analogue value,Display values,Binary values,Time derived digital outputs,c
+Embedded system,Memory, What kind of visual panel is used for seven segmented display?,LED,LCD,Binary output,Analogue output,b

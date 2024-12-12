@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Memory Systems,Memory Organization,How many data lines does 256*4 have?,256,8,4,32,c
+Memory Systems,Memory Organization,How is the number of chips required is determined?,number of data lines,the minimum number of data,width of the data path from the processor,number of data lines and the width of the data path from the processor,d
+Memory Systems,Memory Organization,Where is memory address stored in a C program?,stack,pointer,register,accumulator,b
+Memory Systems,Memory Organization,Which is the term that is used to refer the order of bytes?,endianness,memory organisation,bit,register,a
+Memory Systems,Memory Organization,Which of the following processors uses big endian representation?,8086,ARM,PowerPC,Zilog Z80,c
+Memory Systems,Memory Organization,Which statement is true for a cache memory?,memory unit which communicates directly with the CPU,provides backup storage,a very high-speed memory to increase the speed of the processor,secondary storage,c
+Memory Systems,Memory Organization,Which of the following memory organisation have the entire memory available to the processor at all times?,segmented addressing,paging,virtual address,linear address,d
+Memory Systems,Memory Organization,How many memory locations can be accessed by 8086?,1 M,2 M,3 M,4 M,a
+Memory Systems,Memory Organization,Which of them is a memory that is allocated to the program in LIFO pattern?,stack,index,accumulator,base,a
+Memory Systems,Memory Organization, What does SIMM stand for?,single in-line memory module,single interrupt memory module,single information memory module,same-in-line memory module,a
+Memory Systems,Memory Organization, Which of the memory organisation is widely used in parity bit?,by 1 organisation,by 4 organisation,by 8 organisation,by 9 organisation,a
+Memory Systems,Memory Organization, Which configuration of memory organisation replaces By 1 organisation?,by 4 organisation,by 8 organisation,by 9 organisation,by 16 organisation,a
+Memory Systems,Memory Organization, Which shifting helps in finding the physical address in 8086?,shifting the segment by 8,shifting the segment by 6,shifting the segment by 4,shifting the segment by 2,c
+Memory Systems,Memory Organization, Which memory organisation is supported in wider memories?,by 8 organisation,by 16 organisation,by 9 organisation,by 4 organisation,b
+Memory Systems,Memory Organization, Which of the following is a plastic package used primarily for DRAM?,SIMM,DIMM,Zig-zag,Dual-in-line,c

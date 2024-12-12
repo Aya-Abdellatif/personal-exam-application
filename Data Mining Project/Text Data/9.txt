@@ -1,0 +1,122 @@
+Topic : Memory Systems
+Subtopic : DRAM Techniques
+
+1. Which is the very basic technique of refreshing DRAM?
+a) refresh cycle
+b) burst refresh
+c) distributive refresh
+d) software refresh
+
+Answer: a
+
+2. How is the refresh rate calculated?
+a) by refresh time
+b) by the refresh cycle
+c) by refresh cycle and refresh time
+d) refresh frequency and refresh cycle
+
+Answer: c
+
+3. Which is the commonly used refresh rate?
+a) 125 microseconds
+b) 120 microseconds
+c) 130 microseconds
+d) 135 microseconds
+
+Answer: a
+
+4. How can we calculate the length of the refresh cycle?
+a) twice of normal access
+b) thrice of normal access
+c) five times of normal access
+d) six times of normal access
+
+Answer: a
+
+5. What type of error occurs in the refresh cycle of the DRAM?
+a) errors in data
+b) power loss
+c) timing issues
+d) not accessing data
+
+Answer: c
+
+6. What is the worst case delay of the burst refresh in 4M by 1 DRAM?
+a) 0.4ms
+b) 0.2ms
+c) 170ns
+d) 180ns
+
+Answer: b
+
+7. Which refresh techniques depends on the size of time critical code for calculating the refresh cycle?
+a) burst refresh
+b) distributed refresh
+c) refresh cycle
+d) software refresh
+
+Answer: b
+
+8. Which of the following uses a timer for refresh technique?
+a) RAS
+b) CBR
+c) software refresh
+d) CAS
+
+Answer: c
+
+9. What is the main disadvantage in the software refresh of the DRAM?
+a) timer
+b) delay
+c) programming delay
+d) debugging
+
+Answer: d
+
+10. Which refresh technique is useful for low power consumption?
+a) Software refresh
+b) CBR
+c) RAS
+d) Burst refresh
+
+Answer: b
+
+11. Which refreshing techniques generate a recycled address?
+a) RAS
+b) CBR
+c) Distributed refresh
+d) Software refresh
+
+Answer: a
+
+12. Which of the following uses a software refresh in the DRAM?
+a) 8086
+b) 80386
+c) Pentium
+d) Apple II personal computer
+
+Answer: d
+
+13. How do CBR works?
+a) by asserting CAS before RAS
+b) by asserting CAS after RAS
+c) by asserting RAS before CAS
+d) by asserting CAS only
+
+Answer: a
+
+14. Which of the refresh circuit is similar to CBR?
+a) software refresh
+b) hidden refresh
+c) burst refresh
+d) distribute refresh
+
+Answer: b
+
+15. Which technology is standardized in DRAM for determining the maximum time interval between the refresh cycle?
+a) IEEE
+b) RAPID
+c) JEDEC
+d) UNESCO
+
+Answer: c

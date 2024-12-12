@@ -1,0 +1,82 @@
+Topic : Embedded system
+Suptopic : Microcontroller
+
+1. Which one of the following is a microcontroller from Motorola?
+a) MC68HC05
+b) 4004
+c) MIPS
+d) 8080
+
+Answer: a
+
+2. Which is the first microcontroller?
+a) 8051
+b) Arm
+c) TMS1000
+d) Intel 4004
+
+Answer: c
+
+3. How many bits does MC68HC05 possess?
+a) 4
+b) 8
+c) 16
+d) 32
+
+Answer: b
+
+4. What is the bit size of the program counter in MC68HC05?
+a) 7
+b) 9
+c) 13
+d) 17
+
+Answer: c
+
+5. Which of the following microcontroller is used in engine management system?
+a) MC68HC05
+b) MC68HC11
+c) Intel 80286
+d) Intel 8086
+
+Answer: b
+
+6. Which is the concatenated register of MC68HC11?
+a) D
+b) X
+c) IP
+d) DI
+
+Answer: a
+
+7. What does CCR stand for?
+a) Condition code register
+b) Computing code register
+c) Complex code register
+d) Code control register
+
+Answer: a
+
+8. How many bytes of EPROM does MC68HC7054A possess?
+a) 176 bytes
+b) 240 bytes
+c) 4144 bytes
+d) 1024 bytes
+
+Answer: c
+
+9. Which of the following is an 8-bit command in MC68HC11?
+a) Add
+b) Shift
+c) Multiply
+d) Subtract
+
+Answer: c
+
+11. Which one of the following is an asynchronous communication channel?
+a) SPI
+b) MUDs
+c) MOO
+d) VOIP
+
+Answer: a

@@ -1,0 +1,20 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Basic Peripherals,Timer,Which of the following helps in the generation of waveforms?,timer,inputs,outputs,memory,a
+Basic Peripherals,Timer,Which bit size determines the slowest frequency?,counter size,pre-scalar value,counter,timer,b
+Basic Peripherals,Timer,Which bit size determines the maximum value of the counter-derived period?,counter size,pre-scalar value,bit size,byte size,a
+Basic Peripherals,Timer,Which of the following timer is suitable for IBM PC?,IA-32,Intel 8253,Intel 64,8051 timer,b
+Basic Peripherals,Timer,Which of the following is mode 0 in 8253?,interrupt on start count,interrupt for wait statement,interrupt on terminal count,no interrupt,c
+Basic Peripherals,Timer,Which determines the mode 1 in the Intel 8253?,interrupt on terminal count,programmable one-shot,rate generator,square wave rate generator,b
+Basic Peripherals,Timer,Which mode of 8253 can provide pulse width modulation?,programmable one-shot,square wave rate generator,software triggered strobe,hardware triggered strobe,a
+Basic Peripherals,Timer,Which of the following is the mode 3 in the Intel timer 8253?,rate generator,hardware triggered strobe,square wave rate generator,software triggered strobe,a
+Basic Peripherals,Timer,Which of the following determines the rate generation?,divide by N,multiply by N,addition by N,subtraction by N,a
+Basic Peripherals,Timer, Which mode of the Intel 8253 timer can generate a square wave?,mode 1,mode 2,mode 3,mode 4,d
+Basic Peripherals,Timer,Which mode of the Intel timer 8253 provides a software watchdog timer?,rate generator,hardware triggered strobe,square wave rate generator,software triggered strobe,d
+Basic Peripherals,Timer,Which of the following mode is similar to the mode 4 of the 8253 timer?,mode 5,mode 6,mode 0,mode 1,a
+Basic Peripherals,Timer,Which pin of 8253 is used for the generation of an external interrupt signal?,OUT pin,IN pin,Interrupt pin,Ready pin,a
+Basic Peripherals,Timer,Which timer architecture can provide a higher resolution than Intel 8253?,Intel 8253,Intel 8254,8051 timer,MC68230,d
+Basic Peripherals,Timer,How many bit architecture does MC68230 have?,16,24,32,40,b
+Basic Peripherals,Timer,How many bit bus does MC68230 have?,2,4,8,16,c
+Basic Peripherals,Timer,Which of the following is a timer processor?,Intel 8253,MC146818,MC68332,Intel 8259,c
+Basic Peripherals,Timer,What is the running frequency of MC68332?,12 MHz,14 MHz,16 MHz,18 MHz,c
+Basic Peripherals,Timer,Which of the following is a real time clock?,MC146818,8253,8259,8254,a

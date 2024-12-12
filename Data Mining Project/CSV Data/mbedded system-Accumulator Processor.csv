@@ -1,0 +1,14 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+mbedded system,Accumulator Processor,"Which is the first device by Intel, that started the microprocessor revolution?",8080,8086,8087,8088,a
+mbedded system,Accumulator Processor,Which is the first microprocessor by Motorola?,MC6800,MC68001,MIPS,PowerPC,a
+mbedded system,Accumulator Processor,Motorola MC6800 is a how many-bit processor?,4,8,16,32,b
+mbedded system,Accumulator Processor,How many accumulators does an MC6800 have?,1,2,3,4,b
+mbedded system,Accumulator Processor,How many bits does an accumulator register of MC6800 have?,8,16,32,4,a
+mbedded system,Accumulator Processor,What is the purpose of an accumulator?,Storing data and performing logical operations,Storing data and performing arithmetic and logical operations,Storing addresses,Pointer,b
+mbedded system,Accumulator Processor,Which of the following is the area of memory that is used for temporary storage?,Register,Stack,Accumulator,Hard Disk,b
+mbedded system,Accumulator Processor,How a stack is accessed?,By using code segment pointer,By using data segment register,By using stack segment register,By using heap segment register,c
+mbedded system,Accumulator Processor,PUSH-POP mechanism is seen in _______,Stack pointer,Register,Memory,Index register,a
+mbedded system,Accumulator Processor, What is the range of values an 8-bit register can store?,128,64,256,32,c
+mbedded system,Accumulator Processor, What is the address range in 80286?,1 Mbytes,2 Mbytes,16 Mbytes,32 mbytes,c
+mbedded system,Accumulator Processor, Which is the first 32-bit member of Intel?,8086,8088,80286,80386,d
+mbedded system,Accumulator Processor, What supports multitasking in 80386?,Read mode,External paging memory management unit,Paging and segmentation,On-chip paging memory management unit,d

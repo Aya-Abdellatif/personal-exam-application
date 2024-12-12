@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Architecture,Which one of the following is the successor of 8086 and 8088 processor?,80286,80387,8051,8087,a
+Embedded system,Architecture,Which is the processor behind the IBM PC AT?,80387,8088,80286,8086,c
+Embedded system,Architecture,Which are the two modes of 80286?,Real mode and protected mode,Mode1 and mode2,Alternate and main,Mode A and mode B,a
+Embedded system,Architecture,Which register set of 80286 form the same register set of 8086 processor?,"AH,AL",BX,"BX,AX",EL,a
+Embedded system,Architecture,Which are the 4 general purposes 16 bit register in Intel 80286?,"CS,DS,SS,ES","AX,BX,CX,DX","IP,FL,DI,SI","DI,SI,BP,SP",b
+Embedded system,Architecture,Which are the 4 segmented registers in intel 80286?,"AX,BX,CX,DX","AS,BS,CS,DS","SP,DI,SI,BP","IP,FL,SI,DI",b
+Embedded system,Architecture,How is expanded memory accessed in 80286?,Paging,Interleaving,RAM,External storage,a
+Embedded system,Architecture,When is the register set gets expanded in 80286?,In real mode,In expanded mode,In protected mode,Interrupt mode,c
+Embedded system,Architecture,Which are the two register available in the protected mode of 80286?,General and segmented,General and pointer,Index and base pointer,Index and segmented,c
+Embedded system,Architecture, What kind of support does 80286 access in protected mode?,Real mode,Address access,Data access,Virtual memory,d
+Embedded system,Architecture, Which of the following processor possess memory management?,8086,8088,80286,8051,c
+Embedded system,Architecture, What is the size of the address bus in 80286?,20,24,16,32,b
+Embedded system,Architecture, Which is the interrupt vector in 80286 which functions for stack fault?,11,12,14,16,b
+Embedded system,Architecture, Which is the interrupt vector that functions as invalid opcode?,9,8,7,6,d
+Embedded system,Architecture, Which of the following possess the same set of instructions?,8088 and 80286,8086 and 80286,8051 and 8088,8051 and 8086,b
