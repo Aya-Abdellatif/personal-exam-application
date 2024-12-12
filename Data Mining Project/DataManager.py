@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from collections import Counter
 
 class DataManager:
     @staticmethod
@@ -94,3 +95,23 @@ class DataManager:
 
         # Save the merged dataframe to a new CSV file
         merged_df.to_csv('all_data.csv', index=False)
+
+    @staticmethod
+    def load_and_sort_csv(file_path) -> pd.DataFrame:
+        # Read the CSV file
+        df = pd.read_csv(file_path)
+
+        # Convert transactions back to lists
+        df["Transaction"] = df["Transaction"].apply(lambda x: x.split(";"))
+
+        # Count global frequencies of topics
+        flat_transactions = [item for sublist in df["Transaction"] for item in sublist]
+        item_counts = Counter(flat_transactions)
+
+        # Sort transactions based on item frequencies
+        def sort_transaction(transaction):
+            return sorted(transaction, key=lambda x: (-item_counts[x], x))
+
+        df["Sorted Transaction"] = df["Transaction"].apply(sort_transaction)
+
+        return df["Sorted Transaction"].tolist()

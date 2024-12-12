@@ -114,6 +114,19 @@ Embedded system ,Types of Processors, Which of the following architecture suppor
 Embedded system ,Types of Processors, Which is an example of superscalar architecture?,Pentium 4,8086,80386,Pentium pro,a
 Embedded system ,Types of Processors, Which of the following is a combination of several processors on a single chip?,Multicore architecture,RISC architecture,CISC architecture,Subword parallelism,a
 Embedded system ,Types of Processors, Which is an example of the multi-core processor which possesses 10 cores?,Intel Xeon E7-2850,AMD Phenom IIX2,Intel core duo,AMD Phenom IIX3,a
+Embedded system, Accumulator Processor,"Which is the first device by Intel, that started the microprocessor revolution?",8080,8086,8087,8088,a
+Embedded system, Accumulator Processor,Which is the first microprocessor by Motorola?,MC6800,MC68001,MIPS,PowerPC,a
+Embedded system, Accumulator Processor,Motorola MC6800 is a how many-bit processor?,4,8,16,32,b
+Embedded system, Accumulator Processor,How many accumulators does an MC6800 have?,1,2,3,4,b
+Embedded system, Accumulator Processor,How many bits does an accumulator register of MC6800 have?,8,16,32,4,a
+Embedded system, Accumulator Processor,What is the purpose of an accumulator?,Storing data and performing logical operations,Storing data and performing arithmetic and logical operations,Storing addresses,Pointer,b
+Embedded system, Accumulator Processor,Which of the following is the area of memory that is used for temporary storage?,Register,Stack,Accumulator,Hard Disk,b
+Embedded system, Accumulator Processor,How a stack is accessed?,By using code segment pointer,By using data segment register,By using stack segment register,By using heap segment register,c
+Embedded system, Accumulator Processor,PUSH-POP mechanism is seen in _______,Stack pointer,Register,Memory,Index register,a
+Embedded system, Accumulator Processor, What is the range of values an 8-bit register can store?,128,64,256,32,c
+Embedded system, Accumulator Processor, What is the address range in 80286?,1 Mbytes,2 Mbytes,16 Mbytes,32 mbytes,c
+Embedded system, Accumulator Processor, Which is the first 32-bit member of Intel?,8086,8088,80286,80386,d
+Embedded system, Accumulator Processor, What supports multitasking in 80386?,Read mode,External paging memory management unit,Paging and segmentation,On-chip paging memory management unit,d
 Embedded system,Architecture,Which one of the following is the successor of 8086 and 8088 processor?,80286,80387,8051,8087,a
 Embedded system,Architecture,Which is the processor behind the IBM PC AT?,80387,8088,80286,8086,c
 Embedded system,Architecture,Which are the two modes of 80286?,Real mode and protected mode,Mode1 and mode2,Alternate and main,Mode A and mode B,a
