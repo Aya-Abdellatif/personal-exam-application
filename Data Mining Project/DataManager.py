@@ -115,3 +115,6 @@ class DataManager:
         df["Sorted Transaction"] = df["Transaction"].apply(sort_transaction)
 
         return df["Sorted Transaction"].tolist()
+
+    def get_questions_with_topic(topic):
+        df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
