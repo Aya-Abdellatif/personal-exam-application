@@ -7,7 +7,7 @@ def build_fp_tree(sorted_transactions) -> FPTree:
         fp_tree.add_transaction(transaction)
     return fp_tree
 
-def mine_fp_tree(fp_tree, header_table, min_support=2, prefix=None):
+def mine_fp_tree(header_table, min_support=2, prefix=None):
     if prefix is None:
         prefix = []
 
@@ -39,3 +39,12 @@ def mine_fp_tree(fp_tree, header_table, min_support=2, prefix=None):
             frequent_itemsets += mine_fp_tree(conditional_tree, conditional_tree.header_table, min_support, new_prefix)
 
     return frequent_itemsets
+
+def filter_items_with_duplicates(frequent_itemsets: list[tuple[list[str], int]]):
+    return [
+        (topics, count) 
+        for topics, count in frequent_itemsets 
+        if len(topics) == len(set(topics))
+    ]
+
+    

@@ -3,7 +3,7 @@ Embedded System,Microprocessor,Which of the following microprocessor is designed
 Embedded System,Microprocessor,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
 Embedded System,Microprocessor,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
 Embedded System,Microprocessor,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
-Embedded System,Microprocessor,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
+Embedded System,Microprocessor,How an alternate set of the register can be identified in Z80?,â€کSuffix,â€کPrefix,",suffix",",prefix",a
 Embedded System,Microprocessor,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
 Embedded System,Microprocessor,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
 Embedded System,Microprocessor,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
