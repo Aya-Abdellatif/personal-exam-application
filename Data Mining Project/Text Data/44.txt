@@ -1,4 +1,4 @@
-topic : Embedded System
+topic : Embedded system
 subtopic : Microprocessor
 
 1. Which of the following microprocessor is designed by Zilog?

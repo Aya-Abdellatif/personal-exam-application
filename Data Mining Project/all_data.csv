@@ -59,6 +59,65 @@ Basic Peripherals,Timer,How many bit bus does MC68230 have?,2,4,8,16,c
 Basic Peripherals,Timer,Which of the following is a timer processor?,Intel 8253,MC146818,MC68332,Intel 8259,c
 Basic Peripherals,Timer,What is the running frequency of MC68332?,12 MHz,14 MHz,16 MHz,18 MHz,c
 Basic Peripherals,Timer,Which of the following is a real time clock?,MC146818,8253,8259,8254,a
+Computer Organization,Addressing Modes,Which method/s of representation of numbers occupies a large amount of memory than others?,Sign-magnitude,1â€™s complement,2â€™s complement,1â€™s & 2â€™s compliment,a
+Computer Organization,Addressing Modes,Which representation is most efficient to perform arithmetic operations on the numbers?,Sign-magnitude,1â€™s complement,2â€™S complement,None of the mentioned,c
+Computer Organization,Addressing Modes,Which method of representation has two representations for â€˜0â€™?,Sign-magnitude,1â€™s complement,2â€™s complement,Both Sign-magnitude and 1â€™s complement,d
+Computer Organization,Addressing Modes,When we perform subtraction on -7 and 1 the answer in 2â€™s complement form is _________,1010,1110,0110,1000,d
+Computer Organization,Addressing Modes,When we perform subtraction on -7 and -5 the answer in 2â€™s complement form is ________,11110,1110,1010,0010,b
+Computer Organization,Addressing Modes,"When we subtract -3 from 2 , the answer in 2â€™s complement form is _________",0001,1101,0101,1001,c
+Computer Organization,Addressing Modes,The processor keeps track of the results of its operations using flags called ________,Conditional code flags,Test output flags,Type flags,None of the mentioned,a
+Computer Organization,Addressing Modes,The register used to store the flags is called as _________,Flag register,Status register,Test register,Log register,b
+Computer Organization,Addressing Modes,The Flag â€˜Vâ€™ is set to 1 indicates that _____________,The operation is valid,The operation is validated,The operation has resulted in an overflow,None of the mentioned,c
+Computer Organization,Addressing Modes," In some pipelined systems, a different instruction is used to add to numbers which can affect the flags upon execution. That instruction is ",AddSetCC,AddCC,Add++,SumSetCC,a
+Computer Organization,Addressing Modes, The most efficient method followed by computers to multiply two unsigned numbers is _______,Booth algorithm,Bit pair recording of multipliers,Restoring algorithm,Non restoring algorithm,b
+Computer Organization,Addressing Modes," For the addition of large integers, most of the systems make use of ______",Fast adders,Full adders,Carry look-ahead adders,None of the mentioned,c
+Computer Organization,Addressing Modes," In a normal n-bit adder, to find out if an overflow as occurred we make use of ________",And gate,Nand gate,Nor gate,Xor gate,d
+Computer Organization,Addressing Modes, In the implementation of a Multiplier circuit in the system we make use of _______,Counter,Flip flop,Shift register,Push down stack,c
+Computer Organization,Addressing Modes, When 1101 is used to divide 100010010 the remainder is ______,101,11,0,1,d
+Computer Organization,Assembly Language,__________ converts the programs written in assembly language into machine instructions.,Machine compiler,Interpreter,Assembler,Converter,c
+Computer Organization,Assembly Language,The instructions like MOV or ADD are called as ______,OP-Code,Operators,Commands,None of the mentioned,a
+Computer Organization,Assembly Language,"The alternate way of writing the instruction, ADD #5,R1 is ______","ADD [5],[R1];","ADDI 5,R1;","ADDIME 5,[R1];",There is no other way,b
+Computer Organization,Assembly Language,Instructions which wonâ€™t appear in the object program are called as _____,Redundant instructions,Exceptions,Comments,Assembler Directives,d
+Computer Organization,Assembly Language,"The assembler directive EQU, when used in the instruction: Sum EQU 200 does ________",Finds the first occurrence of Sum and assigns value 200 to it,Replaces every occurrence of Sum with 200,Re-assigns the address of Sum by adding 200 to its original address,Assigns 200 bytes of memory starting the location of Sum,b
+Computer Organization,Assembly Language,The purpose of the ORIGIN directive is __________,"To indicate the starting position in memory, where the program block is to be stored",To indicate the starting of the computation code,To indicate the purpose of the code,To list the locations of all the registers used,a
+Computer Organization,Assembly Language,The directive used to perform initialization before the execution of the code is ______,Reserve,Store,Dataword,EQU,c
+Computer Organization,Assembly Language,_____ directive is used to specify and assign the memory required for the block of code.,Allocate,Assign,Set,Reserve,d
+Computer Organization,Assembly Language,_____ directive specifies the end of execution of a program.,End,Return,Stop,Terminate,b
+Computer Organization,Assembly Language, The last statement of the source program should be _______,Stop,Return,OP,End,d
+Computer Organization,Assembly Language, When dealing with the branching code the assembler ___________,Replaces the target with its address,Does not replace until the test condition is satisfied,Finds the Branch offset and replaces the Branch target with it,Replaces the target with the value specified by the DATAWORD directive,c
+Computer Organization,Assembly Language, The assembler stores all the names and their corresponding values in ______,Special purpose Register,Symbol Table,Value map Set,None of the mentioned,b
+Computer Organization,Assembly Language, The assembler stores the object code in ______,Main memory,Cache,RAM,Magnetic disk,d
+Computer Organization,Assembly Language, The utility program used to bring the object code into memory for execution is ______,Loader,Fetcher,Extractor,Linker,a
+Computer Organization,Assembly Language, To overcome the problems of the assembler in dealing with branching code we use _____,Interpreter,Debugger,Op-Assembler,Two-pass assembler,d
+Computer Organization,Memory Locations and Addresses,The smallest entity of memory is called _______,Cell,Block,Instance,Unit,a
+Computer Organization,Memory Locations and Addresses,The collection of the above mentioned entities where data is stored is called ______,Block,Set,Word,Byte,a
+Computer Organization,Memory Locations and Addresses,An 24 bit address generates an address space of ______ locations.,1024,4096,248,"16,777,216",d
+Computer Organization,Memory Locations and Addresses,"If a system is 64 bit machine, then the length of each word will be _______",4 bytes,8 bytes,16 bytes,12 bytes,b
+Computer Organization,Memory Locations and Addresses,The type of memory assignment used in Intel processors is _____,Little Endian,Big Endian,Medium Endian,None of the mentioned,a
+Computer Organization,Memory Locations and Addresses,"When using the Big Endian assignment to store a number, the sign bit of the number is stored in _____",The higher order byte of the word,The lower order byte of the word,Canâ€™t say,None of the mentioned,a
+Computer Organization,Memory Locations and Addresses,To get the physical address from the logical address generated by CPU we use ____________,MAR,MMU,Overlays,TLB,b
+Computer Organization,Memory Locations and Addresses,_____ method is used to map logical addresses of variable length onto physical memory.,Paging,Overlays,Segmentation,Paging with segmentation,c
+Computer Organization,Memory Locations and Addresses,During the transfer of data between the processor and memory we use ______,Cache,TLB,Buffers,Registers,d
+Computer Organization,Memory Locations and Addresses, Physical memory is divided into sets of finite size called as ______,Frames,Pages,Blocks,Vectors,a
+Computer Organization,Memory Operations and Management,"Add #%01011101,R1 , when this instruction is executed then _________",The binary addition between the operands takes place,The Numerical value represented by the binary value is added to the value of R1,"The addition doesnâ€™t take place, whereas this is similar to a MOV instruction",None of the mentioned,a
+Computer Organization,Memory Operations and Management,When generating physical addresses from a logical address the offset is stored in __________,Translation look-aside buffer,Relocation register,Page table,Shift register,b
+Computer Organization,Memory Operations and Management,The technique used to store programs larger than the memory is ____________,Overlays,Extension registers,Buffers,Both Extension registers and Buffers,a
+Computer Organization,Memory Operations and Management,The unit which acts as an intermediate agent between memory and backing store to reduce process time is ___________,TLBâ€™s,Registers,Page tables,Cache,d
+Computer Organization,Memory Operations and Management,Does the Load instruction do the following operation/s?,Loads the contents of a disc onto a memory location,Loads the contents of a location onto the accumulators,Load the contents of the PCB onto the register,None of the mentioned,b
+Computer Organization,Memory Operations and Management,Complete the following analogy:- Registers are to RAMâ€™s as Cacheâ€™s are to ___________,System stacks,Overlays,Page Table,TLB,d
+Computer Organization,Memory Operations and Management,The BOOT sector files of the system are stored in ___________,Harddisk,ROM,RAM,Fast solid state chips in the motherboard,b
+Computer Organization,Memory Operations and Management,The transfer of large chunks of data with the involvement of the processor is done by _______,DMA controller,Arbitrator,User system programs,None of the mentioned,a
+Computer Organization,Memory Operations and Management,Which of the following techniques used to effectively utilize main memory?,Address binding,Dynamic linking,Dynamic loading,Both Dynamic linking and loading,c
+Computer Organization,Subroutines and Nesting,The return address of the Sub-routine is pointed to by _______,IR,PC,MAR,Special memory registers,b
+Computer Organization,Subroutines and Nesting,"The location to return to, from the subroutine is stored in _______",TLB,PC,MAR,Link registers,d
+Computer Organization,Subroutines and Nesting,What is subroutine nesting?,Having multiple subroutines in a program,Using a linking nest statement to put many subroutines under the same name,Having one routine call the other,None of the mentioned,c
+Computer Organization,Subroutines and Nesting,The order in which the return addresses are generated and used is _________,LIFO,FIFO,Random,Highest priority,a
+Computer Organization,Subroutines and Nesting,In case of nested subroutines the return addresses are stored in __________,System heap,Special memory buffers,Processor stack,Registers,c
+Computer Organization,Subroutines and Nesting,The appropriate return addresses are obtained with the help of ____ in case of nested routines.,MAR,MDR,Buffers,Stack-pointers,d
+Computer Organization,Subroutines and Nesting,When parameters are being passed on to the subroutines they are stored in ________,Registers,Memory locations,Processor stacks,All of the mentioned,d
+Computer Organization,Subroutines and Nesting,The most efficient way of handling parameter passing is by using ______,General purpose registers,Stacks,Memory locations,None of the mentioned,a
+Computer Organization,Subroutines and Nesting,The most Flexible way of logging the return addresses of the subroutines is by using _______,Registers,Stacks,Memory locations,None of the mentioned,b
+Computer Organization,Subroutines and Nesting, The wrong statement/s regarding interrupts and subroutines among the following is/are ______,"i, ii and iv",ii and iii,iv,iii and iv,d
 Embedded system ,Digital Signal Processing,What are the factors of filters which are determined by the speed of the operation in a digital signal processor?,attenuation constant,frequency,bandwidth,phase,c
 Embedded system ,Digital Signal Processing,How many tables does an FIR function of a digital signal processor possess?,1,2,3,4,b
 Embedded system ,Digital Signal Processing,Why is said that branch prediction is not applicable in a digital signal processor?,low bandwidth,high bandwidth,low frequency,high frequency,a
@@ -210,19 +269,19 @@ Embedded system,Microprocessor , Which of the following can be a paired set of 1
 Embedded system,Microprocessor , Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
 Embedded system,Microprocessor , What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
 Embedded system,Microprocessor , What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input, 
-Embedded System,Microprocessor,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
-Embedded System,Microprocessor,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
-Embedded System,Microprocessor,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
-Embedded System,Microprocessor,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
-Embedded System,Microprocessor,How an alternate set of the register can be identified in Z80?,â€کSuffix,â€کPrefix,",suffix",",prefix",a
-Embedded System,Microprocessor,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
-Embedded System,Microprocessor,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
-Embedded System,Microprocessor,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
-Embedded System,Microprocessor,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
-Embedded System,Microprocessor, Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
-Embedded System,Microprocessor, Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
-Embedded System,Microprocessor, What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
-Embedded System,Microprocessor, What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input,c
+Embedded system,Microprocessor,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
+Embedded system,Microprocessor,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
+Embedded system,Microprocessor,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
+Embedded system,Microprocessor,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
+Embedded system,Microprocessor,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
+Embedded system,Microprocessor,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
+Embedded system,Microprocessor,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
+Embedded system,Microprocessor,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
+Embedded system,Microprocessor,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
+Embedded system,Microprocessor, Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
+Embedded system,Microprocessor, Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
+Embedded system,Microprocessor, What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
+Embedded system,Microprocessor, What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input,c
 Embedded system,Processor ,Which one of the following offers CPUs as integrated memory or peripheral interfaces?,Microcontroller,Microprocessor,Embedded system,Memory system,a
 Embedded system,Processor ,Which of the following offers external chips for memory and peripheral interface circuits?,Microcontroller,Microprocessor,Peripheral system,Embedded system,b
 Embedded system,Processor ,How many bits does an MC6800 family have?,16,32,4,8,d

@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Computer Organization,Assembly Language,__________ converts the programs written in assembly language into machine instructions.,Machine compiler,Interpreter,Assembler,Converter,c
+Computer Organization,Assembly Language,The instructions like MOV or ADD are called as ______,OP-Code,Operators,Commands,None of the mentioned,a
+Computer Organization,Assembly Language,"The alternate way of writing the instruction, ADD #5,R1 is ______","ADD [5],[R1];","ADDI 5,R1;","ADDIME 5,[R1];",There is no other way,b
+Computer Organization,Assembly Language,Instructions which wonâ€™t appear in the object program are called as _____,Redundant instructions,Exceptions,Comments,Assembler Directives,d
+Computer Organization,Assembly Language,"The assembler directive EQU, when used in the instruction: Sum EQU 200 does ________",Finds the first occurrence of Sum and assigns value 200 to it,Replaces every occurrence of Sum with 200,Re-assigns the address of Sum by adding 200 to its original address,Assigns 200 bytes of memory starting the location of Sum,b
+Computer Organization,Assembly Language,The purpose of the ORIGIN directive is __________,"To indicate the starting position in memory, where the program block is to be stored",To indicate the starting of the computation code,To indicate the purpose of the code,To list the locations of all the registers used,a
+Computer Organization,Assembly Language,The directive used to perform initialization before the execution of the code is ______,Reserve,Store,Dataword,EQU,c
+Computer Organization,Assembly Language,_____ directive is used to specify and assign the memory required for the block of code.,Allocate,Assign,Set,Reserve,d
+Computer Organization,Assembly Language,_____ directive specifies the end of execution of a program.,End,Return,Stop,Terminate,b
+Computer Organization,Assembly Language, The last statement of the source program should be _______,Stop,Return,OP,End,d
+Computer Organization,Assembly Language, When dealing with the branching code the assembler ___________,Replaces the target with its address,Does not replace until the test condition is satisfied,Finds the Branch offset and replaces the Branch target with it,Replaces the target with the value specified by the DATAWORD directive,c
+Computer Organization,Assembly Language, The assembler stores all the names and their corresponding values in ______,Special purpose Register,Symbol Table,Value map Set,None of the mentioned,b
+Computer Organization,Assembly Language, The assembler stores the object code in ______,Main memory,Cache,RAM,Magnetic disk,d
+Computer Organization,Assembly Language, The utility program used to bring the object code into memory for execution is ______,Loader,Fetcher,Extractor,Linker,a
+Computer Organization,Assembly Language, To overcome the problems of the assembler in dealing with branching code we use _____,Interpreter,Debugger,Op-Assembler,Two-pass assembler,d

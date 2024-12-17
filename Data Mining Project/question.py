@@ -9,4 +9,3 @@ class Question:
     choice_c: str
     choice_d: str
     answer: str
-    

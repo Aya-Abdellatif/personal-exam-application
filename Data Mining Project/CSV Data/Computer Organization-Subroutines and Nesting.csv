@@ -1,0 +1,11 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Computer Organization,Subroutines and Nesting,The return address of the Sub-routine is pointed to by _______,IR,PC,MAR,Special memory registers,b
+Computer Organization,Subroutines and Nesting,"The location to return to, from the subroutine is stored in _______",TLB,PC,MAR,Link registers,d
+Computer Organization,Subroutines and Nesting,What is subroutine nesting?,Having multiple subroutines in a program,Using a linking nest statement to put many subroutines under the same name,Having one routine call the other,None of the mentioned,c
+Computer Organization,Subroutines and Nesting,The order in which the return addresses are generated and used is _________,LIFO,FIFO,Random,Highest priority,a
+Computer Organization,Subroutines and Nesting,In case of nested subroutines the return addresses are stored in __________,System heap,Special memory buffers,Processor stack,Registers,c
+Computer Organization,Subroutines and Nesting,The appropriate return addresses are obtained with the help of ____ in case of nested routines.,MAR,MDR,Buffers,Stack-pointers,d
+Computer Organization,Subroutines and Nesting,When parameters are being passed on to the subroutines they are stored in ________,Registers,Memory locations,Processor stacks,All of the mentioned,d
+Computer Organization,Subroutines and Nesting,The most efficient way of handling parameter passing is by using ______,General purpose registers,Stacks,Memory locations,None of the mentioned,a
+Computer Organization,Subroutines and Nesting,The most Flexible way of logging the return addresses of the subroutines is by using _______,Registers,Stacks,Memory locations,None of the mentioned,b
+Computer Organization,Subroutines and Nesting, The wrong statement/s regarding interrupts and subroutines among the following is/are ______,"i, ii and iv",ii and iii,iv,iii and iv,d

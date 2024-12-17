@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Computer Organization,Addressing Modes,Which method/s of representation of numbers occupies a large amount of memory than others?,Sign-magnitude,1â€™s complement,2â€™s complement,1â€™s & 2â€™s compliment,a
+Computer Organization,Addressing Modes,Which representation is most efficient to perform arithmetic operations on the numbers?,Sign-magnitude,1â€™s complement,2â€™S complement,None of the mentioned,c
+Computer Organization,Addressing Modes,Which method of representation has two representations for â€˜0â€™?,Sign-magnitude,1â€™s complement,2â€™s complement,Both Sign-magnitude and 1â€™s complement,d
+Computer Organization,Addressing Modes,When we perform subtraction on -7 and 1 the answer in 2â€™s complement form is _________,1010,1110,0110,1000,d
+Computer Organization,Addressing Modes,When we perform subtraction on -7 and -5 the answer in 2â€™s complement form is ________,11110,1110,1010,0010,b
+Computer Organization,Addressing Modes,"When we subtract -3 from 2 , the answer in 2â€™s complement form is _________",0001,1101,0101,1001,c
+Computer Organization,Addressing Modes,The processor keeps track of the results of its operations using flags called ________,Conditional code flags,Test output flags,Type flags,None of the mentioned,a
+Computer Organization,Addressing Modes,The register used to store the flags is called as _________,Flag register,Status register,Test register,Log register,b
+Computer Organization,Addressing Modes,The Flag â€˜Vâ€™ is set to 1 indicates that _____________,The operation is valid,The operation is validated,The operation has resulted in an overflow,None of the mentioned,c
+Computer Organization,Addressing Modes," In some pipelined systems, a different instruction is used to add to numbers which can affect the flags upon execution. That instruction is ",AddSetCC,AddCC,Add++,SumSetCC,a
+Computer Organization,Addressing Modes, The most efficient method followed by computers to multiply two unsigned numbers is _______,Booth algorithm,Bit pair recording of multipliers,Restoring algorithm,Non restoring algorithm,b
+Computer Organization,Addressing Modes," For the addition of large integers, most of the systems make use of ______",Fast adders,Full adders,Carry look-ahead adders,None of the mentioned,c
+Computer Organization,Addressing Modes," In a normal n-bit adder, to find out if an overflow as occurred we make use of ________",And gate,Nand gate,Nor gate,Xor gate,d
+Computer Organization,Addressing Modes, In the implementation of a Multiplier circuit in the system we make use of _______,Counter,Flip flop,Shift register,Push down stack,c
+Computer Organization,Addressing Modes, When 1101 is used to divide 100010010 the remainder is ______,101,11,0,1,d

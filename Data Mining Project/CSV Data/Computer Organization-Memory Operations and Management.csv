@@ -1,0 +1,10 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Computer Organization,Memory Operations and Management,"Add #%01011101,R1 , when this instruction is executed then _________",The binary addition between the operands takes place,The Numerical value represented by the binary value is added to the value of R1,"The addition doesnâ€™t take place, whereas this is similar to a MOV instruction",None of the mentioned,a
+Computer Organization,Memory Operations and Management,When generating physical addresses from a logical address the offset is stored in __________,Translation look-aside buffer,Relocation register,Page table,Shift register,b
+Computer Organization,Memory Operations and Management,The technique used to store programs larger than the memory is ____________,Overlays,Extension registers,Buffers,Both Extension registers and Buffers,a
+Computer Organization,Memory Operations and Management,The unit which acts as an intermediate agent between memory and backing store to reduce process time is ___________,TLBâ€™s,Registers,Page tables,Cache,d
+Computer Organization,Memory Operations and Management,Does the Load instruction do the following operation/s?,Loads the contents of a disc onto a memory location,Loads the contents of a location onto the accumulators,Load the contents of the PCB onto the register,None of the mentioned,b
+Computer Organization,Memory Operations and Management,Complete the following analogy:- Registers are to RAMâ€™s as Cacheâ€™s are to ___________,System stacks,Overlays,Page Table,TLB,d
+Computer Organization,Memory Operations and Management,The BOOT sector files of the system are stored in ___________,Harddisk,ROM,RAM,Fast solid state chips in the motherboard,b
+Computer Organization,Memory Operations and Management,The transfer of large chunks of data with the involvement of the processor is done by _______,DMA controller,Arbitrator,User system programs,None of the mentioned,a
+Computer Organization,Memory Operations and Management,Which of the following techniques used to effectively utilize main memory?,Address binding,Dynamic linking,Dynamic loading,Both Dynamic linking and loading,c

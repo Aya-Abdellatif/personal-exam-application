@@ -1,5 +1,6 @@
 from fp_tree_node import FPTreeNode
 
+
 class FPTree:
     def __init__(self):
         self.root = FPTreeNode(None)  # Root node

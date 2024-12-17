@@ -1,0 +1,122 @@
+topic : Computer Organization
+subtopic : Assembly Language
+
+1. __________ converts the programs written in assembly language into machine instructions.
+a) Machine compiler
+b) Interpreter
+c) Assembler
+d) Converter
+
+Answer: c
+
+2. The instructions like MOV or ADD are called as ______
+a) OP-Code
+b) Operators
+c) Commands
+d) None of the mentioned
+
+Answer: a
+
+3. The alternate way of writing the instruction, ADD #5,R1 is ______
+a) ADD [5],[R1];
+b) ADDI 5,R1;
+c) ADDIME 5,[R1];
+d) There is no other way
+
+Answer: b
+
+4. Instructions which won’t appear in the object program are called as _____
+a) Redundant instructions
+b) Exceptions
+c) Comments
+d) Assembler Directives
+
+Answer: d
+
+5. The assembler directive EQU, when used in the instruction: Sum EQU 200 does ________
+a) Finds the first occurrence of Sum and assigns value 200 to it
+b) Replaces every occurrence of Sum with 200
+c) Re-assigns the address of Sum by adding 200 to its original address
+d) Assigns 200 bytes of memory starting the location of Sum
+
+Answer: b
+
+6. The purpose of the ORIGIN directive is __________
+a) To indicate the starting position in memory, where the program block is to be stored
+b) To indicate the starting of the computation code
+c) To indicate the purpose of the code
+d) To list the locations of all the registers used
+
+Answer: a
+
+7. The directive used to perform initialization before the execution of the code is ______
+a) Reserve
+b) Store
+c) Dataword
+d) EQU
+
+Answer: c
+
+8. _____ directive is used to specify and assign the memory required for the block of code.
+a) Allocate
+b) Assign
+c) Set
+d) Reserve
+
+Answer: d
+
+9. _____ directive specifies the end of execution of a program.
+a) End
+b) Return
+c) Stop
+d) Terminate
+
+Answer: b
+
+10. The last statement of the source program should be _______
+a) Stop
+b) Return
+c) OP
+d) End
+
+Answer: d
+
+11. When dealing with the branching code the assembler ___________
+a) Replaces the target with its address
+b) Does not replace until the test condition is satisfied
+c) Finds the Branch offset and replaces the Branch target with it
+d) Replaces the target with the value specified by the DATAWORD directive
+
+Answer: c
+
+12. The assembler stores all the names and their corresponding values in ______
+a) Special purpose Register
+b) Symbol Table
+c) Value map Set
+d) None of the mentioned
+
+Answer: b
+
+13. The assembler stores the object code in ______
+a) Main memory
+b) Cache
+c) RAM
+d) Magnetic disk
+
+Answer: d
+
+14. The utility program used to bring the object code into memory for execution is ______
+a) Loader
+b) Fetcher
+c) Extractor
+d) Linker
+
+Answer: a
+
+15. To overcome the problems of the assembler in dealing with branching code we use _____
+a) Interpreter
+b) Debugger
+c) Op-Assembler
+d) Two-pass assembler
+
+Answer: d

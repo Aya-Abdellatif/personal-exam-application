@@ -2,6 +2,7 @@ import pandas as pd
 import os
 from collections import Counter
 
+
 class DataManager:
     @staticmethod
     def prepare_all(file_directory: str):
@@ -37,7 +38,11 @@ class DataManager:
                 choice_b = lines[current_index + 3][3:].replace("\n", "")
                 choice_c = lines[current_index + 4][3:].replace("\n", "")
                 choice_d = lines[current_index + 5][3:].replace("\n", "")
-                correct_answer = lines[current_index + 7][-2] if lines[current_index + 7][-1] == '\n' else lines[current_index + 7][-1] 
+                correct_answer = (
+                    lines[current_index + 7][-2]
+                    if lines[current_index + 7][-1] == "\n"
+                    else lines[current_index + 7][-1]
+                )
 
                 # Save question in dictionary
                 DataManager._add_question(
@@ -56,7 +61,9 @@ class DataManager:
                 current_index += 8
 
         df = pd.DataFrame(questions)
-        df.to_csv(os.path.join(output_directory, f"{topic}-{subtopic}.csv"), index=False)
+        df.to_csv(
+            os.path.join(output_directory, f"{topic}-{subtopic}.csv"), index=False
+        )
 
     @staticmethod
     def _add_question(
@@ -94,7 +101,7 @@ class DataManager:
         merged_df = pd.concat(dataframes, ignore_index=True)
 
         # Save the merged dataframe to a new CSV file
-        merged_df.to_csv('all_data.csv', index=False)
+        merged_df.to_csv("all_data.csv", index=False)
 
     @staticmethod
     def load_and_sort_csv(file_path) -> pd.DataFrame:
@@ -116,5 +123,6 @@ class DataManager:
 
         return df["Sorted Transaction"].tolist()
 
-    def get_questions_with_topic(topic):
+    @staticmethod
+    def get_questions_with_topic(topic: str):
         df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))

@@ -1,0 +1,74 @@
+topic : Computer Organization
+subtopic : Memory Operations and Management
+
+1. Add #%01011101,R1 , when this instruction is executed then _________
+a) The binary addition between the operands takes place
+b) The Numerical value represented by the binary value is added to the value of R1
+c) The addition doesn’t take place, whereas this is similar to a MOV instruction
+d) None of the mentioned
+
+Answer: a
+
+2. When generating physical addresses from a logical address the offset is stored in __________
+a) Translation look-aside buffer
+b) Relocation register
+c) Page table
+d) Shift register
+
+Answer: b
+
+3. The technique used to store programs larger than the memory is ____________
+a) Overlays
+b) Extension registers
+c) Buffers
+d) Both Extension registers and Buffers
+
+Answer: a
+
+4. The unit which acts as an intermediate agent between memory and backing store to reduce process time is ___________
+a) TLB’s
+b) Registers
+c) Page tables
+d) Cache
+
+Answer: d
+
+5. Does the Load instruction do the following operation/s?
+a) Loads the contents of a disc onto a memory location
+b) Loads the contents of a location onto the accumulators
+c) Load the contents of the PCB onto the register
+d) None of the mentioned
+
+Answer: b
+
+6. Complete the following analogy:- Registers are to RAM’s as Cache’s are to ___________
+a) System stacks
+b) Overlays
+c) Page Table
+d) TLB
+
+Answer: d
+
+7. The BOOT sector files of the system are stored in ___________
+a) Harddisk
+b) ROM
+c) RAM
+d) Fast solid state chips in the motherboard
+
+Answer: b
+
+8. The transfer of large chunks of data with the involvement of the processor is done by _______
+a) DMA controller
+b) Arbitrator
+c) User system programs
+d) None of the mentioned
+
+Answer: a
+
+9. Which of the following techniques used to effectively utilize main memory?
+a) Address binding
+b) Dynamic linking
+c) Dynamic loading
+d) Both Dynamic linking and loading
+
+Answer: c

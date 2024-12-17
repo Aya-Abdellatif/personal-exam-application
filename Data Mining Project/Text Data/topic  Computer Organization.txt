@@ -1,0 +1,82 @@
+topic : Computer Organization
+subtopic : Addressing Modes
+
+1. The instruction, Add #45,R1 does _______
+a) Adds the value of 45 to the address of R1 and stores 45 in that address
+b) Adds 45 to the value of R1 and stores it in R1
+c) Finds the memory location 45 and adds that content to that of R1
+d) None of the mentioned
+
+Answer: b
+
+2. In the case of, Zero-address instruction method the operands are stored in _____
+a) Registers
+b) Accumulators
+c) Push down stack
+d) Cache
+
+Answer: c
+
+3. Add #45, when this instruction is executed the following happen/s _______
+a) The processor raises an error and requests for one more operand
+b) The value stored in memory location 45 is retrieved and one more operand is requested
+c) The value 45 gets added to the value on the stack and is pushed onto the stack
+d) None of the mentioned
+
+Answer: b
+
+4. The addressing mode which makes use of in-direction pointers is ______
+a) Indirect addressing mode
+b) Index addressing mode
+c) Relative addressing mode
+d) Offset addressing mode
+
+Answer: a
+
+5. In the following indexed addressing mode instruction, MOV 5(R1), LOC the effective address is ______
+a) EA = 5+R1
+b) EA = R1
+c) EA = [R1]
+d) EA = 5+[R1]
+
+Answer: d
+
+6. The addressing mode/s, which uses the PC instead of a general purpose register is ______
+a) Indexed with offset
+b) Relative
+c) Direct
+d) Both Indexed with offset and direct
+
+Answer: b
+
+7. When we use auto increment or auto decrements, which of the following is/are true?
+a) 1, 2, 3
+b) 2
+c) 1, 3
+d) 2, 3
+
+Answer: d
+
+8. The addressing mode, where you directly specify the operand value is _______
+a) Immediate
+b) Direct
+c) Definite
+d) Relative
+
+Answer: a
+
+9. The effective address of the following instruction is MUL 5(R1,R2).
+a) 5+R1+R2
+b) 5+(R1*R2)
+c) 5+[R1]+[R2]
+d) 5*([R1]+[R2])
+
+Answer: c
+
+10. _____ addressing mode is most suitable to change the normal sequence of execution of instructions.
+a) Relative
+b) Indirect
+c) Index with Offset
+d) Immediate
+
+Answer: a

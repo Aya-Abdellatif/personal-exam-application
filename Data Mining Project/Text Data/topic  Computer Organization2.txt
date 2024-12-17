@@ -1,0 +1,122 @@
+topic : Computer Organization
+subtopic : Addressing Modes
+
+1. Which method/s of representation of numbers occupies a large amount of memory than others?
+a) Sign-magnitude
+b) 1’s complement
+c) 2’s complement
+d) 1’s & 2’s compliment
+
+Answer: a
+
+2. Which representation is most efficient to perform arithmetic operations on the numbers?
+a) Sign-magnitude
+b) 1’s complement
+c) 2’S complement
+d) None of the mentioned
+
+Answer: c
+
+3. Which method of representation has two representations for ‘0’?
+a) Sign-magnitude
+b) 1’s complement
+c) 2’s complement
+d) Both Sign-magnitude and 1’s complement
+
+Answer: d
+
+4. When we perform subtraction on -7 and 1 the answer in 2’s complement form is _________
+a) 1010
+b) 1110
+c) 0110
+d) 1000
+
+Answer: d
+
+5. When we perform subtraction on -7 and -5 the answer in 2’s complement form is ________
+a) 11110
+b) 1110
+c) 1010
+d) 0010
+
+Answer: b
+
+6. When we subtract -3 from 2 , the answer in 2’s complement form is _________
+a) 0001
+b) 1101
+c) 0101
+d) 1001
+
+Answer: c
+
+7. The processor keeps track of the results of its operations using flags called ________
+a) Conditional code flags
+b) Test output flags
+c) Type flags
+d) None of the mentioned
+
+Answer: a
+
+8. The register used to store the flags is called as _________
+a) Flag register
+b) Status register
+c) Test register
+d) Log register
+
+Answer: b
+
+9. The Flag ‘V’ is set to 1 indicates that _____________
+a) The operation is valid
+b) The operation is validated
+c) The operation has resulted in an overflow
+d) None of the mentioned
+
+Answer: c
+
+10. In some pipelined systems, a different instruction is used to add to numbers which can affect the flags upon execution. That instruction is 
+a) AddSetCC
+b) AddCC
+c) Add++
+d) SumSetCC
+
+Answer: a
+
+11. The most efficient method followed by computers to multiply two unsigned numbers is _______
+a) Booth algorithm
+b) Bit pair recording of multipliers
+c) Restoring algorithm
+d) Non restoring algorithm
+
+Answer: b
+
+12. For the addition of large integers, most of the systems make use of ______
+a) Fast adders
+b) Full adders
+c) Carry look-ahead adders
+d) None of the mentioned
+
+Answer: c
+
+13. In a normal n-bit adder, to find out if an overflow as occurred we make use of ________
+a) And gate
+b) Nand gate
+c) Nor gate
+d) Xor gate
+
+Answer: d
+
+14. In the implementation of a Multiplier circuit in the system we make use of _______
+a) Counter
+b) Flip flop
+c) Shift register
+d) Push down stack
+
+Answer: c
+
+15. When 1101 is used to divide 100010010 the remainder is ______
+a) 101
+b) 11
+c) 0
+d) 1
+
+Answer: d
