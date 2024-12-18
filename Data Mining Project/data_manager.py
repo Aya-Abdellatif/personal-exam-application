@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from collections import Counter
-
+from question import Question
 
 class DataManager:
     @staticmethod
@@ -126,3 +126,22 @@ class DataManager:
     @staticmethod
     def get_questions_with_topic(topic: str):
         df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
+
+    @staticmethod
+    def get_all_questions() -> dict[str, list[Question]]:
+        df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
+        all_questions: dict[str, list[Question]] = {}
+        for _, row in df.iterrows():
+            if row["topic"] not in all_questions:
+                all_questions[row["topic"]] = []
+            question : Question = Question(
+                question_text=row["questionText"],
+                choice_a=row["choiceA"],
+                choice_b=row["choiceB"],
+                choice_c=row["choiceC"],
+                choice_d=row["choiceD"],
+                answer=row["answer"]
+            )
+            all_questions[row["topic"]].append(question)
+            return all_questions
+        
