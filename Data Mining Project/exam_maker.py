@@ -6,19 +6,39 @@ import random
 class ExamMaker:
     @staticmethod
     def make_exam(topics: list[tuple[str, int]]) -> list[Question]:
+        all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
         questions = []
+
+        # Add Biased Questions
         for topic, frequency in topics:
-            topic_questions = DataManager.get_questions_with_topic(topic)
+            topic_questions = all_questions[topic]
 
             for _ in range(frequency):
                 chosen_question = random.choice(topic_questions)
-                questions.append(Question(*chosen_question))
+                questions.append(chosen_question)
                 topic_questions.remove(chosen_question)
+
+        for _ in range(6):
+            random_topic = random.choice(all_questions.keys())
+            random_question = random.choice(all_questions[random_topic])
+            questions.append(random_question)
+            all_questions[random_topic].remove(random_question)
 
         return questions
 
     @staticmethod
-    def make_random_exam() -> list[Question]: ...
+    def make_random_exam() -> list[Question]:
+        all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
+        questions: list[Question] = []
+        for topic in all_questions.keys():
+            for _ in range(5):
+                random_question = random.choice(all_questions[topic])
+                questions.append(random_question)
+
+                # Removing the question so that we don't use it again
+                all_questions[topic].remove(random_question)
+
+        return questions
 
     @staticmethod
     def get_exams(

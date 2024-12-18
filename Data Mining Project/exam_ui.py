@@ -83,7 +83,9 @@ if st.session_state.submitted:
         answer_topics.append(row["subTopic"])
 
         if check_answer(user_answer, correct_answer_char, row):
-            st.success(f"✅ Q{index + 1}: Correct! The answer is **{correct_answer_char}**.")
+            st.success(
+                f"✅ Q{index + 1}: Correct! The answer is **{correct_answer_char}**."
+            )
             correct_count += 1
         else:
             st.error(
@@ -95,6 +97,3 @@ if st.session_state.submitted:
     )
 
     print(answer_topics)
-
-
-    
