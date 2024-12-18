@@ -34,7 +34,7 @@ class ExamMaker:
             sorted(two_itemsets.items(), key=lambda itemset: itemset[1], reverse=True)
         )[:exam_count]
 
-        for exam_index, exam_topics, _ in enumerate(sorted_frequent_itemsets.items()):
+        for exam_topics, _ in sorted_frequent_itemsets.items():
             first_topic = exam_topics[0]
             second_topic = exam_topics[1]
 

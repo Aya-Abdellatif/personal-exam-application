@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import base64
 
+
+def check_answer(user_answer: str, correct_answer_char: str, row):
+    return user_answer == row[f"choice{correct_answer_char.upper()}"]
+
+
 def add_background_image(image_file):
     with open(image_file, "rb") as image:
         encoded_image = base64.b64encode(image.read()).decode()
@@ -22,10 +27,11 @@ def add_background_image(image_file):
         }}
         </style>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
-add_background_image("background.jpg")  
+
+add_background_image("background.jpg")
 
 data = pd.read_csv("all_data.csv")
 answer_topics = []
@@ -45,17 +51,21 @@ st.markdown("Answer the following questions:")
 
 for index, row in st.session_state.selected_questions.iterrows():
     st.markdown(f"### Q{index + 1}: {row['questionText']}")
-    
-    options = [row['choiceA'], row['choiceB'], row['choiceC'], row['choiceD']]
+
+    options = [row["choiceA"], row["choiceB"], row["choiceC"], row["choiceD"]]
     if index not in st.session_state.answers:
         st.session_state.answers[index] = None
 
     st.session_state.answers[index] = st.radio(
-        f"Your Answer for Q{index + 1}:", 
+        f"Your Answer for Q{index + 1}:",
         options,
-        index=options.index(st.session_state.answers[index]) if st.session_state.answers[index] else None,
+        index=(
+            options.index(st.session_state.answers[index])
+            if st.session_state.answers[index]
+            else None
+        ),
         key=f"q{index}",
-        disabled=st.session_state.submitted
+        disabled=st.session_state.submitted,
     )
 
 
@@ -68,16 +78,23 @@ if st.session_state.submitted:
     correct_count = 0
 
     for index, row in st.session_state.selected_questions.iterrows():
-        correct_answer = row['answer']
+        correct_answer_char = row["answer"]
         user_answer = st.session_state.answers[index]
-        answer_topics.append(row['subTopic'])
+        answer_topics.append(row["subTopic"])
 
-        if user_answer == correct_answer:
-            st.success(f"✅ Q{index + 1}: Correct! The answer is **{correct_answer}**.")
+        if check_answer(user_answer, correct_answer_char, row):
+            st.success(f"✅ Q{index + 1}: Correct! The answer is **{correct_answer_char}**.")
             correct_count += 1
         else:
-            st.error(f"❌ Q{index + 1}: Wrong. You chose **{user_answer}**, but the correct answer is **{correct_answer}**.")
-    
-    st.write(f"### Your Score: {correct_count}/{len(st.session_state.selected_questions)}")
+            st.error(
+                f"❌ Q{index + 1}: Wrong. You chose **{user_answer}**, but the correct answer is **{correct_answer_char}**."
+            )
+
+    st.write(
+        f"### Your Score: {correct_count}/{len(st.session_state.selected_questions)}"
+    )
 
     print(answer_topics)
+
+
+    

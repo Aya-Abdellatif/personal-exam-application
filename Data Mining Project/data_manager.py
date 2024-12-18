@@ -5,10 +5,10 @@ from collections import Counter
 
 class DataManager:
     @staticmethod
-    def prepare_all(file_directory: str):
+    def prepare_all(file_directory: str) -> None:
         for filename in os.listdir(os.path.join(os.getcwd(), file_directory)):
             DataManager.prepare(os.path.join(file_directory, filename), "CSV Data/")
-        print("OK")
+        print("PREPARING CSV FILES: OK")
 
     @staticmethod
     def prepare(filename: str, output_directory: str = "/") -> None:
@@ -76,7 +76,7 @@ class DataManager:
         choice_c: str,
         choice_d: str,
         correct_answer: str,
-    ):
+    ) -> None:
 
         questions["topic"].append(topic)
         questions["subTopic"].append(sub_topic)
