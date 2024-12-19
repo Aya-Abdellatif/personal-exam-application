@@ -1,7 +1,10 @@
+from typing import Optional
+
 import pandas as pd
 import os
 from collections import Counter
 from question import Question
+
 
 class DataManager:
     @staticmethod
@@ -130,20 +133,35 @@ class DataManager:
         for _, row in df.iterrows():
             if row["topic"] not in all_questions:
                 all_questions[row["topic"]] = []
-            question : Question = Question(
+            question: Question = Question(
                 question_text=row["questionText"],
                 topic=row["topic"],
                 choice_a=row["choiceA"],
                 choice_b=row["choiceB"],
                 choice_c=row["choiceC"],
                 choice_d=row["choiceD"],
-                answer=row["answer"]
+                answer=row["answer"],
             )
             all_questions[row["topic"]].append(question)
-            return all_questions
-        
+        return all_questions
+
     @staticmethod
     def append_transaction(transaction: list[str]) -> None:
         df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
-        df.append(";".join(transaction))
+        df.loc[len(df)] = ";".join(transaction)
         df.to_csv("transactions.csv", index=False)
+
+
+    @staticmethod
+    def get_average_score() -> Optional[float]:
+        df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
+        exam_count = len(df["Transaction"])
+        if exam_count == 0: return None
+        # The number of wring answers in each row is equal to the number of semicolons in that row + 1
+        # So we iterate over all the rows and count the number of (semicolons + 1)
+        wrong_count = sum([row.count(";") + 1 for row in df["Transaction"].tolist()])
+
+        correct_count = exam_count * 20 - wrong_count
+
+        return round(correct_count / exam_count, 2)
+

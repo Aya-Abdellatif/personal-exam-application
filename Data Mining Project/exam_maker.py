@@ -12,7 +12,6 @@ class ExamMaker:
         # Add Biased Questions
         for topic, frequency in topics:
             topic_questions = all_questions[topic]
-
             for _ in range(frequency):
                 chosen_question = random.choice(topic_questions)
                 questions.append(chosen_question)
@@ -30,6 +29,7 @@ class ExamMaker:
     def make_random_exam() -> list[Question]:
         all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
         questions: list[Question] = []
+        print(all_questions.keys())
         for topic in all_questions.keys():
             for _ in range(5):
                 random_question = random.choice(all_questions[topic])
@@ -51,8 +51,10 @@ class ExamMaker:
 
         # itemset[1] represents the frequency
         sorted_frequent_itemsets = dict(
-            sorted(two_itemsets.items(), key=lambda itemset: itemset[1], reverse=True)
-        )[:exam_count]
+            sorted(two_itemsets.items(), key=lambda itemset: itemset[1], reverse=True)[
+                :exam_count
+            ]
+        )
 
         for exam_topics, _ in sorted_frequent_itemsets.items():
             first_topic = exam_topics[0]

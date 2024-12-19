@@ -1,68 +1,121 @@
 import streamlit as st
 
+from data_manager import DataManager
+from exam_ui import add_background_image, check_answer, get_exams
+from session import Session
+
 st.image("img/logo.png", width=200)
 
-if "page" not in st.session_state:
-    st.session_state.page = "main"  # Default page
+st.session_state.session = Session()
+
 
 def main_page():
-    st.title("Student Total Score")
-    #Progress Bar and Score Display
-    progress_bar_value = (10) / 40
-    st.metric(label="Total Score", value=f"{10} / {40 * 10}")
-    st.progress(progress_bar_value)
+    st.title("Student Average Score")
+
+    # Progress Bar and Score Display
+    avg_score = DataManager.get_average_score()
+    if avg_score is not None:
+        progress_bar_value = avg_score / 20
+        st.metric(label="Average Score", value=f"{avg_score}/20")
+        st.progress(progress_bar_value)
 
     exam_images = {
         "Exam 1": "img/1.jpeg",  # Replace with actual image paths
         "Exam 2": "img/2.jpeg",  # Replace with actual image paths
-        "Exam 3": "img/3.jpeg"   # Replace with actual image paths
+        "Exam 3": "img/3.jpeg",  # Replace with actual image paths
     }
 
     # Create three columns for the images to appear side by side
     col1, col2, col3 = st.columns(3)
 
     # Action when an image is clicked (as a button)
-    exam_option = None
     with col1:
-        st.image(exam_images["Exam 1"], use_column_width=True, output_format="JPEG")
+        st.image(exam_images["Exam 1"], use_container_width=True, output_format="JPEG")
         if st.button("Start Exam number 1"):
-            exam_option = "Exam 1"
-            st.session_state.selected_exam = exam_option
+            Session.exam_index = 0
+            st.rerun()
 
     with col2:
-        st.image(exam_images["Exam 2"], use_column_width=True, output_format="JPEG")
+        st.image(exam_images["Exam 2"], use_container_width=True, output_format="JPEG")
         if st.button("Start Exam number 2"):
-            exam_option = "Exam 2"
-            st.session_state.selected_exam = exam_option
+            Session.exam_index = 1
+            st.rerun()
     with col3:
-        st.image(exam_images["Exam 3"], use_column_width=True, output_format="JPEG")
+        st.image(exam_images["Exam 3"], use_container_width=True, output_format="JPEG")
         if st.button("Start Exam number 3"):
-            exam_option = "Exam 3"
-            st.session_state.selected_exam = exam_option
+            Session.exam_index = 2
+            st.rerun()
 
-    if "selected_exam" in st.session_state:
-        selected_exam = st.session_state.selected_exam
-        st.write(f"You have selected {selected_exam}. Now proceeding to the exam page...")
 
-        # Redirect to the respective exam page
-        if selected_exam == "Exam 1":
-            st.session_state.page = "exam"
-        elif selected_exam == "Exam 2":
-            # Example of Exam 2 page content
-            st.write("Welcome to Exam 2!")
-            # Add more content or functions related to Exam 2 here.
-        elif selected_exam == "Exam 3":
-            # Example of Exam 3 page content
-            st.write("Welcome to Exam 3!")
-            # Add more content or functions related to Exam 3 here.
-
-def exam_page():
-    st.title("Exam 1")
+def exam_page(exam_index: int):
+    exam = Session.exam
+    st.title(f"Welcome to Exam {exam_index + 1}")
     st.write("Welcome to Page 1!")
     if st.button("Back to Dashboard Page"):
-        st.session_state.page = "main"
+        Session.reset()
+        st.rerun()
 
-if st.session_state.page == "main":
+    add_background_image("img/background2.jpeg")
+
+    answer_topics = []
+
+    st.title("📝 Exam Page")
+    st.markdown("Answer the following questions:")
+
+    for index, question in enumerate(exam):
+        st.markdown(f"### Q{index + 1}: {question.question_text}")
+
+        options = [
+            question.choice_a,
+            question.choice_b,
+            question.choice_c,
+            question.choice_d,
+        ]
+
+        Session.exam_answers[index] = st.radio(
+            f"Your Answer for Q{index + 1}:",
+            options,
+            index=(
+                options.index(Session.exam_answers[index])
+                if Session.exam_answers[index]
+                else None
+            ),
+            key=f"q{index}",
+            disabled=Session.submitted_exam,
+        )
+
+    if st.button("Submit") and not Session.submitted_exam:
+        Session.submitted_exam = True
+        st.rerun()
+
+    if Session.submitted_exam:
+        st.markdown("## Results:")
+        correct_count = 0
+        wrong_topics = []
+        for index, question in enumerate(exam):
+            correct_answer_char = question.answer
+            user_answer = Session.exam_answers[index]
+            answer_topics.append(question.topic)
+
+            if check_answer(user_answer, correct_answer_char, question):
+                st.success(
+                    f"✅ Q{index + 1}: Correct! The answer is **{correct_answer_char}**."
+                )
+                correct_count += 1
+            else:
+                st.error(
+                    f"❌ Q{index + 1}: Wrong. You chose **{user_answer}**, but the correct answer is **{correct_answer_char}**."
+                )
+                wrong_topics.append(question.topic)
+
+        st.write(f"### Your Score: {correct_count}/20")
+
+        DataManager.append_transaction(wrong_topics)
+
+
+if st.session_state.session.exam_index is not None:
+    if not Session.exam:
+        Session.exam = get_exams()[st.session_state.session.exam_index]
+    exam_page(st.session_state.session.exam_index)
+else:
     main_page()
-elif st.session_state.page == "exam":
-    exam_page()
