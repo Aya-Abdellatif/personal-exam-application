@@ -43,7 +43,7 @@ def add_background_image(image_file):
     )
 
 
-add_background_image("background.jpg")
+add_background_image("img/background2.jpeg")
 
 data = pd.read_csv("all_data.csv")
 answer_topics = []
