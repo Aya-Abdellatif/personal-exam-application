@@ -8,7 +8,7 @@ DataManager.prepare_all("Text Data/")
 DataManager.merge_csv_files("CSV Data/")
 
 # Load all the transactions and sort them to be ready for FP-Tree algorithm
-sorted_transactions = DataManager.load_and_sort_csv("transactions.csv")
+sorted_transactions = DataManager.load_and_sort_transactions("transactions.csv")
 
 # Build FP-Tree
 fp_tree = FrequentPatternManager.build_fp_tree(sorted_transactions)

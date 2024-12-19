@@ -104,9 +104,9 @@ class DataManager:
         merged_df.to_csv("all_data.csv", index=False)
 
     @staticmethod
-    def load_and_sort_csv(file_path) -> pd.DataFrame:
+    def load_and_sort_transactions() -> pd.DataFrame:
         # Read the CSV file
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
 
         # Convert transactions back to lists
         df["Transaction"] = df["Transaction"].apply(lambda x: x.split(";"))

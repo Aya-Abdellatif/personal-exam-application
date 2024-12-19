@@ -2,8 +2,18 @@ import streamlit as st
 import pandas as pd
 import base64
 
-from data_manager import DataManager
+from question import Question
 
+from data_manager import DataManager
+from exam_maker import ExamMaker
+from frequent_pattern_manager import FrequentPatternManager
+
+def get_exams() -> list[list[Question]]:
+    transactions = DataManager.load_and_sort_transactions()
+    fp_tree = FrequentPatternManager.build_fp_tree(transactions)
+    frequent_patterns = FrequentPatternManager.mine_fp_tree(fp_tree.header_table, 2)
+    filtered_patterns = FrequentPatternManager.filter_items_with_duplicates(frequent_patterns)
+    return ExamMaker.get_exams(3, filtered_patterns)
 
 def check_answer(user_answer: str, correct_answer_char: str, row):
     return user_answer == row[f"choice{correct_answer_char.upper()}"]

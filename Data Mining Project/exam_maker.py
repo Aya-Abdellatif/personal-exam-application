@@ -43,7 +43,7 @@ class ExamMaker:
     @staticmethod
     def get_exams(
         exam_count: int, filtered_frequent_itemsets: list[tuple[list[str], int]]
-    ):
+    ) -> list[list[Question]]:
         exams: list[list[Question]] = []
 
         one_itemsets = ExamMaker._get_n_itemsets(filtered_frequent_itemsets, 1)
