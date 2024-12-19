@@ -13,7 +13,7 @@ sorted_transactions = DataManager.load_and_sort_csv("transactions.csv")
 # Build FP-Tree
 fp_tree = FrequentPatternManager.build_fp_tree(sorted_transactions)
 
-# Mine Frequent itemsets using FP-Tree algorothm
+# Mine Frequent itemsets using FP-Tree algorithm
 frequent_itemsets = FrequentPatternManager.mine_fp_tree(
     fp_tree.header_table, min_support=30
 )

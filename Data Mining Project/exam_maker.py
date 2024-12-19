@@ -19,7 +19,7 @@ class ExamMaker:
                 topic_questions.remove(chosen_question)
 
         for _ in range(6):
-            random_topic = random.choice(all_questions.keys())
+            random_topic = random.choice(list(all_questions.keys()))
             random_question = random.choice(all_questions[random_topic])
             questions.append(random_question)
             all_questions[random_topic].remove(random_question)

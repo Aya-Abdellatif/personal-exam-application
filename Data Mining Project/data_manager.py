@@ -124,10 +124,6 @@ class DataManager:
         return df["Sorted Transaction"].tolist()
 
     @staticmethod
-    def get_questions_with_topic(topic: str):
-        df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
-
-    @staticmethod
     def get_all_questions() -> dict[str, list[Question]]:
         df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
         all_questions: dict[str, list[Question]] = {}
@@ -136,6 +132,7 @@ class DataManager:
                 all_questions[row["topic"]] = []
             question : Question = Question(
                 question_text=row["questionText"],
+                topic=row["topic"],
                 choice_a=row["choiceA"],
                 choice_b=row["choiceB"],
                 choice_c=row["choiceC"],
@@ -145,3 +142,8 @@ class DataManager:
             all_questions[row["topic"]].append(question)
             return all_questions
         
+    @staticmethod
+    def append_transaction(transaction: list[str]) -> None:
+        df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
+        df.append(";".join(transaction))
+        df.to_csv("transactions.csv", index=False)

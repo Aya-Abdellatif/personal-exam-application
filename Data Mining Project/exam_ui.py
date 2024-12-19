@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import base64
 
+from data_manager import DataManager
+
 
 def check_answer(user_answer: str, correct_answer_char: str, row):
     return user_answer == row[f"choice{correct_answer_char.upper()}"]
@@ -76,7 +78,7 @@ if st.button("Submit") and not st.session_state.submitted:
 if st.session_state.submitted:
     st.markdown("## Results:")
     correct_count = 0
-
+    wrong_topics = []
     for index, row in st.session_state.selected_questions.iterrows():
         correct_answer_char = row["answer"]
         user_answer = st.session_state.answers[index]
@@ -91,9 +93,10 @@ if st.session_state.submitted:
             st.error(
                 f"❌ Q{index + 1}: Wrong. You chose **{user_answer}**, but the correct answer is **{correct_answer_char}**."
             )
+            wrong_topics.append(row["topic"])
 
     st.write(
         f"### Your Score: {correct_count}/{len(st.session_state.selected_questions)}"
     )
 
-    print(answer_topics)
+    DataManager.append_transaction(wrong_topics)
