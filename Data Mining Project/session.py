@@ -1,9 +1,13 @@
 from typing import Optional
 
-from question import Question
+from exam_maker import Question
 
 
 class Session:
+    """
+    A class that represents the session variables.
+    """
+
     submitted_exam: bool = False
     exam_index: Optional[int] = None
     exam_answers: dict[int, Optional[str]] = {i: None for i in range(20)}
@@ -15,9 +19,11 @@ class Session:
         self.exam_answers = Session.exam_answers
         self.exam = Session.exam
 
-
     @staticmethod
     def reset():
+        """
+        Resets the session variables to the default values.
+        """
         Session.submitted_exam = False
         Session.exam_index = None
         Session.exam_answers = {i: None for i in range(20)}

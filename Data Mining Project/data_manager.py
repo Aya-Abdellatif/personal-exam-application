@@ -6,15 +6,31 @@ from collections import Counter
 from question import Question
 
 
+TEXT_DATA_DIRECTORY_PATH = os.path.join(os.getcwd(), "Text Data")
+CSV_DATA_DIRECTORY_PATH = os.path.join(os.getcwd(), "CSV Data")
+TRANSACTIONS_DATA_PATH = os.path.join(os.getcwd(), "transactions.csv")
+
+
 class DataManager:
+    """
+    A static class for managing everything related to data.
+    """
+
     @staticmethod
-    def prepare_all(file_directory: str) -> None:
-        for filename in os.listdir(os.path.join(os.getcwd(), file_directory)):
-            DataManager.prepare(os.path.join(file_directory, filename), "CSV Data/")
+    def prepare_all() -> None:
+        """
+        Converts all the text data to separate csv files.
+        """
+        for filename in os.listdir(TEXT_DATA_DIRECTORY_PATH):
+            DataManager.prepare(os.path.join(TEXT_DATA_DIRECTORY_PATH, filename))
         print("PREPARING CSV FILES: OK")
 
     @staticmethod
-    def prepare(filename: str, output_directory: str = "/") -> None:
+    def prepare(filename: str) -> None:
+        """
+        Converts a single text file to a csv file
+        :param filename: the filename to convert
+        """
         print(filename)
         questions = {
             "topic": [],
@@ -65,7 +81,8 @@ class DataManager:
 
         df = pd.DataFrame(questions)
         df.to_csv(
-            os.path.join(output_directory, f"{topic}-{subtopic}.csv"), index=False
+            os.path.join(CSV_DATA_DIRECTORY_PATH, f"{topic}-{subtopic}.csv"),
+            index=False,
         )
 
     @staticmethod
@@ -80,7 +97,18 @@ class DataManager:
         choice_d: str,
         correct_answer: str,
     ) -> None:
-
+        """
+        Adds a question to the questions' dictionary.
+        :param questions: the dictionary to add question to.
+        :param topic: the topic of the question.
+        :param sub_topic: the sub-topic of the question.
+        :param question_text: the question text of the question.
+        :param choice_a: choice_a of the question.
+        :param choice_b: choice_b of the question.
+        :param choice_c: choice_c of the question.
+        :param choice_d: choice_d of the question.
+        :param correct_answer: the correct answer in the form of a/b/c/d.
+        """
         questions["topic"].append(topic)
         questions["subTopic"].append(sub_topic)
         questions["questionText"].append(question_text)
@@ -92,6 +120,10 @@ class DataManager:
 
     @staticmethod
     def merge_csv_files(file_directory: str) -> None:
+        """
+        Merges all csv files into a single csv file.
+        :param file_directory: the directory containing all the csv files.
+        """
         dataframes = []
 
         # Loop through all files in the directory
@@ -108,6 +140,10 @@ class DataManager:
 
     @staticmethod
     def load_and_sort_transactions() -> pd.DataFrame:
+        """
+        Loads and sorts the transactions csv files into a pandas dataframe.
+        :return: a dataframe containing all the sorted transactions
+        """
         # Read the CSV file
         df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
 
@@ -128,6 +164,10 @@ class DataManager:
 
     @staticmethod
     def get_all_questions() -> dict[str, list[Question]]:
+        """
+        returns all the questions in the dataset
+        :return: a dictionary containing all the topics mapped to all a list of questions for each topic.
+        """
         df = pd.read_csv(os.path.join(os.getcwd(), "all_data.csv"))
         all_questions: dict[str, list[Question]] = {}
         for _, row in df.iterrows():
@@ -147,16 +187,24 @@ class DataManager:
 
     @staticmethod
     def append_transaction(transaction: list[str]) -> None:
-        df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
+        """
+        Add a new transactions to the transactions csv file.
+        :param transaction: the transaction as list of strings to add in the csv file.
+        """
+        df = pd.read_csv(TRANSACTIONS_DATA_PATH)
         df.loc[len(df)] = ";".join(transaction)
-        df.to_csv("transactions.csv", index=False)
-
+        df.to_csv(TRANSACTIONS_DATA_PATH, index=False)
 
     @staticmethod
     def get_average_score() -> Optional[float]:
-        df = pd.read_csv(os.path.join(os.getcwd(), "transactions.csv"))
+        """
+        Returns the average score of the transactions csv file.
+        :return: the average score of the transactions csv file or none if there is no transactions.
+        """
+        df = pd.read_csv(TRANSACTIONS_DATA_PATH)
         exam_count = len(df["Transaction"])
-        if exam_count == 0: return None
+        if exam_count == 0:
+            return None
         # The number of wring answers in each row is equal to the number of semicolons in that row + 1
         # So we iterate over all the rows and count the number of (semicolons + 1)
         wrong_count = sum([row.count(";") + 1 for row in df["Transaction"].tolist()])
@@ -164,4 +212,3 @@ class DataManager:
         correct_count = exam_count * 20 - wrong_count
 
         return round(correct_count / exam_count, 2)
-
