@@ -13,14 +13,14 @@ class ExamMaker:
     def make_exam(topics: list[tuple[str, int]]) -> list[Question]:
         """
         Returns a list of Question objects given the counts for each topic to add
-        Note: Automatically adds from each topic randomly so that all topics exist in an exam.
+        Note: Automatically adds 6 questions from random topics to the exam
         :param topics: a list of tuples of (topic, count) indicating the number of questions to add for each topic.
         :return: a list of 20 Question objects which is the exam.
         """
         all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
         questions = []
 
-        # Add Biased Questions
+        # Add 14 Biased Questions
         for topic, frequency in topics:
             topic_questions = all_questions[topic]
             for _ in range(frequency):
@@ -28,6 +28,7 @@ class ExamMaker:
                 questions.append(chosen_question)
                 topic_questions.remove(chosen_question)
 
+        # Add 6 random questions
         for _ in range(6):
             random_topic = random.choice(list(all_questions.keys()))
             random_question = random.choice(all_questions[random_topic])
