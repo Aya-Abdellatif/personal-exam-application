@@ -17,7 +17,9 @@ class ExamMaker:
         :param topics: a list of tuples of (topic, count) indicating the number of questions to add for each topic.
         :return: a list of 20 Question objects which is the exam.
         """
-        all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
+        all_questions: dict[str, list[Question]] = (
+            DataManager.get_all_questions().copy()
+        )
         questions = []
 
         # Add 14 Biased Questions
@@ -44,7 +46,6 @@ class ExamMaker:
         """
         all_questions: dict[str, list[Question]] = DataManager.get_all_questions()
         questions: list[Question] = []
-        print(all_questions.keys())
         for topic in all_questions.keys():
             for _ in range(5):
                 random_question = random.choice(all_questions[topic])

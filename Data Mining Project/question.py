@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(frozen=True)
 class Question:
     """
     A dataclass representing a question including all of its attributes.
