@@ -13,6 +13,10 @@ st.session_state.session = Session()
 
 
 def get_exams() -> list[list[Question]]:
+    """
+    Loads the past submissions, builds the FP-tree, mines it and returns the exams 
+    :return: 3 lists of question object indicates the questions for each exam
+    """
     transactions = DataManager.load_and_sort_transactions()
     fp_tree = FrequentPatternManager.build_fp_tree(transactions)
     frequent_patterns = FrequentPatternManager.mine_fp_tree(fp_tree.header_table, 2)
@@ -22,11 +26,21 @@ def get_exams() -> list[list[Question]]:
     return ExamMaker.get_exams(3, filtered_patterns)
 
 
-def check_answer(user_answer: str, correct_answer_char: str, question: Question):
+def check_answer(user_answer: str, correct_answer_char: str, question: Question) -> bool:
+    """
+    :param user_aswer: The full text answer of the user
+    :param correct_answer_char: The character of the correct answer (a/b/c/d)
+    :param question: The question that the answers relate to
+    :return: true if correct, false otherwise
+    """
     return user_answer == getattr(question, f"choice_{correct_answer_char}")
 
 
-def add_background_image(image_file):
+def add_background_image(image_file: str) -> None:
+    """
+    Adds an image to the streamlit app
+    :param image_file: The filepath of the image to add
+    """
     with open(image_file, "rb") as image:
         encoded_image = base64.b64encode(image.read()).decode()
     st.markdown(
@@ -51,6 +65,9 @@ def add_background_image(image_file):
 
 
 def main_page():
+    """
+    The main page of the student dashboard
+    """
     st.title("Student Average Score")
 
     # Progress Bar and Score Display
@@ -88,7 +105,11 @@ def main_page():
             st.rerun()
 
 
-def exam_page(exam_index: int):
+def exam_page(exam_index: int) -> None:
+    """
+    Represents the page where the questions of a certain exam appears
+    :param exam_index: The index of the exam to show
+    """
     exam = Session.exam
     st.title(f"Welcome to Exam {exam_index + 1}")
     st.write("Welcome to Page 1!")
