@@ -1,0 +1,16 @@
+topic,subTopic,questionText,choiceA,choiceB,choiceC,choiceD,answer
+Embedded system,Types of Processors,What shows the brightness of the pixel in a digital signal processor?,luminance,transparent,chrominance,opaque,a
+Embedded system,Types of Processors,What is the color format of chrominance in a digital signal processor?,VGBA,VIBGYOR,White,RGBA,d
+Embedded system,Types of Processors,Which of the following processor are designed to perform calculations in graphics rendering?,GPU,digital signal processor,microprocessor,microcontroller,a
+Embedded system,Types of Processors,Which of the processor is a good match for applications such as video games?,GPU,VLIW,Coprocessor,Microcontroller,a
+Embedded system,Types of Processors,Which of the following statement is true for concurrency?,different parts of the program executes physically,different parts of the program executes sequentially,different parts of the program executes conceptually,different parts of the program executes sequentially and physically,c
+Embedded system,Types of Processors,Which is an imperative language?,C program,SQL,XQuery,Concurrent model of HDL,a
+Embedded system,Types of Processors,Which of the following instructions supports parallel execution?,VLIW,TTA,ALU operation,Test-and-set instructions,a
+Embedded system,Types of Processors,Who invented VLIW architecture?,Josh Fisher,John Ellis,John Ruttenberg,John Oâ€™Donnell,a
+Embedded system,Types of Processors,What is ILP?,instruction-level parallelism,instruction-level panel,instruction-language panel,inter-language parallelism,a
+Embedded system,Types of Processors, Which ILP supports the ALU division?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system,Types of Processors, Which is a vector processor?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system,Types of Processors, Which of the following architecture supports out-of-order execution?,RISC,CISC,Superscalar,Subword parallelism,c
+Embedded system,Types of Processors, Which is an example of superscalar architecture?,Pentium 4,8086,80386,Pentium pro,a
+Embedded system,Types of Processors, Which of the following is a combination of several processors on a single chip?,Multicore architecture,RISC architecture,CISC architecture,Subword parallelism,a
+Embedded system,Types of Processors, Which is an example of the multi-core processor which possesses 10 cores?,Intel Xeon E7-2850,AMD Phenom IIX2,Intel core duo,AMD Phenom IIX3,a

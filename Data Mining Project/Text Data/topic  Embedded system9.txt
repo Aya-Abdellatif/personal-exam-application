@@ -1,4 +1,4 @@
-topic : Embedded system 
+topic : Embedded system
 subtopic : Types of Processors
 
 1. What shows the brightness of the pixel in a digital signal processor?

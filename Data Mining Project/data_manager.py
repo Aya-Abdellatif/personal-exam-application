@@ -44,7 +44,7 @@ class DataManager:
 
         with open(filename, "r") as file:
             lines = file.readlines()
-            print(*lines, sep='\n')
+            # print(*lines, sep='\n')
             # Remove first 8 characters to get the topic
             topic = lines[0][8:].replace("\n", "")
             subtopic = lines[1][11:].replace("\n", "")

@@ -1,4 +1,4 @@
-topic : Embedded system 
+topic : Embedded system
 subtopic : Digital Signal Processing
 
 1. What are the factors of filters which are determined by the speed of the operation in a digital signal processor?

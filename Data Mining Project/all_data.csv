@@ -118,61 +118,6 @@ Computer Organization,Subroutines and Nesting,When parameters are being passed o
 Computer Organization,Subroutines and Nesting,The most efficient way of handling parameter passing is by using ______,General purpose registers,Stacks,Memory locations,None of the mentioned,a
 Computer Organization,Subroutines and Nesting,The most Flexible way of logging the return addresses of the subroutines is by using _______,Registers,Stacks,Memory locations,None of the mentioned,b
 Computer Organization,Subroutines and Nesting, The wrong statement/s regarding interrupts and subroutines among the following is/are ______,"i, ii and iv",ii and iii,iv,iii and iv,d
-Embedded system ,Digital Signal Processing,What are the factors of filters which are determined by the speed of the operation in a digital signal processor?,attenuation constant,frequency,bandwidth,phase,c
-Embedded system ,Digital Signal Processing,How many tables does an FIR function of a digital signal processor possess?,1,2,3,4,b
-Embedded system ,Digital Signal Processing,Why is said that branch prediction is not applicable in a digital signal processor?,low bandwidth,high bandwidth,low frequency,high frequency,a
-Embedded system ,Digital Signal Processing,Which architecture can one overcome the low bandwidth issue in MC6800 family?,RISC,CISC,von Neumann,program stored,a
-Embedded system ,Digital Signal Processing,Which architecture in digital signal processor reduces the execution time?,Harvard,CISC,program storage,von Neumann,a
-Embedded system ,Digital Signal Processing,Which of the following processors also can work as a digital signal processor?,8086,8088,8080,ARM9E,d
-Embedded system ,Digital Signal Processing,What types of modules are used in the digital signal processor to form the loop structure?,modulo-timer,modulo-counter,timer,external timer,b
-Embedded system ,Digital Signal Processing,Name a processor which is used in digital audio appliances.,8086,Motorola DSP56000,80486,8087,b
-Embedded system ,Digital Signal Processing,How many bits does DSP56000 processor have?,8,16,24,32,c
-Embedded system ,Digital Signal Processing, How many buses did DSP56000 possess?,2,3,4,5,b
-Embedded system ,Digital Signal Processing, Which of the following architecture does DSP56000 possess?,Harvard,von Neumann,CISC,program-stored,a
-Embedded system ,Digital Signal Processing, What does AAU stand for?,arithmetic address unit,address arithmetic unit,address access unit,arithmetic access unit,b
-Embedded system ,Digital Signal Processing, How many address register does the AAU of a DSP56000 have?,8,16,24,32,c
-Embedded system ,Digital Signal Processing, How many registers does a DSP56000 have?,4,5,7,6,c
-Embedded system ,Digital Signal Processing, Which of the following bits are used for sign extension in DSP56000?,upper 8 bits of the stack pointer,lower 8 bits of the stack pointer,lower 8 bits of the program counter,upper 8 bits of the program counter,d
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit register set does RISC 1 model used?,138*24,138*32,69*16,69*32,b
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor commercializes the Berkeley RISC model?,SPARC,Stanford,RISC-1,RISC,a
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many transistors does RISC 1 possess?,44000,45000,44500,45500,c
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many registers does RISC 1 model have?,68,58,78,88,c
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the architectures are made to speed up the processor?,CISC,RISC,program stored,von Neumann,b
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How did 8086 pass its control to 8087?,BUSY instruction,ESCAPE instruction,CONTROL instruction,fetch 8087,b
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor supports MMX instructions?,8080,80486,Intel Pentium,80386,c
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,Which of the following processors has a speculative execution?,80486,P1,Intel Pentium,Pentium pro,d
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing,How many bit accumulator does DSP56000 have?,28,56,112,14,b
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing, How many additional registers does DSP56000 have?,2,4,6,8,b
-Embedded system ,The Berkeley RISC Model and Digital Signal Processing, What does MAC instruction of DSP56000 stand for?,multiply accumulator,multiple access,multiple accounting,multiply accumulator counter,a
-Embedded system ,The Sun SPARC RISC Model,What does SPARC stand for?,scalable processor architecture,speculating architecture,speculating processor,scaling Pentium architecture,a
-Embedded system ,The Sun SPARC RISC Model,How many bits does SPARC have?,8,16,32,64,c
-Embedded system ,The Sun SPARC RISC Model,Which company developed SPARC?,intel,IBM,Motorola,sun microsystem,d
-Embedded system ,The Sun SPARC RISC Model,What improves the context switching and parameter passing?,register windowing,large register,stack register,program counter,a
-Embedded system ,The Sun SPARC RISC Model,How many external interrupts does SPARC processor support?,5,10,15,20,c
-Embedded system ,The Sun SPARC RISC Model,Which level is an in-built nonmaskable interrupt in SPARC processor?,15,14,13,12,a
-Embedded system ,The Sun SPARC RISC Model,How many instructions does SPARC processor have?,16,32,64,128,c
-Embedded system ,The Sun SPARC RISC Model,What is generated by an external interrupt in SPARC?,internal trap,external trap,memory trap,interfaced trap,a
-Embedded system ,The Sun SPARC RISC Model,"When an external interrupt is generated, what type of mode does the processor supports?",real mode,virtual mode,protected mode,supervisor mode,d
-Embedded system ,The Sun SPARC RISC Model, Where is trap vector table located in SPARC processor?,program counter,Y register,status register,trap base register,d
-Embedded system ,The Sun SPARC RISC Model, How many bits does SPARC-V9 processor have?,16,32,64,128,c
-Embedded system ,The Sun SPARC RISC Model, What are the three modules in the SPARC processor?,"IU, FPU, CU","SP, DI, SI","AX, BX, CX","CU, CH, CL",a
-Embedded system ,The Sun SPARC RISC Model, How many floating point register does the FPU of the SPARC have?,16 128-bit,32 128-bit,64 128-bit,10 128-bit,a
-Embedded system ,The Sun SPARC RISC Model, Which module of SPARC contains the general purpose registers?,IU,FPU,CU,control unit,a
-Embedded system ,Types of Processors,What shows the brightness of the pixel in a digital signal processor?,luminance,transparent,chrominance,opaque,a
-Embedded system ,Types of Processors,What is the color format of chrominance in a digital signal processor?,VGBA,VIBGYOR,White,RGBA,d
-Embedded system ,Types of Processors,Which of the following processor are designed to perform calculations in graphics rendering?,GPU,digital signal processor,microprocessor,microcontroller,a
-Embedded system ,Types of Processors,Which of the processor is a good match for applications such as video games?,GPU,VLIW,Coprocessor,Microcontroller,a
-Embedded system ,Types of Processors,Which of the following statement is true for concurrency?,different parts of the program executes physically,different parts of the program executes sequentially,different parts of the program executes conceptually,different parts of the program executes sequentially and physically,c
-Embedded system ,Types of Processors,Which is an imperative language?,C program,SQL,XQuery,Concurrent model of HDL,a
-Embedded system ,Types of Processors,Which of the following instructions supports parallel execution?,VLIW,TTA,ALU operation,Test-and-set instructions,a
-Embedded system ,Types of Processors,Who invented VLIW architecture?,Josh Fisher,John Ellis,John Ruttenberg,John Oâ€™Donnell,a
-Embedded system ,Types of Processors,What is ILP?,instruction-level parallelism,instruction-level panel,instruction-language panel,inter-language parallelism,a
-Embedded system ,Types of Processors, Which ILP supports the ALU division?,Subword parallelism,CISC,Superscalar,VLIW,a
-Embedded system ,Types of Processors, Which is a vector processor?,Subword parallelism,CISC,Superscalar,VLIW,a
-Embedded system ,Types of Processors, Which of the following architecture supports out-of-order execution?,RISC,CISC,Superscalar,Subword parallelism,c
-Embedded system ,Types of Processors, Which is an example of superscalar architecture?,Pentium 4,8086,80386,Pentium pro,a
-Embedded system ,Types of Processors, Which of the following is a combination of several processors on a single chip?,Multicore architecture,RISC architecture,CISC architecture,Subword parallelism,a
-Embedded system ,Types of Processors, Which is an example of the multi-core processor which possesses 10 cores?,Intel Xeon E7-2850,AMD Phenom IIX2,Intel core duo,AMD Phenom IIX3,a
 Embedded system, Accumulator Processor,"Which is the first device by Intel, that started the microprocessor revolution?",8080,8086,8087,8088,a
 Embedded system, Accumulator Processor,Which is the first microprocessor by Motorola?,MC6800,MC68001,MIPS,PowerPC,a
 Embedded system, Accumulator Processor,Motorola MC6800 is a how many-bit processor?,4,8,16,32,b
@@ -216,6 +161,21 @@ Embedded system,Coprocessor of Intel, How are negative numbers stored in a copro
 Embedded system,Coprocessor of Intel, How many bits are used for storing signed integers?,2,4,8,16,d
 Embedded system,Coprocessor of Intel, Which of the processor has an internal coprocessor?,8087,80287,80387,80486DX,d
 Embedded system,Coprocessor of Intel, What are the two major sections in a coprocessor?,control unit and numeric control unit,integer unit and control unit,floating point unit and coprocessor unit,coprocessor unit and numeric control unit,a
+Embedded system,Digital Signal Processing,What are the factors of filters which are determined by the speed of the operation in a digital signal processor?,attenuation constant,frequency,bandwidth,phase,c
+Embedded system,Digital Signal Processing,How many tables does an FIR function of a digital signal processor possess?,1,2,3,4,b
+Embedded system,Digital Signal Processing,Why is said that branch prediction is not applicable in a digital signal processor?,low bandwidth,high bandwidth,low frequency,high frequency,a
+Embedded system,Digital Signal Processing,Which architecture can one overcome the low bandwidth issue in MC6800 family?,RISC,CISC,von Neumann,program stored,a
+Embedded system,Digital Signal Processing,Which architecture in digital signal processor reduces the execution time?,Harvard,CISC,program storage,von Neumann,a
+Embedded system,Digital Signal Processing,Which of the following processors also can work as a digital signal processor?,8086,8088,8080,ARM9E,d
+Embedded system,Digital Signal Processing,What types of modules are used in the digital signal processor to form the loop structure?,modulo-timer,modulo-counter,timer,external timer,b
+Embedded system,Digital Signal Processing,Name a processor which is used in digital audio appliances.,8086,Motorola DSP56000,80486,8087,b
+Embedded system,Digital Signal Processing,How many bits does DSP56000 processor have?,8,16,24,32,c
+Embedded system,Digital Signal Processing, How many buses did DSP56000 possess?,2,3,4,5,b
+Embedded system,Digital Signal Processing, Which of the following architecture does DSP56000 possess?,Harvard,von Neumann,CISC,program-stored,a
+Embedded system,Digital Signal Processing, What does AAU stand for?,arithmetic address unit,address arithmetic unit,address access unit,arithmetic access unit,b
+Embedded system,Digital Signal Processing, How many address register does the AAU of a DSP56000 have?,8,16,24,32,c
+Embedded system,Digital Signal Processing, How many registers does a DSP56000 have?,4,5,7,6,c
+Embedded system,Digital Signal Processing, Which of the following bits are used for sign extension in DSP56000?,upper 8 bits of the stack pointer,lower 8 bits of the stack pointer,lower 8 bits of the program counter,upper 8 bits of the program counter,d
 Embedded system,Features of Intel,What are the three stages included in pipelining of 80386?,"Fetch, decode, execute","Fetch, execute, decode","Execute, fetch, decode","Decode, execute, fetch",a
 Embedded system,Features of Intel,How instructions and data are accessed to pipeline stages of 80486 processor?,Through internal unified cache,Through external unified cache,Through external cache,Through multiple caches,a
 Embedded system,Features of Intel,Which of the following processor possesses a similar instruction of 80486?,8086,80286,80386,8080,c
@@ -256,19 +216,6 @@ Embedded system,Microcontroller,What does CCR stand for?,Condition code register
 Embedded system,Microcontroller,How many bytes of EPROM does MC68HC7054A possess?,176 bytes,240 bytes,4144 bytes,1024 bytes,c
 Embedded system,Microcontroller,Which of the following is an 8-bit command in MC68HC11?,Add,Shift,Multiply,Subtract,c
 Embedded system,Microcontroller, Which one of the following is an asynchronous communication channel?,SPI,MUDs,MOO,VOIP,a
-Embedded system,Microprocessor ,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
-Embedded system,Microprocessor ,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
-Embedded system,Microprocessor ,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
-Embedded system,Microprocessor ,What are the two register sets used in Z80?,Câ€™Dâ€™ and BCâ€™,CD and BD,IV and MR,Main and alternate,d
-Embedded system,Microprocessor ,How an alternate set of the register can be identified in Z80?,â€˜Suffix,â€˜Prefix,",suffix",",prefix",a
-Embedded system,Microprocessor ,What is the purpose of memory refresh register of Z80?,To control on-chip DRAM,To control on-chip SRAM,To control ROM,To clear cache,a
-Embedded system,Microprocessor ,What is the clock frequency of Z80?,6 MHz,8 MHz,4 MHz,2 MHz,c
-Embedded system,Microprocessor ,Which are the two additional registers of Z80?,Interrupt and NMI,NMI and PSW,Interrupt vector and memory refresh,NMI and memory refresh,c
-Embedded system,Microprocessor ,By which instruction does the switching of registers take place?,Instruction opcodes,AXX instruction,EXX instruction,Register instruction,c
-Embedded system,Microprocessor , Which of the following can be a paired set of 16-bit register?,CD,HL,AB,EH,b
-Embedded system,Microprocessor , Which signal is used to differentiates the access from a normal memory cycle?,HALT,RESET,MREQ,IORQ,d
-Embedded system,Microprocessor , What is done in mode1 of Z80?,Interrupt vector is supplied via the external bus,Interrupt vector is supplied via the peripherals,NMI gets started,Interrupt gets acknowledge from peripheral,a
-Embedded system,Microprocessor , What does m1 signal in Z80 describes?,I/O operation status,Memory refresh output,Output pulse on instruction fetch cycle,Interrupt request input, 
 Embedded system,Microprocessor,Which of the following microprocessor is designed by Zilog?,Z80,Zigbee,80386,8087,a
 Embedded system,Microprocessor,Z80 is mainly based on,Intel 8080,MIPS,TIMS,8051,a
 Embedded system,Microprocessor,Flag register of Z80 is also known as,Program status register,Program status address,Program status word,Program address register,c
@@ -307,19 +254,46 @@ Embedded system,RISC Processor, Princeton architecture is also known as,von Neum
 Embedded system,RISC Processor, Who coined the term RISC?,David Patterson,von Neumann,Michael J Flynn,Harvard,a
 Embedded system,RISC Processor, Which of the following is an 8-bit RISC Harvard architecture?,AVR,Zilog80,8051,Motorola 6800,a
 Embedded system,RISC Processor, Which of the following processors has CISC architecture?,AVR,Atmel,Blackfin,Zilog Z80,d
-mbedded system,Accumulator Processor,"Which is the first device by Intel, that started the microprocessor revolution?",8080,8086,8087,8088,a
-mbedded system,Accumulator Processor,Which is the first microprocessor by Motorola?,MC6800,MC68001,MIPS,PowerPC,a
-mbedded system,Accumulator Processor,Motorola MC6800 is a how many-bit processor?,4,8,16,32,b
-mbedded system,Accumulator Processor,How many accumulators does an MC6800 have?,1,2,3,4,b
-mbedded system,Accumulator Processor,How many bits does an accumulator register of MC6800 have?,8,16,32,4,a
-mbedded system,Accumulator Processor,What is the purpose of an accumulator?,Storing data and performing logical operations,Storing data and performing arithmetic and logical operations,Storing addresses,Pointer,b
-mbedded system,Accumulator Processor,Which of the following is the area of memory that is used for temporary storage?,Register,Stack,Accumulator,Hard Disk,b
-mbedded system,Accumulator Processor,How a stack is accessed?,By using code segment pointer,By using data segment register,By using stack segment register,By using heap segment register,c
-mbedded system,Accumulator Processor,PUSH-POP mechanism is seen in _______,Stack pointer,Register,Memory,Index register,a
-mbedded system,Accumulator Processor, What is the range of values an 8-bit register can store?,128,64,256,32,c
-mbedded system,Accumulator Processor, What is the address range in 80286?,1 Mbytes,2 Mbytes,16 Mbytes,32 mbytes,c
-mbedded system,Accumulator Processor, Which is the first 32-bit member of Intel?,8086,8088,80286,80386,d
-mbedded system,Accumulator Processor, What supports multitasking in 80386?,Read mode,External paging memory management unit,Paging and segmentation,On-chip paging memory management unit,d
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,How many bit register set does RISC 1 model used?,138*24,138*32,69*16,69*32,b
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor commercializes the Berkeley RISC model?,SPARC,Stanford,RISC-1,RISC,a
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,How many transistors does RISC 1 possess?,44000,45000,44500,45500,c
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,How many registers does RISC 1 model have?,68,58,78,88,c
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,Which of the architectures are made to speed up the processor?,CISC,RISC,program stored,von Neumann,b
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,How did 8086 pass its control to 8087?,BUSY instruction,ESCAPE instruction,CONTROL instruction,fetch 8087,b
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,Which of the following processor supports MMX instructions?,8080,80486,Intel Pentium,80386,c
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,Which of the following processors has a speculative execution?,80486,P1,Intel Pentium,Pentium pro,d
+Embedded system,The Berkeley RISC Model and Digital Signal Processing,How many bit accumulator does DSP56000 have?,28,56,112,14,b
+Embedded system,The Berkeley RISC Model and Digital Signal Processing, How many additional registers does DSP56000 have?,2,4,6,8,b
+Embedded system,The Berkeley RISC Model and Digital Signal Processing, What does MAC instruction of DSP56000 stand for?,multiply accumulator,multiple access,multiple accounting,multiply accumulator counter,a
+Embedded system,The Sun SPARC RISC Model,What does SPARC stand for?,scalable processor architecture,speculating architecture,speculating processor,scaling Pentium architecture,a
+Embedded system,The Sun SPARC RISC Model,How many bits does SPARC have?,8,16,32,64,c
+Embedded system,The Sun SPARC RISC Model,Which company developed SPARC?,intel,IBM,Motorola,sun microsystem,d
+Embedded system,The Sun SPARC RISC Model,What improves the context switching and parameter passing?,register windowing,large register,stack register,program counter,a
+Embedded system,The Sun SPARC RISC Model,How many external interrupts does SPARC processor support?,5,10,15,20,c
+Embedded system,The Sun SPARC RISC Model,Which level is an in-built nonmaskable interrupt in SPARC processor?,15,14,13,12,a
+Embedded system,The Sun SPARC RISC Model,How many instructions does SPARC processor have?,16,32,64,128,c
+Embedded system,The Sun SPARC RISC Model,What is generated by an external interrupt in SPARC?,internal trap,external trap,memory trap,interfaced trap,a
+Embedded system,The Sun SPARC RISC Model,"When an external interrupt is generated, what type of mode does the processor supports?",real mode,virtual mode,protected mode,supervisor mode,d
+Embedded system,The Sun SPARC RISC Model, Where is trap vector table located in SPARC processor?,program counter,Y register,status register,trap base register,d
+Embedded system,The Sun SPARC RISC Model, How many bits does SPARC-V9 processor have?,16,32,64,128,c
+Embedded system,The Sun SPARC RISC Model, What are the three modules in the SPARC processor?,"IU, FPU, CU","SP, DI, SI","AX, BX, CX","CU, CH, CL",a
+Embedded system,The Sun SPARC RISC Model, How many floating point register does the FPU of the SPARC have?,16 128-bit,32 128-bit,64 128-bit,10 128-bit,a
+Embedded system,The Sun SPARC RISC Model, Which module of SPARC contains the general purpose registers?,IU,FPU,CU,control unit,a
+Embedded system,Types of Processors,What shows the brightness of the pixel in a digital signal processor?,luminance,transparent,chrominance,opaque,a
+Embedded system,Types of Processors,What is the color format of chrominance in a digital signal processor?,VGBA,VIBGYOR,White,RGBA,d
+Embedded system,Types of Processors,Which of the following processor are designed to perform calculations in graphics rendering?,GPU,digital signal processor,microprocessor,microcontroller,a
+Embedded system,Types of Processors,Which of the processor is a good match for applications such as video games?,GPU,VLIW,Coprocessor,Microcontroller,a
+Embedded system,Types of Processors,Which of the following statement is true for concurrency?,different parts of the program executes physically,different parts of the program executes sequentially,different parts of the program executes conceptually,different parts of the program executes sequentially and physically,c
+Embedded system,Types of Processors,Which is an imperative language?,C program,SQL,XQuery,Concurrent model of HDL,a
+Embedded system,Types of Processors,Which of the following instructions supports parallel execution?,VLIW,TTA,ALU operation,Test-and-set instructions,a
+Embedded system,Types of Processors,Who invented VLIW architecture?,Josh Fisher,John Ellis,John Ruttenberg,John Oâ€™Donnell,a
+Embedded system,Types of Processors,What is ILP?,instruction-level parallelism,instruction-level panel,instruction-language panel,inter-language parallelism,a
+Embedded system,Types of Processors, Which ILP supports the ALU division?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system,Types of Processors, Which is a vector processor?,Subword parallelism,CISC,Superscalar,VLIW,a
+Embedded system,Types of Processors, Which of the following architecture supports out-of-order execution?,RISC,CISC,Superscalar,Subword parallelism,c
+Embedded system,Types of Processors, Which is an example of superscalar architecture?,Pentium 4,8086,80386,Pentium pro,a
+Embedded system,Types of Processors, Which of the following is a combination of several processors on a single chip?,Multicore architecture,RISC architecture,CISC architecture,Subword parallelism,a
+Embedded system,Types of Processors, Which is an example of the multi-core processor which possesses 10 cores?,Intel Xeon E7-2850,AMD Phenom IIX2,Intel core duo,AMD Phenom IIX3,a
 Memory Systems,DRAM Interfaces,In which pin does the data appear in the basic DRAM interfacing?,dout pin,din pin,clock,interrupt pin,a
 Memory Systems,DRAM Interfaces,What is the duration for memory refresh to remain compatible?,20 microseconds,12 microseconds,15 microseconds,10 microseconds,c
 Memory Systems,DRAM Interfaces,Which interfacing method lowers the speed of the processor?,basic DRAM interface,page mode interface,page interleaving,burst mode interface,a

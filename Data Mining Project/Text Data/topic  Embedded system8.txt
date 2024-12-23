@@ -1,4 +1,4 @@
-topic : Embedded system 
+topic : Embedded system
 subtopic : The Sun SPARC RISC Model
 
 1. What does SPARC stand for?
