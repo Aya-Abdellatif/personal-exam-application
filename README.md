@@ -66,8 +66,8 @@ OWLs/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/OWLs.git
-   cd OWLs
+   git clone https://github.com/Aya-Abdellatif/personal-exam-application.git
+   cd personal-exam-application
    ```
 2. Install dependencies:
    ```bash
@@ -75,7 +75,7 @@ OWLs/
    ```
 3. Run the Streamlit app:
    ```bash
-   streamlit run ui/main.py
+   streamlit run student_dashboard.py
    ```
 
 ---
