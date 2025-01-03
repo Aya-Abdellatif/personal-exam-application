@@ -50,14 +50,20 @@ OWLs is a **Personalized Exam Application** designed to provide students with ta
 ## Project Structure
 
 ```
-OWLs/
-├── data_manager.py      # Manages questions and topics.
-├── question.py          # Defines the Question class.
-├── fp_tree.py           # Implements FP-tree and pattern mining.
-├── exam_maker.py        # Handles exam creation logic.
-├── student_dashboard.py # Streamlit-based UI.
-├── tests/               # Unit tests for the application.
-├── README.md            # Documentation.
+personal-exam-application/
+├── .idea/ 
+├── Data Mining Project/          # Main project folder containing all code files
+|   ├── data_manager.py           # Manages questions and topics.
+|   ├── question.py               # Defines the Question class.
+|   ├── fp_tree.py                # Implements FP-tree and pattern mining.
+|   ├── exam_maker.py             # Handles exam creation logic.
+│   ├── session.py                # Session management for UI
+|   ├── student_dashboard.py      # Streamlit-based UI.
+│   ├── img/                      # Images for UI
+|   ├── test_data_manager.py      # Unit tests.
+│   ├── test_exam_maker.py        # Unit tests.
+│   ├── test_frequent_pattern.py  # Unit tests.
+├── README.md                     # Documentation.
 ```
 
 -----
