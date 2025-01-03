@@ -55,7 +55,7 @@ personal-exam-application/
 ├── Data Mining Project/          # Main project folder containing all code files
 |   ├── data_manager.py           # Manages questions and topics.
 |   ├── question.py               # Defines the Question class.
-|   ├── fp_tree.py                # Implements FP-tree and pattern mining.
+|   ├── frequent_pattern.py       # Implements FP-tree and pattern mining.
 |   ├── exam_maker.py             # Handles exam creation logic.
 │   ├── session.py                # Session management for UI
 |   ├── student_dashboard.py      # Streamlit-based UI.
