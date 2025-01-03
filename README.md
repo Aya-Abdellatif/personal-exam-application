@@ -63,6 +63,7 @@ personal-exam-application/
 |   ├── test_data_manager.py      # Unit tests.
 │   ├── test_exam_maker.py        # Unit tests.
 │   ├── test_frequent_pattern.py  # Unit tests.
+|   ├── requirements.txt          # Requirements file.
 ├── README.md                     # Documentation.
 ```
 
