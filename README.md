@@ -1,6 +1,7 @@
 # OWLs - Personal Exam Application  
 
 OWLs is a **Personalized Exam Application** designed to provide students with tailored exams and detailed performance feedback. By combining frequent pattern mining and intelligent exam generation, OWLs makes the study process engaging and efficient. The platform features a user-friendly interface built using **Streamlit**.
+![My Project Logo](owls.jpeg)
 
 ---
 
